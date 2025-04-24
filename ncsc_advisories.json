@@ -1,5 +1,12 @@
 [
   {
+    "title": "NCSC-2025-0138 [1.00] [M/H] Kwetsbaarheid verholpen in Commvault Command Center",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0138",
+    "description": "Commvault heeft een kwetsbaarheid verholpen in Command Center. De kwetsbaarheid kan door een ongeauthenticeerde kwaadwillende op afstand worden misbruikt voor het uitvoeren van willekeurige code. Hiertoe dient een speciaal vervaardigd http-verzoek naar de kwetsbare applicatie te worden verstuurd met daarin een verwijzing naar een malafide zip-bestand. De kwetsbare applicatie downloadt vervolgens dit zip-bestand en pakt de bestanden die daarin staan uit. Op die manier kan de kwaadwillende via bijvoorbeeld een webshell code op het kwetsbare systeem uitvoeren.\n",
+    "guid": "NCSC-2025-0138 [1.00]",
+    "pubDate": "Thu, 24 Apr 2025 15:09:08 +0200"
+  },
+  {
     "title": "NCSC-2025-0137 [1.00] [M/H] Kwetsbaarheid verholpen in Erlang/OTP SSH-server",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0137",
     "description": "De ontwikkelaars van Erlang/OTP hebben een kwetsbaarheid verholpen in Erlang OTP. De kwetsbaarheid bevindt zich in de SSH-functionaliteit van de getroffen versies van Erlang/OTP. De kwetsbaarheid stelt een ongeauthenticeerde kwaadwillende op afstand in staat om willekeurige code uit te voeren in context van de SSH deamon, door geprepareerde verzoeken naar het kwetsbare systeem te versturen.\n",
