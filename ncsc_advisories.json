@@ -1,5 +1,12 @@
 [
   {
+    "title": "NCSC-2025-0139 [1.00] [M/H] Kwetsbaarheid verholpen in SonicWall SonicOS",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0139",
+    "description": "SonicWall heeft een kwetsbaarheid verholpen in SonicOS.\nDe kwetsbaarheid bevindt zich in de wijze waarop de SSLVPN Virtual Office interface van SonicOS functioneert. Een ongeauthenticeerde kwaadwillende kan deze kwetsbaarheid misbruiken, wat kan leiden tot een crash van de firewall. Dit kan resulteren in een Denial-of-Service (DoS) situatie, wat de beschikbaarheid van de getroffen diensten ernstig beïnvloedt.\n",
+    "guid": "NCSC-2025-0139 [1.00]",
+    "pubDate": "Fri, 25 Apr 2025 11:35:24 +0200"
+  },
+  {
     "title": "NCSC-2025-0138 [1.00] [M/H] Kwetsbaarheid verholpen in Commvault Command Center",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0138",
     "description": "Commvault heeft een kwetsbaarheid verholpen in Command Center. De kwetsbaarheid kan door een ongeauthenticeerde kwaadwillende op afstand worden misbruikt voor het uitvoeren van willekeurige code. Hiertoe dient een speciaal vervaardigd http-verzoek naar de kwetsbare applicatie te worden verstuurd met daarin een verwijzing naar een malafide zip-bestand. De kwetsbare applicatie downloadt vervolgens dit zip-bestand en pakt de bestanden die daarin staan uit. Op die manier kan de kwaadwillende via bijvoorbeeld een webshell code op het kwetsbare systeem uitvoeren.\n",
