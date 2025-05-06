@@ -1,5 +1,12 @@
 [
   {
+    "title": "NCSC-2025-0142 [1.00] [M/H] Kwetsbaarheden verholpen in Mozilla Firefox en Thunderbird",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0142",
+    "description": "Mozilla heeft kwetsbaarheden verholpen in Firefox en Thunderbird (Specifiek voor versies onder 138 en 128.10). De kwetsbaarheden omvatten privilege-escalatie door code-injectie, onveilige verwerking van WebGL-shaderattributen, onjuiste isolatie van processen, en lokale code-executie door inadequate sanitatie van speciale karakters. Deze kwetsbaarheden kunnen leiden tot gevoelige informatielekken, geheugenbeschadiging en de mogelijkheid voor aanvallers om schadelijke commando's uit te voeren buiten de sandbox van de browser.\n",
+    "guid": "NCSC-2025-0142 [1.00]",
+    "pubDate": "Tue, 06 May 2025 10:01:05 +0200"
+  },
+  {
     "title": "NCSC-2025-0141 [1.00] [M/H] Kwetsbaarheden verholpen in Keycloak",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0141",
     "description": "Red Hat heeft kwetsbaarheden verholpen in Keycloak.\nDe kwetsbaarheden omvatten een probleem waarbij JWT-tokens met lange vervaltijden kunnen leiden tot oneindige groei in de cache, wat kan resulteren in een OutOfMemoryError en een Denial-of-Service voor legitieme gebruikers. Daarnaast kan de verificatie van trust store-certificaten worden overgeslagen als het verificatiebeleid is ingesteld op 'ALL', wat kan leiden tot ongeautoriseerde toegang. Bovendien kan een kwetsbaarheid in het org.keycloak.authorization-pakket gebruikers in staat stellen om vereiste beveiligingsacties te omzeilen, zoals het inschakelen van twee-factor-authenticatie, wat de beveiliging van gebruikersaccounts in gevaar kan brengen.\n",
