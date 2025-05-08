@@ -1,5 +1,12 @@
 [
   {
+    "title": "NCSC-2025-0144 [1.00] [M/H] Kwetsbaarheden verholpen in SysAid On-Prem",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0144",
+    "description": "SysAid heeft kwetsbaarheden verholpen in SysAid On-Prem (Versies tot 23.3.40) De kwetsbaarheid bevindt zich in de ongeauthenticeerde XML External Entity (XXE) die aanwezig is in SysAid On-Prem versies tot 23.3.40. Deze kwetsbaarheid stelt aanvallers in staat om het systeem te exploiteren zonder authenticatie. Dit kan leiden tot ongeautoriseerde toegang tot gevoelige bestanden en de mogelijke overname van administratoraccounts. Onderzoekers hebben Proof-of-Concept-code (PoC) gepubliceerd, waarmee de kwetsbaarheden kunnen worden aangetoond.\n",
+    "guid": "NCSC-2025-0144 [1.00]",
+    "pubDate": "Thu, 08 May 2025 08:56:21 +0200"
+  },
+  {
     "title": "NCSC-2025-0143 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0143",
     "description": "Google heeft kwetsbaarheden verholpen in Android. \nDe kwetsbaarheden bevinden zich onderandere in de Keymaster trustlet, SmartManagerCN en FreeType. De kwetsbaarheden stellen een lokale aanvaller in staat om code uit te voeren op het apparaat en code uit te voeren met de rechten van SmartManagerCN. Google meldt informatie te hebben ontvangen dat de kwetsbaarheid met kenmerk CVE-2025-27363 beperkt en gericht als zeroday is misbruikt. Deze kwetsbaarheid bevindt zich in FreeType en stelt een kwaadwillende in staat code uit te voeren middels een heap buffer overflow.\n",
