@@ -1,5 +1,12 @@
 [
   {
+    "title": "NCSC-2025-0146 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco IOS XE Software",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0146",
+    "description": "Cisco heeft kwetsbaarheden verholpen in Cisco IOS XE Software. De kwetsbaarheden in Cisco IOS XE Software omvatten verschillende problemen, waaronder onvoldoende invoervalidatie en onjuist geheugenbeheer. Deze kwetsbaarheden kunnen worden misbruikt door ongeauthenticeerde aanvallers om Denial-of-Service (DoS) situaties te veroorzaken, ongeautoriseerde toegang te verkrijgen, en zelfs om configuraties te manipuleren. Kwetsbare systemen kunnen onverwacht opnieuw opstarten of kunnen worden blootgesteld aan ongeautoriseerde commando-injectie-aanvallen, wat de integriteit en beschikbaarheid van netwerken in gevaar kan brengen.\n",
+    "guid": "NCSC-2025-0146 [1.00]",
+    "pubDate": "Thu, 08 May 2025 10:43:57 +0200"
+  },
+  {
     "title": "NCSC-2025-0145 [1.00] [M/H] Kwetsbaarheden verholpen in SonicWall SMA100",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0145",
     "description": "SonicWall heeft kwetsbaarheden verholpen in de SMA100 serie. De kwetsbaarheden bevinden zich in de manier waarop de SMA100 serie omgaat met geauthenticeerde SSLVPN-gebruikers. CVE-2025-32819 stelt deze gebruikers in staat om pad-traversal-controles te omzeilen en willekeurige bestanden te verwijderen, wat kan leiden tot een reset van het apparaat naar de fabrieksinstellingen. CVE-2025-32820 maakt het mogelijk om pad-traversal-sequenties te exploiteren, waardoor elke directory beschrijfbaar wordt. CVE-2025-32821 staat geauthenticeerde SSLVPN-beheerders toe om shell-commando-argumenten voor bestandsuploads in te voegen. Het is mogelijk dat kwaadwillenden de kwetsbaarheden in keten kunnen misbruiken om een kwetsbaar systeem te resetten naar fabrieksinstellingen en over te nemen. Voor succesvol misbruik moet de kwaadwillende echter wel over geldige SSLVPN gebruikerscredentials beschikken.\n",
