@@ -1,5 +1,12 @@
 [
   {
+    "title": "NCSC-2025-0148 [1.00] [M/H] Kwetsbaarheden verholpen in ASUS DriverHub",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0148",
+    "description": "ASUS heeft kwetsbaarheden verholpen in ASUS DriverHub\nDe kwetsbaarheden bevinden zich in de manier waarop ASUS DriverHub HTTP-verzoeken verwerkt. DriverHub is een tool van ASUS welke in de achtergrond draait en ervoor zorgt dat systeemdrivers up to date blijven. Onbetrouwbare bronnen kunnen speciaal vervaardigde HTTP-verzoeken gebruiken om remote code execution uit te voeren. Dit kan leiden tot ongeautoriseerde manipulatie van het systeemgedrag.\n",
+    "guid": "NCSC-2025-0148 [1.00]",
+    "pubDate": "Mon, 12 May 2025 15:22:18 +0200"
+  },
+  {
     "title": "NCSC-2025-0147 [1.00] [M/H] Kwetsbaarheden verholpen in F5 BIG-IP",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0147",
     "description": "F5 heeft kwetsbaarheden verholpen in de BIG-IP systemen. De kwetsbaarheden bevinden zich in verschillende configuraties van de BIG-IP systemen, waaronder het Traffic Management Microkernel (TMM) dat kan worden beëindigd door ongepubliceerde verzoeken. Dit kan leiden tot prestatie- en stabiliteitsproblemen, vooral voor softwareversies die End of Technical Support (EoTS) hebben bereikt. De kwetsbaarheden kunnen ook leiden tot ongeautoriseerde toegang en privilege-escalatie voor gebruikers, wat de beveiliging van de systemen in gevaar kan brengen.\n",
