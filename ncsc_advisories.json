@@ -1,5 +1,12 @@
 [
   {
+    "title": "NCSC-2025-0149 [1.00] [M/H] Kwetsbaarheden verholpen in SAP producten",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0149",
+    "description": "SAP heeft meerdere kwetsbaarheden verholpen in diverse SAP producten, zoals NetWeaver, NetWeaver Visual Composer, SAP GUI, pcde, Business Objects, HANA en andere componenten. De kwetsbaarheden omvatten onder andere een onbeperkte bestandsuploadfout die ongeauthenticeerde gebruikers in staat stelt om kwaadaardige bestanden te uploaden, wat kan leiden tot uitvoer van willekeurige code. Daarnaast zijn er kwetsbaarheden gerapporteerd die voortkomen uit het ontbreken van noodzakelijke autorisatiecontroles, wat kan resulteren in ongeoorloofde toegang tot gevoelige gegevens en privilege-escalatie. SAP brengt de kwetsbaarheid met kenmerk CVE-2025-31324 opnieuw onder de aandacht. Deze kwetsbaarheid bevindt zich in de NetWeaver Visual Component en is in de maandelijkse update van april verholpen. Deze kwetsbaarheid is echter als ZeroDay actief misbruikt.\n",
+    "guid": "NCSC-2025-0149 [1.00]",
+    "pubDate": "Tue, 13 May 2025 11:05:38 +0200"
+  },
+  {
     "title": "NCSC-2025-0148 [1.00] [M/H] Kwetsbaarheden verholpen in ASUS DriverHub",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0148",
     "description": "ASUS heeft kwetsbaarheden verholpen in ASUS DriverHub\nDe kwetsbaarheden bevinden zich in de manier waarop ASUS DriverHub HTTP-verzoeken verwerkt. DriverHub is een tool van ASUS welke in de achtergrond draait en ervoor zorgt dat systeemdrivers up to date blijven. Onbetrouwbare bronnen kunnen speciaal vervaardigde HTTP-verzoeken gebruiken om remote code execution uit te voeren. Dit kan leiden tot ongeautoriseerde manipulatie van het systeemgedrag.\n",
