@@ -1,5 +1,19 @@
 [
   {
+    "title": "NCSC-2025-0151 [1.00] [M/H] Kwetsbaarheden verholpen in Apple macOS",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0151",
+    "description": "Apple heeft kwetsbaarheden verholpen in macOS (Specifiek voor Ventura 13.7.6, Sequoia 15.5 en Sonoma 14.7.6). De kwetsbaarheden omvatten verschillende problemen, zoals geheugenbeschadiging door het verwerken van kwaadwillig gemaakte webinhoud, ongeautoriseerde toegang tot gevoelige gebruikersdata, en onverwachte systeemterminaties. Deze kwetsbaarheden kunnen worden misbruikt door kwaadwillenden om zich verhoogde rechten toe te kennen en zo toegang te krijgen tot gevoelige informatie of om de stabiliteit van het systeem in gevaar te brengen.\n",
+    "guid": "NCSC-2025-0151 [1.00]",
+    "pubDate": "Tue, 13 May 2025 11:19:37 +0200"
+  },
+  {
+    "title": "NCSC-2025-0150 [1.00] [M/H] Kwetsbaarheden verholpen in Apple iOS en iPadOS",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0150",
+    "description": "Apple heeft kwetsbaarheden verholpen in iOS en iPadOS.\nDe kwetsbaarheden omvatten een scala aan problemen, zoals geheugenbeschadiging, ongeautoriseerde toegang tot gevoelige gegevens, en denial-of-service aanvallen. Deze kwetsbaarheden kunnen worden misbruikt door kwaadwillenden via verschillende vectoren, waaronder het verwerken van kwaadaardig webinhoud en het misbruiken van onjuiste invoervalidatie. De impact varieert van systeeminstabiliteit tot het risico op gegevenslekken.\n",
+    "guid": "NCSC-2025-0150 [1.00]",
+    "pubDate": "Tue, 13 May 2025 11:14:44 +0200"
+  },
+  {
     "title": "NCSC-2025-0149 [1.00] [M/H] Kwetsbaarheden verholpen in SAP producten",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0149",
     "description": "SAP heeft meerdere kwetsbaarheden verholpen in diverse SAP producten, zoals NetWeaver, NetWeaver Visual Composer, SAP GUI, pcde, Business Objects, HANA en andere componenten. De kwetsbaarheden omvatten onder andere een onbeperkte bestandsuploadfout die ongeauthenticeerde gebruikers in staat stelt om kwaadaardige bestanden te uploaden, wat kan leiden tot uitvoer van willekeurige code. Daarnaast zijn er kwetsbaarheden gerapporteerd die voortkomen uit het ontbreken van noodzakelijke autorisatiecontroles, wat kan resulteren in ongeoorloofde toegang tot gevoelige gegevens en privilege-escalatie. SAP brengt de kwetsbaarheid met kenmerk CVE-2025-31324 opnieuw onder de aandacht. Deze kwetsbaarheid bevindt zich in de NetWeaver Visual Component en is in de maandelijkse update van april verholpen. Deze kwetsbaarheid is echter als ZeroDay actief misbruikt.\n",
