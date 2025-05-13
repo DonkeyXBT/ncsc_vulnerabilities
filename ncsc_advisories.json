@@ -1,5 +1,26 @@
 [
   {
+    "title": "NCSC-2025-0157 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Defender",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0157",
+    "description": "Microsoft heeft kwetsbaarheden verholpen in Defender for Endpoint en Defender for Identity. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich voor te doen als andere gebruiker en zich verhoogde rechten toe te kennen, waarmee uitvoer van willekeurige code met SYSTEM rechten mogelijk wordt. Voor succesvol misbruik moet de kwaadwillende lokale toegang tot het kwetsbare systeem hebben, of toegang hebben tot hetzelfde segment in het LAN waar het kwetsbare systeem zich bevindt. Van de kwetsbaarheid met kenmerk CVE-2025-26685 geeft Microsoft aan informatie te hebben dat deze besproken wordt binnen gesloten fora. Er is (nog) geen publieke Proof-of-Concept vrijgegeven.\n",
+    "guid": "NCSC-2025-0157 [1.00]",
+    "pubDate": "Tue, 13 May 2025 21:14:25 +0200"
+  },
+  {
+    "title": "NCSC-2025-0156 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Azure",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0156",
+    "description": "Microsoft heeft kwetsbaarheden verholpen in diverse Azure componenten. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich voor te doen als andere gebruiker, zich verhoogde rechten toe te kennen en toegang te krijgen tot gevoelige gegevens. Microsoft heeft inmiddels updates uitgebracht om de kwetsbaarheden te verhelpen met kenmerk CVE-2025-47733, CVE-2025-29972, CVE-2025-29827 en CVE-2025-33072. Deze kwetsbaarheden bevinden zich in online componenten en vereisen geen verdere actie.\n```\nAzure Automation: \n\n\nCVE-IDCVSSImpact\nCVE-2025-298279.90Verkrijgen van verhoogde rechten\n\nAzure: \n\n\nCVE-IDCVSSImpact\nCVE-2025-303879.80Verkrijgen van verhoogde rechten\nCVE-2025-330728.10Toegang tot gevoelige gegevens\n\nAzure Storage Resource Provider: \n\n\nCVE-IDCVSSImpact\nCVE-2025-299729.90Voordoen als andere gebruiker\n\nMicrosoft Power Apps: \n\n\nCVE-IDCVSSImpact\nCVE-2025-477339.10Toegang tot gevoelige gegevens\n\nWindows Hardware Lab Kit: \n\n\nCVE-IDCVSSImpact\nCVE-2025-274886.70Verkrijgen van verhoogde rechten\n\nAzure File Sync: \n\n\nCVE-IDCVSSImpact\nCVE-2025-299737.00Verkrijgen van verhoogde rechten\n\n```\n",
+    "guid": "NCSC-2025-0156 [1.00]",
+    "pubDate": "Tue, 13 May 2025 21:10:10 +0200"
+  },
+  {
+    "title": "NCSC-2025-0155 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Office",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0155",
+    "description": "Microsoft heeft kwetsbaarheden verholpen in diverse Office producten. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich verhoogde rechten toe te kennen en willekeurige code uit te voeren met rechten van het slachtoffer. Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden een malafide bestand te openen of link te volgen.\n```\nMicrosoft Office PowerPoint: \n\n\nCVE-IDCVSSImpact\nCVE-2025-299787.80Uitvoeren van willekeurige code\n\nMicrosoft Office Outlook: \n\n\nCVE-IDCVSSImpact\nCVE-2025-327057.80Uitvoeren van willekeurige code\n\nMicrosoft Office: \n\n\nCVE-IDCVSSImpact\nCVE-2025-303778.40Uitvoeren van willekeurige code\nCVE-2025-303868.40Uitvoeren van willekeurige code\n\nMicrosoft Office SharePoint: \n\n\nCVE-IDCVSSImpact\nCVE-2025-299767.80Verkrijgen van verhoogde rechten\nCVE-2025-303787.00Uitvoeren van willekeurige code\nCVE-2025-303827.80Uitvoeren van willekeurige code\nCVE-2025-303847.40Uitvoeren van willekeurige code\n\nMicrosoft Office Excel: \n\n\nCVE-IDCVSSImpact\nCVE-2025-299777.80Uitvoeren van willekeurige code\nCVE-2025-299797.80Uitvoeren van willekeurige code\nCVE-2025-303757.80Uitvoeren van willekeurige code\nCVE-2025-303767.80Uitvoeren van willekeurige code\nCVE-2025-303797.80Uitvoeren van willekeurige code\nCVE-2025-303817.80Uitvoeren van willekeurige code\nCVE-2025-303837.80Uitvoeren van willekeurige code\nCVE-2025-303937.80Uitvoeren van willekeurige code\nCVE-2025-327048.40Uitvoeren van willekeurige code\n\nWindows Win32K - GRFX: \n\n\nCVE-IDCVSSImpact\nCVE-2025-303887.80Uitvoeren van willekeurige code\n\n```\n",
+    "guid": "NCSC-2025-0155 [1.00]",
+    "pubDate": "Tue, 13 May 2025 20:58:56 +0200"
+  },
+  {
     "title": "NCSC-2025-0154 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Dynamics Dataverse",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0154",
     "description": "Microsoft heeft kwetsbaarheden verholpen in Dynamics Dataverse. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich verhoogde rechten toe te kennen en willekeurige code uit te voeren met rechten van de applicatie. Voor de kwetsbaarheid met kenmerk CVE-2025-47732 heeft Microsoft updates uitgebracht in de online component. Hiervoor zijn geen verdere acties benodigd.\n",
