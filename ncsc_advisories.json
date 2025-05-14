@@ -1,5 +1,26 @@
 [
   {
+    "title": "NCSC-2025-0163 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Animate",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0163",
+    "description": "Adobe heeft kwetsbaarheden verholpen in Animate versies 24.0.8, 23.0.11 en eerder. De kwetsbaarheden omvatten onder andere een kritieke kwetsbaarheid die willekeurige code-executie mogelijk maakt via een out-of-bounds write, een NULL Pointer Dereference die kan leiden tot applicatiecrashes, en verschillende integer gerelateerde kwetsbaarheden die ook willekeurige code-executie kunnen toestaan. De exploitatie van deze kwetsbaarheden vereist gebruikersinteractie, specifiek door het openen van kwaadwillig vervaardigde bestanden.\n",
+    "guid": "NCSC-2025-0163 [1.00]",
+    "pubDate": "Wed, 14 May 2025 10:21:49 +0200"
+  },
+  {
+    "title": "NCSC-2025-0162 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe ColdFusion",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0162",
+    "description": "Adobe heeft kwetsbaarheden verholpen in ColdFusion (Versies 2025.1, 2023.13, 2021.19 en eerder). De kwetsbaarheden bevinden zich in de wijze waarop ColdFusion omgaat met invoervalidatie en autorisatie. Hooggeprivilegieerde aanvallers kunnen willekeurige code uitvoeren zonder gebruikersinteractie, wat kan leiden tot ongeautoriseerde toegang en controle over de getroffen systemen. Daarnaast zijn er kwetsbaarheden die ongeautoriseerde toegang tot gevoelige gegevens mogelijk maken.\n",
+    "guid": "NCSC-2025-0162 [1.00]",
+    "pubDate": "Wed, 14 May 2025 10:18:54 +0200"
+  },
+  {
+    "title": "NCSC-2025-0161 [1.00] [M/H] Kwetsbaarheid verholpen in Ivanti Neurons for ITSM",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0161",
+    "description": "Ivanti heeft een kwetsbaarheid verholpen in Ivanti Neurons (On-prem) for ITSM (Versies voor 2023.4, 2024.2, en 2024.3) De kwetsbaarheid betreft een kritieke authenticatie-bypass die het mogelijk maakt voor externe, niet-geauthenticeerde aanvallers om administratieve toegang te verkrijgen. Dit kan leiden tot ongeautoriseerde acties binnen het systeem.\n",
+    "guid": "NCSC-2025-0161 [1.00]",
+    "pubDate": "Wed, 14 May 2025 10:16:04 +0200"
+  },
+  {
     "title": "NCSC-2025-0160 [1.00] [M/H] Kwetsbaarheden verholpen in Siemens producten",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0160",
     "description": "Siemens heeft kwetsbaarheden verholpen in diverse producten als Apogee, BacNet ATEC, Desigo CC, Intralog, OZW, Polarion, RUGGEDCOM, SICAM, SIMATIC, SIPROTEC, SIRIUS, Teamcenter en Versicharge De kwetsbaarheden stellen een kwaadwillende mogelijk in staat aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:",
