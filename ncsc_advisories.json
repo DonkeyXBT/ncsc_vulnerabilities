@@ -1,5 +1,12 @@
 [
   {
+    "title": "NCSC-2025-0168 [1.00] [M/H] Kwetsbaarheid verholpen in FortiVoice",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0168",
+    "description": "Fortinet heeft een kwetsbaarheid verholpen in FortiVoice, FortiMail, FortiNDR, FortiRecorder and FortiCamera. De kwetsbaarheid bevindt zich in de manier waarop FortiVoice systemen omgaan met HTTP-verzoeken, wat leidt tot een stack-gebaseerde buffer overflow. Dit stelt een kwaadwillende, ongeauthenticeerde aanvaller in staat om willekeurige code uit te voeren door speciaal vervaardigde HTTP-verzoeken te verzenden.  Er zijn meldingen van actieve exploitatie van deze kwetsbaarheid in specifiek FortiVoice. Er zijn geen meldingen van actief misbruik in de andere producten die deze kwetsbaarheid bevatten.\n",
+    "guid": "NCSC-2025-0168 [1.00]",
+    "pubDate": "Wed, 14 May 2025 15:50:54 +0200"
+  },
+  {
     "title": "NCSC-2025-0167 [1.00] [M/H] Kwetsbaarheden verholpen in Zoho ManageEngine",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0167",
     "description": "Zoho heeft kwetsbaarheden verholpen in ManageEngine ADSelfService Plus (versies 6513 en eerder) en ManageEngine ADAudit Plus (versies 8510 en eerder). De kwetsbaarheden bevinden zich in de manier waarop de applicaties SQL-queries verwerken. In het geval van ADSelfService Plus kunnen geauthenticeerde gebruikers willekeurige SQL-commando's uitvoeren, wat kan leiden tot ongeautoriseerde toegang of datalekken. Voor ADAudit Plus kunnen aanvallers met geldige inloggegevens SQL-queries manipuleren, wat ook kan resulteren in ongeautoriseerde blootstelling van gegevens.\n",
