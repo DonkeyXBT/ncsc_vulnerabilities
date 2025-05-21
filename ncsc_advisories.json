@@ -1,5 +1,12 @@
 [
   {
+    "title": "NCSC-2025-0170 [1.00] [M/H] Kwetsbaarheden verholpen in VMware Cloud Foundation",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0170",
+    "description": "Broadcom heeft kwetsbaarheden verholpen in VMware Cloud Foundation. De kwetsbaarheden omvatten een directory traversal kwetsbaarheid die ongeautoriseerde toegang tot interne diensten mogelijk maakt voor aanvallers met netwerktoegang tot poort 443. Daarnaast is er een kwetsbaarheid die gevoelige informatie kan blootstellen aan kwaadwillende actoren met netwerktoegang tot dezelfde poort.\n",
+    "guid": "NCSC-2025-0170 [1.00]",
+    "pubDate": "Wed, 21 May 2025 11:12:05 +0200"
+  },
+  {
     "title": "NCSC-2025-0169 [1.00] [M/H] Kwetsbaarheden verholpen in Google Chrome",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0169",
     "description": "Google heeft kwetsbaarheden verholpen in Google Chrome.\nDe kwetsbaarheden bevinden zich in de manier waarop Chrome omgaat met bepaalde componenten, waaronder Mojo en de Loader. Een kwaadwillende kan deze kwetsbaarheden misbruiken om gegevens te lekken of accounts over te nemen, bijvoorbeeld door een slachtoffer te laten klikken op een madafilde link. CISA heeft CVE-2025-4664 toegevoegd aan de KEV. Onderzoekers hebben middels een Proof-of-Concept-code (PoC) CVE-2025-4664 aangetoond.\n",
