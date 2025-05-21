@@ -1,5 +1,12 @@
 [
   {
+    "title": "NCSC-2025-0171 [1.00] [M/H] Kwetsbaarheden verholpen in VMware producten",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0171",
+    "description": "Broadcom heeft kwetsbaarheden verholpen in VMware ESXi (inclusief Workstation en Fusion) en vCenter Server. De kwetsbaarheden omvatten een command-executie kwetsbaarheid in vCenter Server, die geauthenticeerde aanvallers in staat stelt om willekeurige code op de server uit te voeren. Verder is er een denial-of-service kwetsbaarheid in VMware ESXi die kan worden geëxploiteerd door niet-administratieve gebruikers binnen een gastbesturingssysteem, wat kan leiden tot uitputting van het geheugen van het hostproces. Tot slot is er een gereflecteerde cross-site scripting kwetsbaarheid in VMware ESXi en vCenter Server, die voortkomt uit onjuiste invoervalidatie, waardoor kwaadwillenden mogelijk cookies kunnen stelen of gebruikers kunnen omleiden naar schadelijke websites.\n",
+    "guid": "NCSC-2025-0171 [1.00]",
+    "pubDate": "Wed, 21 May 2025 15:08:22 +0200"
+  },
+  {
     "title": "NCSC-2025-0170 [1.00] [M/H] Kwetsbaarheden verholpen in VMware Cloud Foundation",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0170",
     "description": "Broadcom heeft kwetsbaarheden verholpen in VMware Cloud Foundation. De kwetsbaarheden omvatten een directory traversal kwetsbaarheid die ongeautoriseerde toegang tot interne diensten mogelijk maakt voor aanvallers met netwerktoegang tot poort 443. Daarnaast is er een kwetsbaarheid die gevoelige informatie kan blootstellen aan kwaadwillende actoren met netwerktoegang tot dezelfde poort.\n",
