@@ -1,5 +1,26 @@
 [
   {
+    "title": "NCSC-2025-0174 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco Unified Intelligence Center",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0174",
+    "description": "Cisco heeft kwetsbaarheden verholpen in Cisco Unified Intelligence Center. De kwetsbaarheden bevinden zich in de wijze waarop de API van Cisco Unified Intelligence Center gebruikersparameters valideert. Dit kan leiden tot privilege-escalatie, waarbij geauthenticeerde aanvallers ongeautoriseerde toegang kunnen krijgen tot gevoelige gegevens van andere gebruikers.\n",
+    "guid": "NCSC-2025-0174 [1.00]",
+    "pubDate": "Thu, 22 May 2025 10:14:14 +0200"
+  },
+  {
+    "title": "NCSC-2025-0173 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Identity Services Engine",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0173",
+    "description": "Cisco heeft een kwetsbaarheid verholpen in Cisco Identity Services Engine (ISE). De kwetsbaarheid bevindt zich in de wijze waarop Cisco ISE omgaat met RADIUS-berichten. Ongeauthenticeerde externe aanvallers kunnen deze kwetsbaarheid misbruiken, wat kan leiden tot een Denial-of-Service (DoS) situatie op de getroffen apparaten, waardoor hun beschikbaarheid in gevaar komt.\n",
+    "guid": "NCSC-2025-0173 [1.00]",
+    "pubDate": "Thu, 22 May 2025 10:14:06 +0200"
+  },
+  {
+    "title": "NCSC-2025-0172 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco Webex",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0172",
+    "description": "Cisco heeft kwetsbaarheden verholpen in Cisco Webex.\nDe kwetsbaarheden bevinden zich in de wijze waarop Cisco Webex gebruikersinvoer filtert. Ongeauthenticeerde aanvallers kunnen deze kwetsbaarheden misbruiken om cross-site scripting (XSS) aanvallen uit te voeren door gebruikers te overtuigen om op kwaadaardige links te klikken. Een dergelijke aanval kan leiden tot uitvoer van willekeurige code in de context van het slachtoffer en mogelijk toegang tot gevoelige gegevens.\n",
+    "guid": "NCSC-2025-0172 [1.00]",
+    "pubDate": "Thu, 22 May 2025 10:13:51 +0200"
+  },
+  {
     "title": "NCSC-2025-0171 [1.00] [M/H] Kwetsbaarheden verholpen in VMware producten",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0171",
     "description": "Broadcom heeft kwetsbaarheden verholpen in VMware ESXi (inclusief Workstation en Fusion) en vCenter Server. De kwetsbaarheden omvatten een command-executie kwetsbaarheid in vCenter Server, die geauthenticeerde aanvallers in staat stelt om willekeurige code op de server uit te voeren. Verder is er een denial-of-service kwetsbaarheid in VMware ESXi die kan worden geëxploiteerd door niet-administratieve gebruikers binnen een gastbesturingssysteem, wat kan leiden tot uitputting van het geheugen van het hostproces. Tot slot is er een gereflecteerde cross-site scripting kwetsbaarheid in VMware ESXi en vCenter Server, die voortkomt uit onjuiste invoervalidatie, waardoor kwaadwillenden mogelijk cookies kunnen stelen of gebruikers kunnen omleiden naar schadelijke websites.\n",
