@@ -1,5 +1,12 @@
 [
   {
+    "title": "NCSC-2025-0175 [1.00] [M/H] Kwetsbaarheden verholpen in Trend Micro Apex Central",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0175",
+    "description": "Trend Micro heeft kwetsbaarheden verholpen in Apex Central. Een kwaadwillende kan de kwetsbaarheden misbruiken om een Server-Side Request Forgery (SSRF) uit te voeren, of door middel van onbeperkte uploadmogelijkheden van bestanden, mogelijk willekeurige code uit te voeren op het kwetsbare systeem, of toegang te krijgen tot gevoelige gegevens.\n",
+    "guid": "NCSC-2025-0175 [1.00]",
+    "pubDate": "Fri, 23 May 2025 10:28:52 +0200"
+  },
+  {
     "title": "NCSC-2025-0174 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco Unified Intelligence Center",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0174",
     "description": "Cisco heeft kwetsbaarheden verholpen in Cisco Unified Intelligence Center. De kwetsbaarheden bevinden zich in de wijze waarop de API van Cisco Unified Intelligence Center gebruikersparameters valideert. Dit kan leiden tot privilege-escalatie, waarbij geauthenticeerde aanvallers ongeautoriseerde toegang kunnen krijgen tot gevoelige gegevens van andere gebruikers.\n",
