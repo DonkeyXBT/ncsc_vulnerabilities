@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0179 [1.00] [M/H] Kwetsbaarheid verholpen in Siemens SiPass Integrated",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0179",
+    "description": "Siemens heeft een kwetsbaarheid verholpen in SiPass Integrated. De kwetsbaarheid bevindt zich in de serverapplicaties van het SiPass geïntegreerd systeem, specifiek in de manier waarop deze omgaat met out-of-bounds reads. Dit kan leiden tot een Denial-of-Service (DoS), waarbij de beschikbaarheid van de diensten die afhankelijk zijn van de getroffen applicaties in gevaar komt. Ongeauthenticeerde externe aanvallers kunnen deze kwetsbaarheid misbruiken zonder dat hiervoor toegang of gebruikersinteractie vereist is.\n",
+    "guid": "NCSC-2025-0179 [1.00]",
+    "pubDate": "Tue, 27 May 2025 13:42:46 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0178 [1.00] [M/H] Kwetsbaarheden verholpen in Infoblox NETMRI",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0178",
     "description": "Infoblox heeft kwetsbaarheden verholpen in NETMRI (Specifiek voor versies vóór 7.6.1). De kwetsbaarheden omvatten een kritieke kwetsbaarheid die het mogelijk maakt voor externe geauthenticeerde gebruikers om toegang te krijgen tot willekeurige bestanden met root-rechten, een ongeauthenticeerde externe command injection kwetsbaarheid die het uitvoeren van willekeurige commando's zonder authenticatie mogelijk maakt, en een ongeauthenticeerde SQL-injectie kwetsbaarheid die aanvallers in staat stelt om willekeurige SQL-commando's uit te voeren.\n",
