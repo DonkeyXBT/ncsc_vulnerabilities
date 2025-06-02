@@ -1,5 +1,23 @@
 [
   {
+    "title": "NCSC-2025-0181 [1.00] [M/H] Kwetsbaarheid verholpen in Roundcube Webmail",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0181",
+    "description": "Roundcube heeft een kwetsbaarheid verholpen in Roundcube Webmail (specifiek versies vóór 1.5.10 en 1.6.x vóór 1.6.11). De kwetsbaarheid bevindt zich in de inadequate validatie van de _from parameter, waardoor geauthenticeerde gebruikers de mogelijkheid hebben om willekeurige code uit te voeren via PHP Object Deserialization. Hierdoor is het mogelijk dat een kwaadwillende malafide code kan uitvoeren in de context van het slachtoffer middels het versturen van een malafide e-mail en zo toegang kan krijgen tot gevoelige gegevens in de context van het slachtoffer.\n",
+    "guid": "NCSC-2025-0181 [1.00]",
+    "pubDate": "Mon, 02 Jun 2025 11:04:58 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0180 [1.00] [M/H] Kwetsbaarheid verholpen in IBM Tivoli Monitoring",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0180",
+    "description": "IBM heeft een kwetsbaarheid verholpen in IBM Tivoli Monitoring (versie 6.3.0.7 t/m Service Pack 19). De kwetsbaarheid bevindt zich in de onjuiste validatie van een index binnen een dynamisch toegewezen array. Dit probleem kan een kwaadwillende in staat stellen om willekeurige code uit te voeren op de getroffen systemen.\n",
+    "guid": "NCSC-2025-0180 [1.00]",
+    "pubDate": "Mon, 02 Jun 2025 11:00:25 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0179 [1.00] [M/H] Kwetsbaarheid verholpen in Siemens SiPass Integrated",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0179",
     "description": "Siemens heeft een kwetsbaarheid verholpen in SiPass Integrated. De kwetsbaarheid bevindt zich in de serverapplicaties van het SiPass geïntegreerd systeem, specifiek in de manier waarop deze omgaat met out-of-bounds reads. Dit kan leiden tot een Denial-of-Service (DoS), waarbij de beschikbaarheid van de diensten die afhankelijk zijn van de getroffen applicaties in gevaar komt. Ongeauthenticeerde externe aanvallers kunnen deze kwetsbaarheid misbruiken zonder dat hiervoor toegang of gebruikersinteractie vereist is.\n",
