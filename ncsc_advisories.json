@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0182 [1.00] [M/H] Kwetsbaarheden verholpen in Google Chrome",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0182",
+    "description": "Google heeft kwetsbaarheden verholpen in Google Chrome (versies voor 137.0.7151.68). De kwetsbaarheden bevinden zich in de V8-engine en Blink van Google Chrome. De eerste kwetsbaarheid betreft out of bounds read en write problemen die kunnen leiden tot heap corruptie. Dit kan door een kwaadwillende worden misbruikt door speciaal vervaardigde HTML-pagina's te leveren, wat de beveiliging van de browser kan compromitteren. De tweede kwetsbaarheid betreft een use-after-free probleem in Blink, wat ook kan leiden tot heap corruptie en ongeautoriseerde toegang en manipulatie van geheugen mogelijk maakt. Van de kwetsbaarheid met kenmerk CVE-2025-5419 meldt Google informatie te hebben dat deze als zeroday-kwetsbaarheid actief is misbruikt.\n",
+    "guid": "NCSC-2025-0182 [1.00]",
+    "pubDate": "Tue, 03 Jun 2025 09:52:36 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0181 [1.00] [M/H] Kwetsbaarheid verholpen in Roundcube Webmail",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0181",
     "description": "Roundcube heeft een kwetsbaarheid verholpen in Roundcube Webmail (specifiek versies vóór 1.5.10 en 1.6.x vóór 1.6.11). De kwetsbaarheid bevindt zich in de inadequate validatie van de _from parameter, waardoor geauthenticeerde gebruikers de mogelijkheid hebben om willekeurige code uit te voeren via PHP Object Deserialization. Hierdoor is het mogelijk dat een kwaadwillende malafide code kan uitvoeren in de context van het slachtoffer middels het versturen van een malafide e-mail en zo toegang kan krijgen tot gevoelige gegevens in de context van het slachtoffer.\n",
