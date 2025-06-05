@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0181 [1.02] [H/H] Kwetsbaarheid verholpen in Roundcube Webmail",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0181",
+    "description": "Roundcube heeft een kwetsbaarheid verholpen in Roundcube Webmail (specifiek versies vóór 1.5.10 en 1.6.x vóór 1.6.11). Een geauthenticeerde kwaadwillende kan de kwetsbaarheid misbruiken voor het uitvoeren van willekeurige code. Hiertoe dient de kwaadwillende een malafide HTTP-request naar de Roundcube-applicatie te versturen. De kwetsbaarheid wordt veroorzaakt door inadequate validatie van userinput in de _from-parameter. Het NCSC heeft signalen ontvangen dat exploitcode in omloop is waarmee de kwetsbaarheid kan worden misbruikt. Dit verhoogt het risico op misbruik aanzienlijk.\n",
+    "guid": "NCSC-2025-0181 [1.02]",
+    "pubDate": "Thu, 05 Jun 2025 16:19:00 +0200",
+    "severity": "High",
+    "severityCode": "H/H"
+  },
+  {
     "title": "NCSC-2025-0181 [1.01] [H/H] Kwetsbaarheid verholpen in Roundcube Webmail",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0181",
     "description": "Roundcube heeft een kwetsbaarheid verholpen in Roundcube Webmail (specifiek versies vóór 1.5.10 en 1.6.x vóór 1.6.11). De kwetsbaarheid bevindt zich in de inadequate validatie van de _from parameter, waardoor geauthenticeerde gebruikers de mogelijkheid hebben om willekeurige code uit te voeren via PHP Object Deserialization. Hierdoor is het mogelijk dat een kwaadwillende malafide code kan uitvoeren in de context van het slachtoffer middels het versturen van een malafide e-mail en zo toegang kan krijgen tot gevoelige gegevens in de context van het slachtoffer. Het NCSC heeft signalen ontvangen dat exploitcode in omloop is waarmee de kwetsbaarheid kan worden misbruikt. Dit verhoogt het risico op misbruik aanzienlijk.\n",
