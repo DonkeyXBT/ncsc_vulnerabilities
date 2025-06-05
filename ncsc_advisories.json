@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0184 [1.00] [M/H] Kwetsbaarheden verholpen in HPE StoreOnce Software",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0184",
+    "description": "HPE heeft kwetsbaarheden verholpen in HPE StoreOnce Software. De kwetsbaarheden omvatten command injection en remote code execution, wat kan leiden tot ongeautoriseerde toegang en controle over de getroffen systemen. Daarnaast zijn er kwetsbaarheden voor authentication bypass, directory traversal en informatie openbaarmaking, die allemaal de integriteit van de systemen en de beveiliging van gevoelige gegevens in gevaar kunnen brengen. Aanvallers kunnen deze kwetsbaarheden misbruiken om ongeautoriseerde acties uit te voeren, bestanden te manipuleren of gevoelige informatie te verkrijgen.\n",
+    "guid": "NCSC-2025-0184 [1.00]",
+    "pubDate": "Thu, 05 Jun 2025 12:37:04 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0183 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Identity Services Engine voor cloudplatformen",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0183",
     "description": "Cisco heeft een kwetsbaarheid verholpen in Identity Services Engine (ISE) voor cloudplatformen. De kwetsbaarheid betreft een fout bij het automatisch genereren van wachtwoorden wanneer Cisco ISE op een cloudplatform wordt geïnstalleerd. Hierdoor worden in verschillende ISE-cloudomgevingen dezelfde wachtwoorden gebruikt. Een ongeauthenticeerde kwaadwillende op afstand kan hierdoor toegang krijgen tot gevoelige gegevens, beperkte beheerrechten op de ISE-omgeving bemachtigen en configuratiewijzigingen doorvoeren. De kwetsbaarheid treft ISE voor Amazon Web Services (AWS), Microsoft Azure en Oracle Cloud Infrastructure (OCI). De kwetsbaarheid doet zich alleen voor wanneer de Primary Administration-node in de cloudomgeving is geïnstalleerd. Omgevingen waar de Primary Administration-node on-premise draait, zijn niet kwetsbaar. Daarnaast zijn enkele specifieke cloudimplementaties niet kwetsbaar. Zie de bijgevoegde referentie voor meer informatie.\n",
