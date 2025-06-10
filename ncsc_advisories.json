@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0186 [1.00] [M/H] Kwetsbaarheden verholpen in SAP Producten",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0186",
+    "description": "SAP heeft kwetsbaarheden verholpen in diverse SAP producten als HANA, Business Objects en Netweaver. De kwetsbaarheden omvatten een gebrek aan autorisatiecontroles, waardoor aanvallers functies zonder beperkingen kunnen uitvoeren. Dit kan leiden tot ongeautoriseerde acties binnen de applicatie, wat de integriteit en vertrouwelijkheid in gevaar kan brengen. Daarnaast zijn er kwetsbaarheden die het mogelijk maken voor geauthenticeerde gebruikers om hun privileges te escaleren, wat kan resulteren in een significante compromittering van de applicatie. De aanwezigheid van Cross-Site Scripting (XSS) kwetsbaarheden stelt aanvallers in staat om kwaadaardige scripts op te slaan, wat de vertrouwelijkheid van gevoelige sessie-informatie in gevaar kan brengen. De noodzaak voor verbeterde beveiligingsmaatregelen en strikte toegangcontroles is duidelijk.\n",
+    "guid": "NCSC-2025-0186 [1.00]",
+    "pubDate": "Tue, 10 Jun 2025 12:15:56 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0185 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0185",
     "description": "Google heeft kwetsbaarheden verholpen in het Android besturingssysteem. Samsung heeft de voor Samsung Mobile relevante kwetsbaarheden verholpen in Samsung Mobile. De kwetsbaarheden bevinden zich in de wijze waarop de GPU Kernel Drivers omgaan met systeemoproepen van niet-geprivilegieerde gebruikers. Dit kan leiden tot ongeautoriseerde toegang tot geheugen, geheugenmanipulatie en systeeminstabiliteit. Aangevallen systemen kunnen onvoorspelbaar gedrag vertonen of vastlopen, wat een significante impact heeft op de integriteit en vertrouwelijkheid van gegevens. De kwetsbaarheden zijn vooral zorgwekkend in omgevingen waar gebruikersprivileges niet strikt worden gehandhaafd.\n",
