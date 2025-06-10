@@ -1,5 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>NCSC Security Advisories</title><link>https://advisories.ncsc.nl/advisories</link><description>Security advisories from the Dutch National Cyber Security Centre</description><item><title>NCSC-2025-0187 [1.00] [M/H] Kwetsbaarheden verholpen in Siemens producten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0187</link><description>Siemens heeft kwetsbaarheden verholpen in diverse producten als RUGGEDCOM, SCALANCE, SIMATIC en Tecnomatix De kwetsbaarheden stellen een kwaadwillende mogelijk in staat aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:</description><guid isPermaLink="false">NCSC-2025-0187 [1.00]</guid><pubDate>Tue, 10 Jun 2025 15:11:56 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0186 [1.00] [M/H] Kwetsbaarheden verholpen in SAP Producten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0186</link><description>SAP heeft kwetsbaarheden verholpen in diverse SAP producten als HANA, Business Objects en Netweaver. De kwetsbaarheden omvatten een gebrek aan autorisatiecontroles, waardoor aanvallers functies zonder beperkingen kunnen uitvoeren. Dit kan leiden tot ongeautoriseerde acties binnen de applicatie, wat de integriteit en vertrouwelijkheid in gevaar kan brengen. Daarnaast zijn er kwetsbaarheden die het mogelijk maken voor geauthenticeerde gebruikers om hun privileges te escaleren, wat kan resulteren in een significante compromittering van de applicatie. De aanwezigheid van Cross-Site Scripting (XSS) kwetsbaarheden stelt aanvallers in staat om kwaadaardige scripts op te slaan, wat de vertrouwelijkheid van gevoelige sessie-informatie in gevaar kan brengen. De noodzaak voor verbeterde beveiligingsmaatregelen en strikte toegangcontroles is duidelijk.
+<rss version="2.0"><channel><title>NCSC Security Advisories</title><link>https://advisories.ncsc.nl/advisories</link><description>Security advisories from the Dutch National Cyber Security Centre</description><item><title>NCSC-2025-0190 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Developer Tools</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0190</link><description>Microsoft heeft kwetsbaarheden verholpen in diverse Developer Tools. Een kwaadwillende kan de kwetsbaarheden misbruiken om willekeurige code uit te voeren met rechten van het slachtoffer. Omdat niet uit te sluiten is dat ontwikkelaars met verhoogde rechten werken, is het aannemelijk dat uitvoer van willekeurige code met verhoogde rechten kan plaatsvinden. Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden malafide code te importeren en uitvoeren.
+```
+Visual Studio: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-479597.10Uitvoeren van willekeurige code
+
+Windows SDK: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-479627.80Verkrijgen van verhoogde rechten
+
+.NET and Visual Studio: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-303997.50Uitvoeren van willekeurige code
+
+```
+</description><guid isPermaLink="false">NCSC-2025-0190 [1.00]</guid><pubDate>Tue, 10 Jun 2025 20:46:10 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0189 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Office</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0189</link><description>Microsoft heeft kwetsbaarheden verholpen in Office producten. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich verhoogde rechten toe te kennen en willekeurige code uit te voeren in de context van het slachtoffer en zo mogelijk toegang te krijgen tot gevoelige gegevens in de context van het slachtoffer. Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden een malafide bestand te openen, of link te volgen.
+```
+Microsoft AutoUpdate (MAU): 
+
+
+CVE-IDCVSSImpact
+CVE-2025-479687.80Verkrijgen van verhoogde rechten
+
+Microsoft Office SharePoint: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-471638.80Uitvoeren van willekeurige code
+CVE-2025-471668.80Uitvoeren van willekeurige code
+CVE-2025-471728.80Uitvoeren van willekeurige code
+
+Microsoft Office Outlook: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-471716.70Uitvoeren van willekeurige code
+CVE-2025-471767.80Uitvoeren van willekeurige code
+
+Microsoft Office Word: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-479578.40Uitvoeren van willekeurige code
+CVE-2025-471687.80Uitvoeren van willekeurige code
+CVE-2025-471697.80Uitvoeren van willekeurige code
+CVE-2025-471707.80Uitvoeren van willekeurige code
+
+Microsoft Office PowerPoint: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-471757.80Uitvoeren van willekeurige code
+
+Microsoft Office: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-471628.40Uitvoeren van willekeurige code
+CVE-2025-479538.40Uitvoeren van willekeurige code
+CVE-2025-471648.40Uitvoeren van willekeurige code
+CVE-2025-471678.40Uitvoeren van willekeurige code
+CVE-2025-471737.80Uitvoeren van willekeurige code
+
+Microsoft Office Excel: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-471657.80Uitvoeren van willekeurige code
+CVE-2025-471747.80Uitvoeren van willekeurige code
+
+```
+</description><guid isPermaLink="false">NCSC-2025-0189 [1.00]</guid><pubDate>Tue, 10 Jun 2025 20:45:25 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0182 [1.01] [M/H] Kwetsbaarheden verholpen in Google Chrome en Microsoft Edge</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0182</link><description>Google heeft kwetsbaarheden verholpen in Google Chrome (versies voor 137.0.7151.68). De kwetsbaarheden bevinden zich in de V8-engine en Blink van Google Chrome. De eerste kwetsbaarheid betreft out of bounds read en write problemen die kunnen leiden tot heap corruptie. Dit kan door een kwaadwillende worden misbruikt door speciaal vervaardigde HTML-pagina's te leveren, wat de beveiliging van de browser kan compromitteren. De tweede kwetsbaarheid betreft een use-after-free probleem in Blink, wat ook kan leiden tot heap corruptie en ongeautoriseerde toegang en manipulatie van geheugen mogelijk maakt. Van de kwetsbaarheid met kenmerk CVE-2025-5419 meldt Google informatie te hebben dat deze als zeroday-kwetsbaarheid actief is misbruikt.
+</description><guid isPermaLink="false">NCSC-2025-0182 [1.01]</guid><pubDate>Tue, 10 Jun 2025 20:44:36 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0188 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Windows</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0188</link><description>Microsoft heeft kwetsbaarheden verholpen in Windows.
+Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:</description><guid isPermaLink="false">NCSC-2025-0188 [1.00]</guid><pubDate>Tue, 10 Jun 2025 20:43:18 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0187 [1.00] [M/H] Kwetsbaarheden verholpen in Siemens producten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0187</link><description>Siemens heeft kwetsbaarheden verholpen in diverse producten als RUGGEDCOM, SCALANCE, SIMATIC en Tecnomatix De kwetsbaarheden stellen een kwaadwillende mogelijk in staat aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:</description><guid isPermaLink="false">NCSC-2025-0187 [1.00]</guid><pubDate>Tue, 10 Jun 2025 15:11:56 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0186 [1.00] [M/H] Kwetsbaarheden verholpen in SAP Producten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0186</link><description>SAP heeft kwetsbaarheden verholpen in diverse SAP producten als HANA, Business Objects en Netweaver. De kwetsbaarheden omvatten een gebrek aan autorisatiecontroles, waardoor aanvallers functies zonder beperkingen kunnen uitvoeren. Dit kan leiden tot ongeautoriseerde acties binnen de applicatie, wat de integriteit en vertrouwelijkheid in gevaar kan brengen. Daarnaast zijn er kwetsbaarheden die het mogelijk maken voor geauthenticeerde gebruikers om hun privileges te escaleren, wat kan resulteren in een significante compromittering van de applicatie. De aanwezigheid van Cross-Site Scripting (XSS) kwetsbaarheden stelt aanvallers in staat om kwaadaardige scripts op te slaan, wat de vertrouwelijkheid van gevoelige sessie-informatie in gevaar kan brengen. De noodzaak voor verbeterde beveiligingsmaatregelen en strikte toegangcontroles is duidelijk.
 </description><guid isPermaLink="false">NCSC-2025-0186 [1.00]</guid><pubDate>Tue, 10 Jun 2025 12:15:56 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0185 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0185</link><description>Google heeft kwetsbaarheden verholpen in het Android besturingssysteem. Samsung heeft de voor Samsung Mobile relevante kwetsbaarheden verholpen in Samsung Mobile. De kwetsbaarheden bevinden zich in de wijze waarop de GPU Kernel Drivers omgaan met systeemoproepen van niet-geprivilegieerde gebruikers. Dit kan leiden tot ongeautoriseerde toegang tot geheugen, geheugenmanipulatie en systeeminstabiliteit. Aangevallen systemen kunnen onvoorspelbaar gedrag vertonen of vastlopen, wat een significante impact heeft op de integriteit en vertrouwelijkheid van gegevens. De kwetsbaarheden zijn vooral zorgwekkend in omgevingen waar gebruikersprivileges niet strikt worden gehandhaafd.
 </description><guid isPermaLink="false">NCSC-2025-0185 [1.00]</guid><pubDate>Tue, 10 Jun 2025 09:19:02 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0181 [1.02] [H/H] Kwetsbaarheid verholpen in Roundcube Webmail</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0181</link><description>Roundcube heeft een kwetsbaarheid verholpen in Roundcube Webmail (specifiek versies vóór 1.5.10 en 1.6.x vóór 1.6.11). Een geauthenticeerde kwaadwillende kan de kwetsbaarheid misbruiken voor het uitvoeren van willekeurige code. Hiertoe dient de kwaadwillende een malafide HTTP-request naar de Roundcube-applicatie te versturen. De kwetsbaarheid wordt veroorzaakt door inadequate validatie van userinput in de _from-parameter. Het NCSC heeft signalen ontvangen dat exploitcode in omloop is waarmee de kwetsbaarheid kan worden misbruikt. Dit verhoogt het risico op misbruik aanzienlijk.
 </description><guid isPermaLink="false">NCSC-2025-0181 [1.02]</guid><pubDate>Thu, 05 Jun 2025 16:19:00 +0200</pubDate><severity>High</severity><severityCode>H/H</severityCode></item><item><title>NCSC-2025-0181 [1.01] [H/H] Kwetsbaarheid verholpen in Roundcube Webmail</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0181</link><description>Roundcube heeft een kwetsbaarheid verholpen in Roundcube Webmail (specifiek versies vóór 1.5.10 en 1.6.x vóór 1.6.11). De kwetsbaarheid bevindt zich in de inadequate validatie van de _from parameter, waardoor geauthenticeerde gebruikers de mogelijkheid hebben om willekeurige code uit te voeren via PHP Object Deserialization. Hierdoor is het mogelijk dat een kwaadwillende malafide code kan uitvoeren in de context van het slachtoffer middels het versturen van een malafide e-mail en zo toegang kan krijgen tot gevoelige gegevens in de context van het slachtoffer. Het NCSC heeft signalen ontvangen dat exploitcode in omloop is waarmee de kwetsbaarheid kan worden misbruikt. Dit verhoogt het risico op misbruik aanzienlijk.
