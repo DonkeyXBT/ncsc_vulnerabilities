@@ -1,5 +1,41 @@
 [
   {
+    "title": "NCSC-2025-0190 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Developer Tools",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0190",
+    "description": "Microsoft heeft kwetsbaarheden verholpen in diverse Developer Tools. Een kwaadwillende kan de kwetsbaarheden misbruiken om willekeurige code uit te voeren met rechten van het slachtoffer. Omdat niet uit te sluiten is dat ontwikkelaars met verhoogde rechten werken, is het aannemelijk dat uitvoer van willekeurige code met verhoogde rechten kan plaatsvinden. Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden malafide code te importeren en uitvoeren.\n```\nVisual Studio: \n\n\nCVE-IDCVSSImpact\nCVE-2025-479597.10Uitvoeren van willekeurige code\n\nWindows SDK: \n\n\nCVE-IDCVSSImpact\nCVE-2025-479627.80Verkrijgen van verhoogde rechten\n\n.NET and Visual Studio: \n\n\nCVE-IDCVSSImpact\nCVE-2025-303997.50Uitvoeren van willekeurige code\n\n```\n",
+    "guid": "NCSC-2025-0190 [1.00]",
+    "pubDate": "Tue, 10 Jun 2025 20:46:10 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0189 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Office",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0189",
+    "description": "Microsoft heeft kwetsbaarheden verholpen in Office producten. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich verhoogde rechten toe te kennen en willekeurige code uit te voeren in de context van het slachtoffer en zo mogelijk toegang te krijgen tot gevoelige gegevens in de context van het slachtoffer. Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden een malafide bestand te openen, of link te volgen.\n```\nMicrosoft AutoUpdate (MAU): \n\n\nCVE-IDCVSSImpact\nCVE-2025-479687.80Verkrijgen van verhoogde rechten\n\nMicrosoft Office SharePoint: \n\n\nCVE-IDCVSSImpact\nCVE-2025-471638.80Uitvoeren van willekeurige code\nCVE-2025-471668.80Uitvoeren van willekeurige code\nCVE-2025-471728.80Uitvoeren van willekeurige code\n\nMicrosoft Office Outlook: \n\n\nCVE-IDCVSSImpact\nCVE-2025-471716.70Uitvoeren van willekeurige code\nCVE-2025-471767.80Uitvoeren van willekeurige code\n\nMicrosoft Office Word: \n\n\nCVE-IDCVSSImpact\nCVE-2025-479578.40Uitvoeren van willekeurige code\nCVE-2025-471687.80Uitvoeren van willekeurige code\nCVE-2025-471697.80Uitvoeren van willekeurige code\nCVE-2025-471707.80Uitvoeren van willekeurige code\n\nMicrosoft Office PowerPoint: \n\n\nCVE-IDCVSSImpact\nCVE-2025-471757.80Uitvoeren van willekeurige code\n\nMicrosoft Office: \n\n\nCVE-IDCVSSImpact\nCVE-2025-471628.40Uitvoeren van willekeurige code\nCVE-2025-479538.40Uitvoeren van willekeurige code\nCVE-2025-471648.40Uitvoeren van willekeurige code\nCVE-2025-471678.40Uitvoeren van willekeurige code\nCVE-2025-471737.80Uitvoeren van willekeurige code\n\nMicrosoft Office Excel: \n\n\nCVE-IDCVSSImpact\nCVE-2025-471657.80Uitvoeren van willekeurige code\nCVE-2025-471747.80Uitvoeren van willekeurige code\n\n```\n",
+    "guid": "NCSC-2025-0189 [1.00]",
+    "pubDate": "Tue, 10 Jun 2025 20:45:25 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0182 [1.01] [M/H] Kwetsbaarheden verholpen in Google Chrome en Microsoft Edge",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0182",
+    "description": "Google heeft kwetsbaarheden verholpen in Google Chrome (versies voor 137.0.7151.68). De kwetsbaarheden bevinden zich in de V8-engine en Blink van Google Chrome. De eerste kwetsbaarheid betreft out of bounds read en write problemen die kunnen leiden tot heap corruptie. Dit kan door een kwaadwillende worden misbruikt door speciaal vervaardigde HTML-pagina's te leveren, wat de beveiliging van de browser kan compromitteren. De tweede kwetsbaarheid betreft een use-after-free probleem in Blink, wat ook kan leiden tot heap corruptie en ongeautoriseerde toegang en manipulatie van geheugen mogelijk maakt. Van de kwetsbaarheid met kenmerk CVE-2025-5419 meldt Google informatie te hebben dat deze als zeroday-kwetsbaarheid actief is misbruikt.\n",
+    "guid": "NCSC-2025-0182 [1.01]",
+    "pubDate": "Tue, 10 Jun 2025 20:44:36 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0188 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Windows",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0188",
+    "description": "Microsoft heeft kwetsbaarheden verholpen in Windows.\nEen kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:",
+    "guid": "NCSC-2025-0188 [1.00]",
+    "pubDate": "Tue, 10 Jun 2025 20:43:18 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0187 [1.00] [M/H] Kwetsbaarheden verholpen in Siemens producten",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0187",
     "description": "Siemens heeft kwetsbaarheden verholpen in diverse producten als RUGGEDCOM, SCALANCE, SIMATIC en Tecnomatix De kwetsbaarheden stellen een kwaadwillende mogelijk in staat aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:",
