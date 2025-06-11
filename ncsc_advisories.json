@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0191 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Commerce en Magento",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0191",
+    "description": "Adobe heeft kwetsbaarheden verholpen in Adobe Commerce en Magento Open Source.  De kwetsbaarheden bevinden zich in de manier waarop Adobe Commerce omgaat met beveiligingsmaatregelen. Aanvallers met verhoogde rechten kunnen misbruik maken van een opgeslagen Cross-Site Scripting (XSS) kwetsbaarheid door kwaadaardige scripts in formulier velden te injecteren, wat kan leiden tot de uitvoering van schadelijke JavaScript in de browsers van gebruikers. Daarnaast zijn er kwetsbaarheden die het mogelijk maken voor aanvallers om beveiligingsmaatregelen te omzeilen, waardoor ongeautoriseerde toegang tot gevoelige delen van de applicatie mogelijk is zonder enige gebruikersinteractie. Dit kan leiden tot ongeautoriseerde wijzigingen en toegang tot gevoelige informatie.\n",
+    "guid": "NCSC-2025-0191 [1.00]",
+    "pubDate": "Wed, 11 Jun 2025 08:58:19 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0190 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Developer Tools",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0190",
     "description": "Microsoft heeft kwetsbaarheden verholpen in diverse Developer Tools. Een kwaadwillende kan de kwetsbaarheden misbruiken om willekeurige code uit te voeren met rechten van het slachtoffer. Omdat niet uit te sluiten is dat ontwikkelaars met verhoogde rechten werken, is het aannemelijk dat uitvoer van willekeurige code met verhoogde rechten kan plaatsvinden. Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden malafide code te importeren en uitvoeren.\n```\nVisual Studio: \n\n\nCVE-IDCVSSImpact\nCVE-2025-479597.10Uitvoeren van willekeurige code\n\nWindows SDK: \n\n\nCVE-IDCVSSImpact\nCVE-2025-479627.80Verkrijgen van verhoogde rechten\n\n.NET and Visual Studio: \n\n\nCVE-IDCVSSImpact\nCVE-2025-303997.50Uitvoeren van willekeurige code\n\n```\n",
