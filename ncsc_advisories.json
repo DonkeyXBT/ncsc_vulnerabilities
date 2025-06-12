@@ -1,5 +1,23 @@
 [
   {
+    "title": "NCSC-2025-0193 [1.00] [M/H] Kwetsbaarheden verholpen in Ivanti Workspace Control",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0193",
+    "description": "Ivanti heeft kwetsbaarheden verholpen in Ivanti Workspace Control (Specifiek voor versies vóór 10.19.10.0). De kwetsbaarheden bevinden zich in de hardcoded sleutels binnen Ivanti Workspace Control, specifiek in versies vóór 10.19.10.0. Deze kwetsbaarheden stellen lokale, geauthenticeerde aanvallers in staat om opgeslagen SQL-credentials en omgevingswachtwoorden te ontsleutelen, wat leidt tot ongeautoriseerde toegang tot gevoelige database-informatie.\n",
+    "guid": "NCSC-2025-0193 [1.00]",
+    "pubDate": "Thu, 12 Jun 2025 13:08:41 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0192 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiOS",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0192",
+    "description": "Fortinet heeft kwetsbaarheden verholpen in FortiOS.\nDe kwetsbaarheden omvatten onder andere een onjuiste certificaatvalidatie die het mogelijk maakt voor aanvallers om verbinding te maken met FortiClient via ingetrokken certificaten, wat leidt tot ongeautoriseerde toegang. Daarnaast zijn er kwetsbaarheden in de sessie-expiratie en privilegebeheer die aanvallers in staat stellen om ongeautoriseerde toegang te verkrijgen tot gevoelige instellingen en systemen. De exploitatie van deze kwetsbaarheden kan leiden tot gevolgen voor de integriteit van de netwerken en systemen die deze producten gebruiken.\n",
+    "guid": "NCSC-2025-0192 [1.00]",
+    "pubDate": "Thu, 12 Jun 2025 13:04:45 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0191 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Commerce en Magento",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0191",
     "description": "Adobe heeft kwetsbaarheden verholpen in Adobe Commerce en Magento Open Source.  De kwetsbaarheden bevinden zich in de manier waarop Adobe Commerce omgaat met beveiligingsmaatregelen. Aanvallers met verhoogde rechten kunnen misbruik maken van een opgeslagen Cross-Site Scripting (XSS) kwetsbaarheid door kwaadaardige scripts in formulier velden te injecteren, wat kan leiden tot de uitvoering van schadelijke JavaScript in de browsers van gebruikers. Daarnaast zijn er kwetsbaarheden die het mogelijk maken voor aanvallers om beveiligingsmaatregelen te omzeilen, waardoor ongeautoriseerde toegang tot gevoelige delen van de applicatie mogelijk is zonder enige gebruikersinteractie. Dit kan leiden tot ongeautoriseerde wijzigingen en toegang tot gevoelige informatie.\n",
