@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0195 [1.00] [M/H] Kwetsbaarheden verholpen in Apache Tomcat",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0195",
+    "description": "Apache heeft kwetsbaarheden verholpen in Apache Tomcat (Specifiek voor versies 11.0.0-M1 tot 11.0.7, 10.1.0-M1 tot 10.1.41, en 9.0.0-M1 tot 9.0.105). De kwetsbaarheden omvatten een denial-of-service door onvoldoende limieten op multipart headers, een gebrek aan resource allocatie zonder limieten, een onbetrouwbaar zoekpad in de Windows installer, en een kritieke authenticatie omzeiling door onjuiste padverwerking. Aanvallers kunnen deze kwetsbaarheden misbruiken door speciaal samengestelde verzoeken te sturen, wat kan leiden tot ongeoorloofde toegang tot gevoelige bestanden en geheugenuitputting, met als gevolg een verstoring van de service.\n",
+    "guid": "NCSC-2025-0195 [1.00]",
+    "pubDate": "Wed, 18 Jun 2025 10:01:06 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0194 [1.00] [M/H] Kwetsbaarheden verholpen in Trend Micro Apex One en Apex Central",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0194",
     "description": "Trend Micro heeft kwetsbaarheden verholpen in Apex One en Apex Central. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich verhoogde rechten toe te kennen, willekeurige code uit te voeren of om toegang te krijgen tot gevoelige gegevens.\n",
