@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0197 [1.00] [M/H] Kwetsbaarheid verholpen in GeoServer",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0197",
+    "description": "De ontwikkelaars van GeoServer hebben een kwetsbaarheid verholpen in GeoServer \n",
+    "guid": "NCSC-2025-0197 [1.00]",
+    "pubDate": "Wed, 18 Jun 2025 12:17:42 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0196 [1.00] [M/H] Kwetsbaarheden verholpen in Citrix NetScaler ADC en NetScaler Gateway",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0196",
     "description": "Citrix heeft kwetsbaarheden verholpen in NetScaler ADC en NetScaler Gateway. De kwetsbaarheden bevinden zich in de NetScaler Management Interface van zowel NetScaler ADC als NetScaler Gateway.  De kwetsbaarheid met kenmerk CVE-2025-5777 betreft een Out-of-Bounds Read. Deze kwetsbaarheid ontstaat door onvoldoende invoervalidatie in systemen die zijn geconfigureerd als Gateway-diensten. Dit betreft onder andere VPN-virtual servers, ICA Proxy, Citrix Virtual Private Network (CVPN), Remote Desktop Protocol (RDP) Proxy en AAA-servers. De tweede kwetsbaarheid met kenmerk CVE-2025-5349, betreft een probleem met onjuiste toegangscontrole binnen de NetScaler Management Interface. Kwaadwillenden kunnen de kwetsbaarheid misbruiken voor het verkrijgen van ongeautoriseerde toegang tot bepaalde onderdelen van het systeem. Hiervoor heeft de kwaadwillende toegang nodig tot specifieke netwerkinterfaces, zoals het Network Services IP (NSIP), het Cluster Management IP of het lokale Global Server Load Balancing (GSLB) Site IP.\n",
