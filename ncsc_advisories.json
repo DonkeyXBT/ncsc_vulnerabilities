@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0200 [1.00] [M/H] Kwetsbaarheden verholpen in IBM QRadar SIEM",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0200",
+    "description": "IBM heeft kwetsbaarheden verholpen in IBM QRadar SIEM (Specifiek voor versie 7.5.0 Update Package 12). De kwetsbaarheden omvatten een mogelijkheid voor een bevoegde gebruiker om kritieke configuratiebestanden te wijzigen, wat kan leiden tot het uploaden van schadelijke autoupdatebestanden en het uitvoeren van willekeurige commando's binnen het systeem. Daarnaast is er een kwetsbaarheid gerelateerd aan een XML externe entiteit injectie (XXE) aanval, die kan leiden tot ongeautoriseerde toegang tot gevoelige informatie of uitputting van geheugbronnen. Ook kan gevoelige informatie worden opgeslagen in logbestanden die toegankelijk zijn voor lokale gebruikers, wat het risico op ongeautoriseerde gegevensblootstelling met zich meebrengt.\n",
+    "guid": "NCSC-2025-0200 [1.00]",
+    "pubDate": "Fri, 20 Jun 2025 13:04:50 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0199 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco AnyConnect VPN voor Meraki MX en Z",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0199",
     "description": "Cisco heeft een kwetsbaarheid verholpen in de Cisco AnyConnect VPN server op Cisco Meraki MX en Z Series apparaten. De kwetsbaarheid bevindt zich in de wijze waarop de Cisco AnyConnect VPN server variabelen initialiseert tijdens het opzetten van SSL VPN-sessies. Ongeauthenticeerde externe aanvallers kunnen deze kwetsbaarheid misbruiken, wat kan leiden tot een Denial-of-Service, waardoor de connectiviteit voor alle gebruikers van de getroffen apparaten wordt verstoord.\n",
