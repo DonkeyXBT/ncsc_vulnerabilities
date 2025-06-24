@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0196 [1.02] [H/H] Kwetsbaarheden verholpen in Citrix NetScaler ADC en NetScaler Gateway",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0196",
+    "description": "Citrix heeft kwetsbaarheden verholpen in NetScaler ADC en NetScaler Gateway. De kwetsbaarheid met kenmerk CVE-2025-5777 betreft een Out-of-Bounds Read. Deze kwetsbaarheid ontstaat door onvoldoende invoervalidatie in systemen die zijn geconfigureerd als Gateway-diensten. Dit betreft onder andere VPN-virtual servers, ICA Proxy, Citrix Virtual Private Network (CVPN), Remote Desktop Protocol (RDP) Proxy en AAA-servers. In tegenstelling tot eerdere informatie van Citrix bevindt deze kwetsbaarheid zich niet in de management-interface. Deze kwetsbaarheid is daarmee op afstand te misbruiken door een kwaadwillende zonder voorafgaande authenticatie. De tweede kwetsbaarheid met kenmerk CVE-2025-5349, betreft een probleem met onjuiste toegangscontrole binnen de NetScaler Management Interface. Kwaadwillenden kunnen de kwetsbaarheid misbruiken voor het verkrijgen van ongeautoriseerde toegang tot bepaalde onderdelen van het systeem. Hiervoor heeft de kwaadwillende toegang nodig tot specifieke netwerkinterfaces, zoals het Network Services IP (NSIP), het Cluster Management IP of het lokale Global Server Load Balancing (GSLB) Site IP.\n",
+    "guid": "NCSC-2025-0196 [1.02]",
+    "pubDate": "Tue, 24 Jun 2025 17:35:27 +0200",
+    "severity": "High",
+    "severityCode": "H/H"
+  },
+  {
     "title": "NCSC-2025-0202 [1.00] [M/H] Kwetsbaarheden verholpen in IBM InfoSphere Information Server",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0202",
     "description": "IBM heeft kwetsbaarheden verholpen in IBM InfoSphere Information Server (Versies 11.7.0.0 tot 11.7.1.6). De eerste kwetsbaarheid betreft een Denial-of-Service-kwetsbaarheid die voortkomt uit onvoldoende validatie van binnenkomende aanvraagbronnen. Dit kan worden misbruikt om de beschikbaarheid van de service te verstoren. De tweede kwetsbaarheid stelt geauthenticeerde gebruikers in staat om opmerkingen van andere gebruikers te verwijderen, wat leidt tot ongeautoriseerde wijzigingen van door gebruikers gegenereerde inhoud. Dit ondermijnt de integriteit van de informatie die binnen het systeem is opgeslagen.\n",
