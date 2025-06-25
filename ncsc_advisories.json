@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0203 [1.00] [H/H] Kwetsbaarheid verholpen in Citrix NetScaler ADC en NetScaler Gateway",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0203",
+    "description": "Citrix heeft een kwetsbaarheid verholpen in NetScaler ADC en NetScaler Gateway. Om kwetsbaar te zijn moet NetScaler worden geconfigureerd als Gateway (VPN-virtuele server, ICA Proxy, CVPN, RDP Proxy) of AAA virtual server. Let op, dit is vaak default config. De kwetsbaarheid bevindt zich in de manier waarop geheugen wordt beheerd in NetScaler ADC en NetScaler Gateway. Dit kan leiden tot ongewenste 'control flow' en 'Denial-of-Service' situaties, vooral wanneer de producten zijn geconfigureerd als Gateway of AAA virtuele servers. De impact kan bestaan uit serviceonderbrekingen en aangetaste systeemintegriteit. Citrix meldt dat er exploits op niet-gemitigeerde systemen zijn waargenomen.  Het NCSC adviseert organisaties met klem om de door Citrix beschikbaar gestelde beveiligingsupdate op korte termijn te installeren.\n",
+    "guid": "NCSC-2025-0203 [1.00]",
+    "pubDate": "Wed, 25 Jun 2025 16:54:38 +0200",
+    "severity": "High",
+    "severityCode": "H/H"
+  },
+  {
     "title": "NCSC-2025-0196 [1.02] [H/H] Kwetsbaarheden verholpen in Citrix NetScaler ADC en NetScaler Gateway",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0196",
     "description": "Citrix heeft kwetsbaarheden verholpen in NetScaler ADC en NetScaler Gateway. De kwetsbaarheid met kenmerk CVE-2025-5777 betreft een Out-of-Bounds Read. Deze kwetsbaarheid ontstaat door onvoldoende invoervalidatie in systemen die zijn geconfigureerd als Gateway-diensten. Dit betreft onder andere VPN-virtual servers, ICA Proxy, Citrix Virtual Private Network (CVPN), Remote Desktop Protocol (RDP) Proxy en AAA-servers. In tegenstelling tot eerdere informatie van Citrix bevindt deze kwetsbaarheid zich niet in de management-interface. Deze kwetsbaarheid is daarmee op afstand te misbruiken door een kwaadwillende zonder voorafgaande authenticatie. De tweede kwetsbaarheid met kenmerk CVE-2025-5349, betreft een probleem met onjuiste toegangscontrole binnen de NetScaler Management Interface. Kwaadwillenden kunnen de kwetsbaarheid misbruiken voor het verkrijgen van ongeautoriseerde toegang tot bepaalde onderdelen van het systeem. Hiervoor heeft de kwaadwillende toegang nodig tot specifieke netwerkinterfaces, zoals het Network Services IP (NSIP), het Cluster Management IP of het lokale Global Server Load Balancing (GSLB) Site IP.\n",
