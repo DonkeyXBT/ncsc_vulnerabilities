@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0205 [1.00] [M/H] Kwetsbaarheid verholpen in IBM WebSphere Application Server",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0205",
+    "description": "IBM heeft een kwetsbaarheid verholpen in IBM WebSphere Application Server (Versies 8.5 en 9.0). De kwetsbaarheid bevindt zich in de verwerking van speciaal vervaardigde geserialiseerde objecten. Dit probleem kan door aanvallers worden misbruikt om willekeurige code op de server uit te voeren.\n",
+    "guid": "NCSC-2025-0205 [1.00]",
+    "pubDate": "Thu, 26 Jun 2025 14:32:54 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0204 [1.00] [H/H] Kwetsbaarheden verholpen in Cisco ISE en ISE-PIC",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0204",
     "description": "Cisco heeft kwetsbaarheden verholpen in Cisco ISE en ISE-PIC. De kwetsbaarheden bevinden zich in de manier waarop Cisco ISE en ISE-PIC bestanden verwerken via APIs en gebruikersinvoer valideren. Ongeauthenticeerde aanvallers met toegang tot de API-interface kunnen deze kwetsbaarheden misbruiken om willekeurige bestanden te uploaden en uit te voeren met root-rechten, evenals om commando's op het onderliggende besturingssysteem uit te voeren. Dit kan leiden tot volledige compromittatie van het kwetsbare systeem. Het is belangrijk om te vermelden dat de twee kwetsbaarheden in kwestie zijn geïntroduceerd in de recentere versies 3.3 en 3.4. Cisco geeft aan dan versies 3.2 en daarvoor niet kwetsbaar zijn en dat de kwetsbaarheid met kenmerk CVE-2025-20282 niet van toepassing is op versie 3.3\n",
