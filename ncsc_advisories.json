@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0210 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Unified Communications Manager",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0210",
+    "description": "Cisco heeft een kwetsbaarheid verholpen in Cisco Unified Communications Manager (en Cisco Unified Communications Manager Session Management Edition). De kwetsbaarheid bevindt zich in de hardcoded root SSH-credentials die niet kunnen worden gewijzigd of verwijderd. Dit stelt ongeauthenticeerde externe aanvallers in staat om in te loggen en willekeurige commando's uit te voeren op de getroffen systemen. Dit vormt een ernstig beveiligingsrisico voor organisaties die deze producten gebruiken. SSH toegang is onder normale omstandigheden beperkt tot de interne infrastructuur. Het is goed gebruik een dergelijke toegang te beperken en niet publiek toegankelijk te hebben, maar af te steunen in een separate beheer-omgeving. Potentieel misbruik kan worden gedetecteerd door middel van de onderstaande Indicators of Compromise: Succesvol misbruik resulteert in een log entry in /var/log/active/syslog/secure voor de  root gebruiker met root permissions. Het loggen van dit event is standaard ingeschakeld. De logs kunnen worden verkregen door de volgende commando's uit te voeren op de command line: cucm1# file get activelog syslog/secure Wanneer een log entry zowel een sshd vermelding als een succesvolle SSH login vertoont kan dit duiden op mogelijke compromittatie. Zie voorbeeld: Apr 6 10:38:43 cucm1 authpriv 6 systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0) Apr 6 10:38:43 cucm1 authpriv 6 sshd: pam_unix(sshd:session): session opened for user root by (uid=0)\n",
+    "guid": "NCSC-2025-0210 [1.00]",
+    "pubDate": "Thu, 03 Jul 2025 09:43:27 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0209 [1.00] [M/H] Kwetsbaarheid verholpen in Google Chrome",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0209",
     "description": "Google heeft een kwetsbaarheid verholpen in Google Chrome (Specifiek voor versies vóór 138.0.7204.96). De kwetsbaarheid bevindt zich in de V8-engine van Google Chrome en is geclassificeerd als een type confusion kwetsbaarheid met hoge ernst. Dit stelt aanvallers in staat om willekeurige lees-/schrijfbewerkingen uit te voeren via speciaal vervaardigde HTML-pagina's. Google heeft bevestigd dat deze kwetsbaarheid actief wordt misbruikt in het wild.\n",
