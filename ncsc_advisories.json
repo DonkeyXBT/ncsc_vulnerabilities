@@ -1,5 +1,59 @@
 [
   {
+    "title": "NCSC-2025-0218 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Edge (Chromium based)",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0218",
+    "description": "Microsoft heeft kwetsbaarheden verholpen in Edge (Chromium based) Een kwaadwillende kan de kwetsbaarheden misbruiken om willekeurige code uit te voeren met rechten van het slachtoffer, of om toegang te krijgen tot gevoelige gegevens in de context van de browser van het slachtoffer. In deze update wordt ook de kwetsbaarheid met kenmerk CVE-2025-6554 verholpen. Deze bevindt zich in de onderliggende Chrome-code en deze kwetsbaarheid is eerder door Google gemeld dat deze actief is misbruikt in Chrome.\n",
+    "guid": "NCSC-2025-0218 [1.00]",
+    "pubDate": "Tue, 08 Jul 2025 20:26:55 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0217 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Visual Studio",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0217",
+    "description": "Microsoft heeft kwetsbaarheden verholpen in Visual Studio. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich verhoogde rechten toe te kennen, of willekeurige code uit te voeren. Een deel van de kwetsbaarheden zijn eerder verholpen in de code van diverse open source projecten gerelateerd aan GIT. Visual Studio maakt gebruik van deze code. Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden malafide code te importeren en uitvoeren.\n",
+    "guid": "NCSC-2025-0217 [1.00]",
+    "pubDate": "Tue, 08 Jul 2025 20:26:14 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0216 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft SQL Server",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0216",
+    "description": "Microsoft heeft kwetsbaarheden verholpen in SQL Server.\nEen kwaadwillende kan de kwetsbaarheden misbruiken om willekeurige code uit te voeren of toegang te krijgen tot gevoelige gegevens. Van de kwetsbaarheid met kenmerk CVE-2025-49719 geeft Microsoft aan informatie te hebben dat deze de aandacht heeft van onderzoekers op gesloten fora. Misbruik kan leiden tot toegang tot data uit ongealloceerd geheugen. De inhoud van een dergelijk geheugenblok is niet gedefinieerd en kan potentieel gevoelig zijn.\n",
+    "guid": "NCSC-2025-0216 [1.00]",
+    "pubDate": "Tue, 08 Jul 2025 20:25:40 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0215 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Office",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0215",
+    "description": "Microsoft heeft kwetsbaarheden verholpen in diverse Office producten. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich verhoogde rechten toe te kennen, willekeurige code uit te voeren of toegang krijgen tot gevoelige gegevens. Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden een malafide bestand te openen of link te volgen.\n```\nMicrosoft Teams: \n\n\nCVE-IDCVSSImpact\nCVE-2025-497313.10Verkrijgen van verhoogde rechten\nCVE-2025-497377.00Verkrijgen van verhoogde rechten\n\nMicrosoft Office: \n\n\nCVE-IDCVSSImpact\nCVE-2025-479947.80Verkrijgen van verhoogde rechten\nCVE-2025-496958.40Uitvoeren van willekeurige code\nCVE-2025-496968.40Uitvoeren van willekeurige code\nCVE-2025-496978.40Uitvoeren van willekeurige code\nCVE-2025-496997.00Uitvoeren van willekeurige code\nCVE-2025-497027.80Uitvoeren van willekeurige code\n\nMicrosoft Office Word: \n\n\nCVE-IDCVSSImpact\nCVE-2025-496987.80Uitvoeren van willekeurige code\nCVE-2025-497007.80Uitvoeren van willekeurige code\nCVE-2025-497037.80Uitvoeren van willekeurige code\n\nMicrosoft Office PowerPoint: \n\n\nCVE-IDCVSSImpact\nCVE-2025-497057.80Uitvoeren van willekeurige code\n\nMicrosoft Office SharePoint: \n\n\nCVE-IDCVSSImpact\nCVE-2025-497018.80Uitvoeren van willekeurige code\nCVE-2025-497048.80Uitvoeren van willekeurige code\nCVE-2025-497066.30Voordoen als andere gebruiker\n\nMicrosoft Office Excel: \n\n\nCVE-IDCVSSImpact\nCVE-2025-488125.50Toegang tot gevoelige gegevens\nCVE-2025-497117.80Uitvoeren van willekeurige code\n\n```\n",
+    "guid": "NCSC-2025-0215 [1.00]",
+    "pubDate": "Tue, 08 Jul 2025 20:24:48 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0214 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Azure",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0214",
+    "description": "Microsoft heeft kwetsbaarheden verholpen in Azure Service Fabric en Monitor Agent. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich verhoogde rechten toe te kennen of voor het uitvoeren van willekeurige code.\n```\nService Fabric: \n\n\nCVE-IDCVSSImpact\nCVE-2025-211956.00Verkrijgen van verhoogde rechten\n\nAzure Monitor Agent: \n\n\nCVE-IDCVSSImpact\nCVE-2025-479887.50Uitvoeren van willekeurige code\n\n```\n",
+    "guid": "NCSC-2025-0214 [1.00]",
+    "pubDate": "Tue, 08 Jul 2025 20:24:14 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0213 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Windows",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0213",
+    "description": "Microsoft heeft kwetsbaarheden verholpen in Windows.\nEen kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:",
+    "guid": "NCSC-2025-0213 [1.00]",
+    "pubDate": "Tue, 08 Jul 2025 20:23:09 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0212 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk Enterprise en Splunk Cloud Platform",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0212",
     "description": "Splunk heeft kwetsbaarheden verholpen in Splunk Enterprise en Splunk Cloud Platform. De kwetsbaarheden in Splunk Enterprise en Splunk Cloud Platform stellen zowel low-privileged als high-privileged gebruikers in staat om ongeautoriseerde acties uit te voeren, zoals het onderdrukken van waarschuwingen, het uitvoeren van externe commando's, en het veroorzaken van een denial-of-service. Daarnaast kunnen ongeauthenticeerde aanvallers kwetsbaarheden misbruiken om wijzigingen aan te brengen in de lidmaatschapsconfiguraties van een Splunk Search Head Cluster of om gevoelige informatie bloot te stellen. De exploitatie van deze kwetsbaarheden vereist vaak sociale-engineeringtechnieken, wat de noodzaak van waakzaamheid onder gebruikers benadrukt.\n",
