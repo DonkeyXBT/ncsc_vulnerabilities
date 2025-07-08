@@ -1,5 +1,23 @@
 [
   {
+    "title": "NCSC-2025-0212 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk Enterprise en Splunk Cloud Platform",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0212",
+    "description": "Splunk heeft kwetsbaarheden verholpen in Splunk Enterprise en Splunk Cloud Platform. De kwetsbaarheden in Splunk Enterprise en Splunk Cloud Platform stellen zowel low-privileged als high-privileged gebruikers in staat om ongeautoriseerde acties uit te voeren, zoals het onderdrukken van waarschuwingen, het uitvoeren van externe commando's, en het veroorzaken van een denial-of-service. Daarnaast kunnen ongeauthenticeerde aanvallers kwetsbaarheden misbruiken om wijzigingen aan te brengen in de lidmaatschapsconfiguraties van een Splunk Search Head Cluster of om gevoelige informatie bloot te stellen. De exploitatie van deze kwetsbaarheden vereist vaak sociale-engineeringtechnieken, wat de noodzaak van waakzaamheid onder gebruikers benadrukt.\n",
+    "guid": "NCSC-2025-0212 [1.00]",
+    "pubDate": "Tue, 08 Jul 2025 14:03:17 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0211 [1.00] [M/H] Kwetsbaarheden verholpen in Siemens producten",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0211",
+    "description": "Siemens heeft kwetsbaarheden verholpen in diverse producten als SIMATIC, SINEC, SIPROTEC, Solid Edge en TIA,  De kwetsbaarheden stellen een kwaadwillende mogelijk in staat aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:",
+    "guid": "NCSC-2025-0211 [1.00]",
+    "pubDate": "Tue, 08 Jul 2025 13:58:23 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0196 [1.03] [H/H] Kwetsbaarheden verholpen in Citrix NetScaler ADC en NetScaler Gateway",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0196",
     "description": "Citrix heeft kwetsbaarheden verholpen in NetScaler ADC en NetScaler Gateway. De kwetsbaarheid met kenmerk CVE-2025-5777 betreft een Out-of-Bounds Read. Deze kwetsbaarheid ontstaat door onvoldoende invoervalidatie in systemen die zijn geconfigureerd als Gateway-diensten. Dit betreft onder andere VPN-virtual servers, ICA Proxy, Citrix Virtual Private Network (CVPN), Remote Desktop Protocol (RDP) Proxy en AAA-servers. In tegenstelling tot eerdere informatie van Citrix bevindt deze kwetsbaarheid zich niet in de management-interface. Deze kwetsbaarheid is daarmee op afstand te misbruiken door een kwaadwillende zonder voorafgaande authenticatie. Voor deze kwetsbaarheid is Proof-of-Concept-code (PoC) verschenen. De kans op een toename in scanverkeer en pogingen tot misbruik wordt hierdoor significant groter. De tweede kwetsbaarheid met kenmerk CVE-2025-5349, betreft een probleem met onjuiste toegangscontrole binnen de NetScaler Management Interface. Kwaadwillenden kunnen de kwetsbaarheid misbruiken voor het verkrijgen van ongeautoriseerde toegang tot bepaalde onderdelen van het systeem. Hiervoor heeft de kwaadwillende toegang nodig tot specifieke netwerkinterfaces, zoals het Network Services IP (NSIP), het Cluster Management IP of het lokale Global Server Load Balancing (GSLB) Site IP.\n",
