@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>NCSC Security Advisories</title><link>https://advisories.ncsc.nl/advisories</link><description>Security advisories from the Dutch National Cyber Security Centre</description><item><title>NCSC-2025-0212 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk Enterprise en Splunk Cloud Platform</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0212</link><description>Splunk heeft kwetsbaarheden verholpen in Splunk Enterprise en Splunk Cloud Platform. De kwetsbaarheden in Splunk Enterprise en Splunk Cloud Platform stellen zowel low-privileged als high-privileged gebruikers in staat om ongeautoriseerde acties uit te voeren, zoals het onderdrukken van waarschuwingen, het uitvoeren van externe commando's, en het veroorzaken van een denial-of-service. Daarnaast kunnen ongeauthenticeerde aanvallers kwetsbaarheden misbruiken om wijzigingen aan te brengen in de lidmaatschapsconfiguraties van een Splunk Search Head Cluster of om gevoelige informatie bloot te stellen. De exploitatie van deze kwetsbaarheden vereist vaak sociale-engineeringtechnieken, wat de noodzaak van waakzaamheid onder gebruikers benadrukt.
+<rss version="2.0"><channel><title>NCSC Security Advisories</title><link>https://advisories.ncsc.nl/advisories</link><description>Security advisories from the Dutch National Cyber Security Centre</description><item><title>NCSC-2025-0218 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Edge (Chromium based)</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0218</link><description>Microsoft heeft kwetsbaarheden verholpen in Edge (Chromium based) Een kwaadwillende kan de kwetsbaarheden misbruiken om willekeurige code uit te voeren met rechten van het slachtoffer, of om toegang te krijgen tot gevoelige gegevens in de context van de browser van het slachtoffer. In deze update wordt ook de kwetsbaarheid met kenmerk CVE-2025-6554 verholpen. Deze bevindt zich in de onderliggende Chrome-code en deze kwetsbaarheid is eerder door Google gemeld dat deze actief is misbruikt in Chrome.
+</description><guid isPermaLink="false">NCSC-2025-0218 [1.00]</guid><pubDate>Tue, 08 Jul 2025 20:26:55 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0217 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Visual Studio</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0217</link><description>Microsoft heeft kwetsbaarheden verholpen in Visual Studio. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich verhoogde rechten toe te kennen, of willekeurige code uit te voeren. Een deel van de kwetsbaarheden zijn eerder verholpen in de code van diverse open source projecten gerelateerd aan GIT. Visual Studio maakt gebruik van deze code. Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden malafide code te importeren en uitvoeren.
+</description><guid isPermaLink="false">NCSC-2025-0217 [1.00]</guid><pubDate>Tue, 08 Jul 2025 20:26:14 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0216 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft SQL Server</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0216</link><description>Microsoft heeft kwetsbaarheden verholpen in SQL Server.
+Een kwaadwillende kan de kwetsbaarheden misbruiken om willekeurige code uit te voeren of toegang te krijgen tot gevoelige gegevens. Van de kwetsbaarheid met kenmerk CVE-2025-49719 geeft Microsoft aan informatie te hebben dat deze de aandacht heeft van onderzoekers op gesloten fora. Misbruik kan leiden tot toegang tot data uit ongealloceerd geheugen. De inhoud van een dergelijk geheugenblok is niet gedefinieerd en kan potentieel gevoelig zijn.
+</description><guid isPermaLink="false">NCSC-2025-0216 [1.00]</guid><pubDate>Tue, 08 Jul 2025 20:25:40 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0215 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Office</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0215</link><description>Microsoft heeft kwetsbaarheden verholpen in diverse Office producten. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich verhoogde rechten toe te kennen, willekeurige code uit te voeren of toegang krijgen tot gevoelige gegevens. Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden een malafide bestand te openen of link te volgen.
+```
+Microsoft Teams: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-497313.10Verkrijgen van verhoogde rechten
+CVE-2025-497377.00Verkrijgen van verhoogde rechten
+
+Microsoft Office: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-479947.80Verkrijgen van verhoogde rechten
+CVE-2025-496958.40Uitvoeren van willekeurige code
+CVE-2025-496968.40Uitvoeren van willekeurige code
+CVE-2025-496978.40Uitvoeren van willekeurige code
+CVE-2025-496997.00Uitvoeren van willekeurige code
+CVE-2025-497027.80Uitvoeren van willekeurige code
+
+Microsoft Office Word: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-496987.80Uitvoeren van willekeurige code
+CVE-2025-497007.80Uitvoeren van willekeurige code
+CVE-2025-497037.80Uitvoeren van willekeurige code
+
+Microsoft Office PowerPoint: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-497057.80Uitvoeren van willekeurige code
+
+Microsoft Office SharePoint: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-497018.80Uitvoeren van willekeurige code
+CVE-2025-497048.80Uitvoeren van willekeurige code
+CVE-2025-497066.30Voordoen als andere gebruiker
+
+Microsoft Office Excel: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-488125.50Toegang tot gevoelige gegevens
+CVE-2025-497117.80Uitvoeren van willekeurige code
+
+```
+</description><guid isPermaLink="false">NCSC-2025-0215 [1.00]</guid><pubDate>Tue, 08 Jul 2025 20:24:48 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0214 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Azure</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0214</link><description>Microsoft heeft kwetsbaarheden verholpen in Azure Service Fabric en Monitor Agent. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich verhoogde rechten toe te kennen of voor het uitvoeren van willekeurige code.
+```
+Service Fabric: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-211956.00Verkrijgen van verhoogde rechten
+
+Azure Monitor Agent: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-479887.50Uitvoeren van willekeurige code
+
+```
+</description><guid isPermaLink="false">NCSC-2025-0214 [1.00]</guid><pubDate>Tue, 08 Jul 2025 20:24:14 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0213 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Windows</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0213</link><description>Microsoft heeft kwetsbaarheden verholpen in Windows.
+Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:</description><guid isPermaLink="false">NCSC-2025-0213 [1.00]</guid><pubDate>Tue, 08 Jul 2025 20:23:09 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0212 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk Enterprise en Splunk Cloud Platform</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0212</link><description>Splunk heeft kwetsbaarheden verholpen in Splunk Enterprise en Splunk Cloud Platform. De kwetsbaarheden in Splunk Enterprise en Splunk Cloud Platform stellen zowel low-privileged als high-privileged gebruikers in staat om ongeautoriseerde acties uit te voeren, zoals het onderdrukken van waarschuwingen, het uitvoeren van externe commando's, en het veroorzaken van een denial-of-service. Daarnaast kunnen ongeauthenticeerde aanvallers kwetsbaarheden misbruiken om wijzigingen aan te brengen in de lidmaatschapsconfiguraties van een Splunk Search Head Cluster of om gevoelige informatie bloot te stellen. De exploitatie van deze kwetsbaarheden vereist vaak sociale-engineeringtechnieken, wat de noodzaak van waakzaamheid onder gebruikers benadrukt.
 </description><guid isPermaLink="false">NCSC-2025-0212 [1.00]</guid><pubDate>Tue, 08 Jul 2025 14:03:17 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0211 [1.00] [M/H] Kwetsbaarheden verholpen in Siemens producten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0211</link><description>Siemens heeft kwetsbaarheden verholpen in diverse producten als SIMATIC, SINEC, SIPROTEC, Solid Edge en TIA,  De kwetsbaarheden stellen een kwaadwillende mogelijk in staat aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:</description><guid isPermaLink="false">NCSC-2025-0211 [1.00]</guid><pubDate>Tue, 08 Jul 2025 13:58:23 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0196 [1.03] [H/H] Kwetsbaarheden verholpen in Citrix NetScaler ADC en NetScaler Gateway</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0196</link><description>Citrix heeft kwetsbaarheden verholpen in NetScaler ADC en NetScaler Gateway. De kwetsbaarheid met kenmerk CVE-2025-5777 betreft een Out-of-Bounds Read. Deze kwetsbaarheid ontstaat door onvoldoende invoervalidatie in systemen die zijn geconfigureerd als Gateway-diensten. Dit betreft onder andere VPN-virtual servers, ICA Proxy, Citrix Virtual Private Network (CVPN), Remote Desktop Protocol (RDP) Proxy en AAA-servers. In tegenstelling tot eerdere informatie van Citrix bevindt deze kwetsbaarheid zich niet in de management-interface. Deze kwetsbaarheid is daarmee op afstand te misbruiken door een kwaadwillende zonder voorafgaande authenticatie. Voor deze kwetsbaarheid is Proof-of-Concept-code (PoC) verschenen. De kans op een toename in scanverkeer en pogingen tot misbruik wordt hierdoor significant groter. De tweede kwetsbaarheid met kenmerk CVE-2025-5349, betreft een probleem met onjuiste toegangscontrole binnen de NetScaler Management Interface. Kwaadwillenden kunnen de kwetsbaarheid misbruiken voor het verkrijgen van ongeautoriseerde toegang tot bepaalde onderdelen van het systeem. Hiervoor heeft de kwaadwillende toegang nodig tot specifieke netwerkinterfaces, zoals het Network Services IP (NSIP), het Cluster Management IP of het lokale Global Server Load Balancing (GSLB) Site IP.
 </description><guid isPermaLink="false">NCSC-2025-0196 [1.03]</guid><pubDate>Tue, 08 Jul 2025 10:02:17 +0200</pubDate><severity>High</severity><severityCode>H/H</severityCode></item><item><title>NCSC-2025-0210 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Unified Communications Manager</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0210</link><description>Cisco heeft een kwetsbaarheid verholpen in Cisco Unified Communications Manager (en Cisco Unified Communications Manager Session Management Edition). De kwetsbaarheid bevindt zich in de hardcoded root SSH-credentials die niet kunnen worden gewijzigd of verwijderd. Dit stelt ongeauthenticeerde externe aanvallers in staat om in te loggen en willekeurige commando's uit te voeren op de getroffen systemen. Dit vormt een ernstig beveiligingsrisico voor organisaties die deze producten gebruiken. SSH toegang is onder normale omstandigheden beperkt tot de interne infrastructuur. Het is goed gebruik een dergelijke toegang te beperken en niet publiek toegankelijk te hebben, maar af te steunen in een separate beheer-omgeving. Potentieel misbruik kan worden gedetecteerd door middel van de onderstaande Indicators of Compromise: Succesvol misbruik resulteert in een log entry in /var/log/active/syslog/secure voor de  root gebruiker met root permissions. Het loggen van dit event is standaard ingeschakeld. De logs kunnen worden verkregen door de volgende commando's uit te voeren op de command line: cucm1# file get activelog syslog/secure Wanneer een log entry zowel een sshd vermelding als een succesvolle SSH login vertoont kan dit duiden op mogelijke compromittatie. Zie voorbeeld: Apr 6 10:38:43 cucm1 authpriv 6 systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0) Apr 6 10:38:43 cucm1 authpriv 6 sshd: pam_unix(sshd:session): session opened for user root by (uid=0)
 </description><guid isPermaLink="false">NCSC-2025-0210 [1.00]</guid><pubDate>Thu, 03 Jul 2025 09:43:27 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0209 [1.00] [M/H] Kwetsbaarheid verholpen in Google Chrome</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0209</link><description>Google heeft een kwetsbaarheid verholpen in Google Chrome (Specifiek voor versies vóór 138.0.7204.96). De kwetsbaarheid bevindt zich in de V8-engine van Google Chrome en is geclassificeerd als een type confusion kwetsbaarheid met hoge ernst. Dit stelt aanvallers in staat om willekeurige lees-/schrijfbewerkingen uit te voeren via speciaal vervaardigde HTML-pagina's. Google heeft bevestigd dat deze kwetsbaarheid actief wordt misbruikt in het wild.
