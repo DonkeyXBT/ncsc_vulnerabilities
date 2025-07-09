@@ -1,5 +1,23 @@
 [
   {
+    "title": "NCSC-2025-0224 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Illustrator",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0224",
+    "description": "Adobe heeft kwetsbaarheden verholpen in Adobe Illustrator (Versies 28.7.6, 29.5.1 en eerder). De kwetsbaarheden bevinden zich in de manier waarop Adobe Illustrator omgaat met malafide bestanden. Deze kwetsbaarheden kunnen leiden tot arbitrary code-executie, waardoor aanvallers ongeautoriseerde acties kunnen uitvoeren op de getroffen systemen. De kwetsbaarheden vereisen meestal dat een gebruiker een kwaadaardig bestand opent.\n",
+    "guid": "NCSC-2025-0224 [1.00]",
+    "pubDate": "Wed, 09 Jul 2025 10:57:08 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0223 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Framemaker",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0223",
+    "description": "Adobe heeft kwetsbaarheden verholpen in Adobe Framemaker (Versies 2020.8, 2022.6 en eerder). De kwetsbaarheden in Adobe Framemaker zijn gerelateerd aan verschillende soorten kwetsbaarheden, waaronder Heap-based Buffer Overflow, Integer Underflow, en NULL Pointer Dereference. Deze kwetsbaarheden kunnen leiden tot willekeurige code-executie wanneer een gebruiker een speciaal vervaardigd kwaadaardig bestand opent. Dit stelt aanvallers in staat om ongeautoriseerde code uit te voeren binnen de context van de applicatie, wat een aanzienlijk risico vormt voor de gebruikers van deze versies. De exploitatie van deze kwetsbaarheden vereist gebruikersinteractie, wat betekent dat gebruikers voorzichtig moeten zijn met het openen van onbetrouwbare bestanden.\n",
+    "guid": "NCSC-2025-0223 [1.00]",
+    "pubDate": "Wed, 09 Jul 2025 10:47:38 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0222 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe ColdFusion",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0222",
     "description": "Adobe heeft kwetsbaarheden verholpen in ColdFusion (Specifiek voor versies 25.2, 23.14, 21.20 en eerder). De kwetsbaarheden in ColdFusion omvatten onder andere een significante kwetsbaarheid met betrekking tot onjuiste beperking van XML External Entity Reference (XXE), hard-coded credentials, incorrecte autorisatie, XML-injectie, en verschillende soorten Cross-Site Scripting (XSS). Deze kwetsbaarheden stellen aanvallers in staat om ongeautoriseerde toegang te verkrijgen tot gevoelige informatie, privilege-escalatie uit te voeren, en schadelijke scripts in browsers van gebruikers uit te voeren. De meeste kwetsbaarheden zijn beperkt tot interne IP-adressen, wat de blootstelling kan verminderen, maar nog steeds een aanzienlijk risico vormt voor de beveiliging van de systemen. Aanvallers kunnen deze kwetsbaarheden misbruiken zonder gebruikersinteractie, wat de ernst van de situatie vergroot.\n",
