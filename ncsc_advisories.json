@@ -1,5 +1,50 @@
 [
   {
+    "title": "NCSC-2025-0229 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe InDesign Desktop",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0229",
+    "description": "Adobe heeft kwetsbaarheden verholpen in Adobe InDesign Desktop (Versies 19.5.3 en eerder). De kwetsbaarheden bevinden zich in de wijze waarop Adobe InDesign Desktop bestanden verwerkt. Wanneer een gebruiker een kwaadwillig vervaardigd bestand opent, kan dit leiden tot willekeurige code-executie. Aanvallers kunnen deze kwetsbaarheden misbruiken om ongeautoriseerde commando's op het getroffen systeem uit te voeren.\n",
+    "guid": "NCSC-2025-0229 [1.00]",
+    "pubDate": "Fri, 11 Jul 2025 12:01:48 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0228 [1.00] [M/H] Kwetsbaarheden verholpen in Zoom Clients",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0228",
+    "description": "Zoom heeft kwetsbaarheden verholpen in Zoom Clients (Specifiek voor versies voor Linux, Windows, iOS en macOS). De kwetsbaarheden omvatten onjuiste certificaatvalidatie in Zoom Workplace voor Linux, een buffer overflow in specifieke Zoom Clients voor Windows, cross-site scripting in Zoom Clients voor Windows, onvoldoende controle over de stroom in Zoom Clients voor iOS, en onjuiste authenticatie in Zoom Clients voor macOS. Deze kwetsbaarheden kunnen door ongeautoriseerde gebruikers worden misbruikt om toegang te krijgen tot gevoelige informatie of om een Denial-of-Service-aanval uit te voeren. Dit kan leiden tot ongeautoriseerde informatie openbaarmaking en verstoring van diensten voor gebruikers en organisaties die afhankelijk zijn van het Zoom-platform.\n",
+    "guid": "NCSC-2025-0228 [1.00]",
+    "pubDate": "Fri, 11 Jul 2025 11:58:21 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0227 [1.00] [M/H] Kwetsbaarheid verholpen in Juniper SRX300 Series",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0227",
+    "description": "Juniper heeft een kwetsbaarheid verholpen in de Routing Protocol Daemon (rpd) van zijn Junos OS, specifiek voor de SRX300 Series. De kwetsbaarheid bevindt zich in de wijze waarop de Routing Protocol Daemon (rpd) op de kwetsbare SRX300 Series systemen BGP-updates verwerkt. Ongeauthenticeerde aanvallers kunnen een speciaal vervaardigde BGP-update verzenden, wat kan leiden tot een Denial-of-Service situatie. Het resultaat van deze aanval is een crash en daaropvolgende herstart van de rpd, wat mogelijk netwerkdiensten verstoort. Enkel de SRX300 Series systemen zijn kwetsbaar.\n",
+    "guid": "NCSC-2025-0227 [1.00]",
+    "pubDate": "Fri, 11 Jul 2025 11:57:40 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0226 [1.00] [M/H] Kwetsbaarheid verholpen in FortiWeb",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0226",
+    "description": "Fortinet heeft een kwetsbaarheid verholpen in FortiWeb.\nDe kwetsbaarheid stelt niet-geauthenticeerde aanvallers in staat om ongeautoriseerde SQL-commando's uit te voeren door speciaal vervaardigde HTTP-verzoeken te verzenden. Dit kan de integriteit en vertrouwelijkheid van de door FortiWeb beheerde gegevens in gevaar brengen. Voor succesvol misbruik moet de kwaadwillende toegang hebben tot de HTTP Administrative interface. Het is goed gebruik een dergelijke interface niet publiek toegankelijk te hebben, maar af te steunen in een separaat beheer-lan.\n",
+    "guid": "NCSC-2025-0226 [1.00]",
+    "pubDate": "Fri, 11 Jul 2025 11:57:23 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0225 [1.00] [M/H] Kwetsbaarheid verholpen in Juniper Networks Security Director",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0225",
+    "description": "Juniper heeft een kwetsbaarheid verholpen in Juniper Networks Security Director. De kwetsbaarheid bevindt zich in de webinterface van Juniper Networks Security Director, waar onvoldoende autorisatievalidatie ervoor zorgt dat niet-geauthenticeerde aanvallers toegang kunnen krijgen tot en gevoelige bronnen kunnen manipuleren. Dit kan leiden tot ongeautoriseerde acties op kritieke bronnen, wat de integriteit en vertrouwelijkheid van het systeem in gevaar kan brengen.\n",
+    "guid": "NCSC-2025-0225 [1.00]",
+    "pubDate": "Fri, 11 Jul 2025 11:55:46 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0224 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Illustrator",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0224",
     "description": "Adobe heeft kwetsbaarheden verholpen in Adobe Illustrator (Versies 28.7.6, 29.5.1 en eerder). De kwetsbaarheden bevinden zich in de manier waarop Adobe Illustrator omgaat met malafide bestanden. Deze kwetsbaarheden kunnen leiden tot arbitrary code-executie, waardoor aanvallers ongeautoriseerde acties kunnen uitvoeren op de getroffen systemen. De kwetsbaarheden vereisen meestal dat een gebruiker een kwaadaardig bestand opent.\n",
