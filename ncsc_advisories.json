@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0226 [1.01] [M/H] Kwetsbaarheid verholpen in FortiWeb",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0226",
+    "description": "Fortinet heeft een kwetsbaarheid verholpen in FortiWeb.\nDe kwetsbaarheid stelt niet-geauthenticeerde aanvallers in staat om ongeautoriseerde SQL-commando's uit te voeren door speciaal vervaardigde HTTP-verzoeken te verzenden. Dit kan de integriteit en vertrouwelijkheid van de door FortiWeb beheerde gegevens in gevaar brengen. Voor succesvol misbruik moet de kwaadwillende toegang hebben tot de HTTP Administrative interface. Het is goed gebruik een dergelijke interface niet publiek toegankelijk te hebben, maar af te steunen in een separaat beheer-lan. Onderzoekers hebben een analyse gepubliceerd waarmee mogelijk werkende Proof-of-Concept-code kan worden geschreven. De werking is afhankelijk van de specifieke installatie, waardoor een universele PoC niet eenvoudig is te ontwikkelen. Het NCSC acht een toename in scanverkeer en pogingen tot misbruik wel waarschijnlijk. Hierom adviseert het NCSC om in elk geval de Administrative interface ontoegankelijk te maken vanaf externe netwerken, of deze, conform de door FortiNet geadviseerde mitigerende maatregel uit te schakelen.\n",
+    "guid": "NCSC-2025-0226 [1.01]",
+    "pubDate": "Fri, 11 Jul 2025 15:20:55 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0229 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe InDesign Desktop",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0229",
     "description": "Adobe heeft kwetsbaarheden verholpen in Adobe InDesign Desktop (Versies 19.5.3 en eerder). De kwetsbaarheden bevinden zich in de wijze waarop Adobe InDesign Desktop bestanden verwerkt. Wanneer een gebruiker een kwaadwillig vervaardigd bestand opent, kan dit leiden tot willekeurige code-executie. Aanvallers kunnen deze kwetsbaarheden misbruiken om ongeautoriseerde commando's op het getroffen systeem uit te voeren.\n",
