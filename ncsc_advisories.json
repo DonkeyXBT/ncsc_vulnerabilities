@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0231 [1.00] [M/H] Kwetsbaarheden verholpen in XWiki",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0231",
+    "description": "XWiki heeft kwetsbaarheden verholpen in het rendering systeem en de standaard macro content parser. De kwetsbaarheden in het XWiki rendering systeem stelden aanvallers in staat om XSS-aanvallen uit te voeren door de afhankelijkheid van de xdom+xml/current syntax. Deze kwetsbaarheid is verholpen in versie 14.10. Daarnaast waren er kwetsbaarheden in de standaard macro content parser die leidden tot privilege-escalatie en remote code execution door problemen met geneste macro's. Deze zijn gepatcht in de versies 13.10.11, 14.4.7 en 14.10. De aanvaller kon ongeautoriseerde macro's uitvoeren door de restricties in de macro content parser te omzeilen.\n",
+    "guid": "NCSC-2025-0231 [1.00]",
+    "pubDate": "Thu, 17 Jul 2025 14:35:48 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0230 [1.00] [M/H] Kwetsbaarheid verholpen in Wing FTP Server",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0230",
     "description": "De ontwikkelaar van Wing FTP Server heeft een kwetsbaarheid verholpen in versie 7.4.4. De kwetsbaarheid bevindt zich in de wijze waarop Wing FTP Server null bytes verwerkt in de user parameter. Dit stelt een kwaadwillende op afstand in staat om willekeurige Lua-code te injecteren in sessie bestanden, wat kan leiden tot de uitvoering van willekeurige code met rechten van de applicatie. Het is mogelijk dat de applicatie draait met verhoogde rechten, waardoor code executie mogelijk is onder ROOT/SYSTEM-rechten. Voor succesvol misbruik moet er geldige authenticatie plaatsvinden, of anonymous FTP moet ingeschakeld zijn. Standaard is anonymous FTP uitgeschakeld. Onderzoekers hebben een exploit gepubliceerd waarmee de kwetsbaarheid kan worden misbruikt. Daarnaast melden diverse organisaties actief misbruik waar te nemen.\n",
