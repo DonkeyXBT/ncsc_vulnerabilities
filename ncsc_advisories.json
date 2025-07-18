@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0232 [1.00] [M/H] Kwetsbaarheid verholpen in Keycloak",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0232",
+    "description": "Red Hat heeft een kwetsbaarheid verholpen in Keycloak.\nDe kwetsbaarheid bevindt zich in de manier waarop Keycloak omgaat met geprivilegieerde gebruikers. Een geprivilegieerde gebruiker kan volledige administratieve controle over een realm verkrijgen, wat kan leiden tot ongeautoriseerde wijzigingen in gebruikersrollen en configuraties. Dit is vooral riskant in omgevingen met meerdere beperkte administratieve gebruikers, aangezien daar misbruik kan leiden tot compromittering van de beveiligingspositie binnen de getroffen omgevingen.\n",
+    "guid": "NCSC-2025-0232 [1.00]",
+    "pubDate": "Fri, 18 Jul 2025 15:12:14 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0196 [1.05] [H/H] Kwetsbaarheden verholpen in Citrix NetScaler ADC en NetScaler Gateway",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0196",
     "description": "Citrix heeft kwetsbaarheden verholpen in NetScaler ADC en NetScaler Gateway. De kwetsbaarheid met kenmerk CVE-2025-5777 betreft een Out-of-Bounds Read. Deze kwetsbaarheid ontstaat door onvoldoende invoervalidatie in systemen die zijn geconfigureerd als Gateway-diensten. Dit betreft onder andere VPN-virtual servers, ICA Proxy, Citrix Virtual Private Network (CVPN), Remote Desktop Protocol (RDP) Proxy en AAA-servers. In tegenstelling tot eerdere informatie van Citrix bevindt deze kwetsbaarheid zich niet in de management-interface. Deze kwetsbaarheid is daarmee op afstand te misbruiken door een kwaadwillende zonder voorafgaande authenticatie. Deze kwetsbaarheid wordt actief misbruikt. Tevens is voor de kwetsbaarheid is Proof-of-Concept-code (PoC) verschenen. De tweede kwetsbaarheid met kenmerk CVE-2025-5349, betreft een probleem met onjuiste toegangscontrole binnen de NetScaler Management Interface. Kwaadwillenden kunnen de kwetsbaarheid misbruiken voor het verkrijgen van ongeautoriseerde toegang tot bepaalde onderdelen van het systeem. Hiervoor heeft de kwaadwillende toegang nodig tot specifieke netwerkinterfaces, zoals het Network Services IP (NSIP), het Cluster Management IP of het lokale Global Server Load Balancing (GSLB) Site IP.\n",
