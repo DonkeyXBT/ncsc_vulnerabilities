@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>NCSC Security Advisories</title><link>https://advisories.ncsc.nl/advisories</link><description>Security advisories from the Dutch National Cyber Security Centre</description><item><title>NCSC-2025-0232 [1.00] [M/H] Kwetsbaarheid verholpen in Keycloak</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0232</link><description>Red Hat heeft een kwetsbaarheid verholpen in Keycloak.
+<rss version="2.0"><channel><title>NCSC Security Advisories</title><link>https://advisories.ncsc.nl/advisories</link><description>Security advisories from the Dutch National Cyber Security Centre</description><item><title>NCSC-2025-0215 [1.01] [H/H] Kwetsbaarheden verholpen in Microsoft Office</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0215</link><description>Microsoft heeft kwetsbaarheden verholpen in diverse Office producten. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich verhoogde rechten toe te kennen, willekeurige code uit te voeren of toegang krijgen tot gevoelige gegevens. Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden een malafide bestand te openen of link te volgen. UPDATE: Het NCSC ontvangt meldingen dat de kwetsbaarheden met kenmerk CVE-2025-49704 en CVE-2025-49706 actief worden misbruikt. Deze kwetsbaarheden stellen een kwaadwillende in staat om zich voor te doen als andere gebruiker en willekeurige code uit te voeren, mogelijk met verhoogde rechten. Er is (nog) geen publieke exploitcode bekend en misbruik vindt plaats op publiek toegankelijke sharepoint-installaties. Doordat de kwetsbaarheid de aandacht heeft van onderzoekers en de (toen nog theoretische) mogelijkheid van misbruik is gedemonstreerd tijdens Pwn2Own 2025 Berlijn, verwacht het NCSC een significante toename in pogingen tot misbruik. Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden een malafide link te volgen, waarna de kwaadwillende onder de rechten van het slachtoffer code kan uitvoeren.
+```
+Microsoft Teams: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-497313.10Verkrijgen van verhoogde rechten
+CVE-2025-497377.00Verkrijgen van verhoogde rechten
+
+Microsoft Office: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-479947.80Verkrijgen van verhoogde rechten
+CVE-2025-496958.40Uitvoeren van willekeurige code
+CVE-2025-496968.40Uitvoeren van willekeurige code
+CVE-2025-496978.40Uitvoeren van willekeurige code
+CVE-2025-496997.00Uitvoeren van willekeurige code
+CVE-2025-497027.80Uitvoeren van willekeurige code
+
+Microsoft Office Word: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-496987.80Uitvoeren van willekeurige code
+CVE-2025-497007.80Uitvoeren van willekeurige code
+CVE-2025-497037.80Uitvoeren van willekeurige code
+
+Microsoft Office PowerPoint: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-497057.80Uitvoeren van willekeurige code
+
+Microsoft Office SharePoint: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-497018.80Uitvoeren van willekeurige code
+CVE-2025-497048.80Uitvoeren van willekeurige code
+CVE-2025-497066.30Voordoen als andere gebruiker
+
+Microsoft Office Excel: 
+
+
+CVE-IDCVSSImpact
+CVE-2025-488125.50Toegang tot gevoelige gegevens
+CVE-2025-497117.80Uitvoeren van willekeurige code
+
+```
+</description><guid isPermaLink="false">NCSC-2025-0215 [1.01]</guid><pubDate>Sat, 19 Jul 2025 13:40:27 +0200</pubDate><severity>High</severity><severityCode>H/H</severityCode></item><item><title>NCSC-2025-0232 [1.00] [M/H] Kwetsbaarheid verholpen in Keycloak</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0232</link><description>Red Hat heeft een kwetsbaarheid verholpen in Keycloak.
 De kwetsbaarheid bevindt zich in de manier waarop Keycloak omgaat met geprivilegieerde gebruikers. Een geprivilegieerde gebruiker kan volledige administratieve controle over een realm verkrijgen, wat kan leiden tot ongeautoriseerde wijzigingen in gebruikersrollen en configuraties. Dit is vooral riskant in omgevingen met meerdere beperkte administratieve gebruikers, aangezien daar misbruik kan leiden tot compromittering van de beveiligingspositie binnen de getroffen omgevingen.
 </description><guid isPermaLink="false">NCSC-2025-0232 [1.00]</guid><pubDate>Fri, 18 Jul 2025 15:12:14 +0200</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0196 [1.05] [H/H] Kwetsbaarheden verholpen in Citrix NetScaler ADC en NetScaler Gateway</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0196</link><description>Citrix heeft kwetsbaarheden verholpen in NetScaler ADC en NetScaler Gateway. De kwetsbaarheid met kenmerk CVE-2025-5777 betreft een Out-of-Bounds Read. Deze kwetsbaarheid ontstaat door onvoldoende invoervalidatie in systemen die zijn geconfigureerd als Gateway-diensten. Dit betreft onder andere VPN-virtual servers, ICA Proxy, Citrix Virtual Private Network (CVPN), Remote Desktop Protocol (RDP) Proxy en AAA-servers. In tegenstelling tot eerdere informatie van Citrix bevindt deze kwetsbaarheid zich niet in de management-interface. Deze kwetsbaarheid is daarmee op afstand te misbruiken door een kwaadwillende zonder voorafgaande authenticatie. Deze kwetsbaarheid wordt actief misbruikt. Tevens is voor de kwetsbaarheid is Proof-of-Concept-code (PoC) verschenen. De tweede kwetsbaarheid met kenmerk CVE-2025-5349, betreft een probleem met onjuiste toegangscontrole binnen de NetScaler Management Interface. Kwaadwillenden kunnen de kwetsbaarheid misbruiken voor het verkrijgen van ongeautoriseerde toegang tot bepaalde onderdelen van het systeem. Hiervoor heeft de kwaadwillende toegang nodig tot specifieke netwerkinterfaces, zoals het Network Services IP (NSIP), het Cluster Management IP of het lokale Global Server Load Balancing (GSLB) Site IP.
 </description><guid isPermaLink="false">NCSC-2025-0196 [1.05]</guid><pubDate>Fri, 18 Jul 2025 11:51:52 +0200</pubDate><severity>High</severity><severityCode>H/H</severityCode></item><item><title>NCSC-2025-0196 [1.04] [H/H] Kwetsbaarheden verholpen in Citrix NetScaler ADC en NetScaler Gateway</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0196</link><description>Citrix heeft kwetsbaarheden verholpen in NetScaler ADC en NetScaler Gateway. De kwetsbaarheid met kenmerk CVE-2025-5777 betreft een Out-of-Bounds Read. Deze kwetsbaarheid ontstaat door onvoldoende invoervalidatie in systemen die zijn geconfigureerd als Gateway-diensten. Dit betreft onder andere VPN-virtual servers, ICA Proxy, Citrix Virtual Private Network (CVPN), Remote Desktop Protocol (RDP) Proxy en AAA-servers. In tegenstelling tot eerdere informatie van Citrix bevindt deze kwetsbaarheid zich niet in de management-interface. Deze kwetsbaarheid is daarmee op afstand te misbruiken door een kwaadwillende zonder voorafgaande authenticatie. Deze kwetsbaarheid wordt actief misbruikt. Tevens is voor de kwetsbaarheid is Proof-of-Concept-code (PoC) verschenen. De tweede kwetsbaarheid met kenmerk CVE-2025-5349, betreft een probleem met onjuiste toegangscontrole binnen de NetScaler Management Interface. Kwaadwillenden kunnen de kwetsbaarheid misbruiken voor het verkrijgen van ongeautoriseerde toegang tot bepaalde onderdelen van het systeem. Hiervoor heeft de kwaadwillende toegang nodig tot specifieke netwerkinterfaces, zoals het Network Services IP (NSIP), het Cluster Management IP of het lokale Global Server Load Balancing (GSLB) Site IP.
