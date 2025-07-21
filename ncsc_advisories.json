@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0234 [1.00] [M/H] Kwetsbaarheid verholpen in CrushFTP",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0234",
+    "description": "CrushFTP heeft een kwetsbaarheid verholpen in versies 10 tot en met 10.8.5 en 11 tot en met 11.3.4_23. De kwetsbaarheid bevindt zich in de AS2-validatie van CrushFTP. Deze kwetsbaarheid stelt een aanvaller in staat om via HTTPS administratieve toegang te verkrijgen, vooral wanneer de DMZ-proxyfunctie niet wordt gebruikt. De kwetsbaarheid is actief misbruikt, met meldingen die in juli 2025 zijn verschenen. Ongeautoriseerde toegang kan leiden tot verdere exploitatie van de getroffen systemen.\n",
+    "guid": "NCSC-2025-0234 [1.00]",
+    "pubDate": "Mon, 21 Jul 2025 10:34:35 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0233 [1.00] [H/H] ZeroDay kwetsbaarheid ontdekt in Microsoft SharePoint Server",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0233",
     "description": "Microsoft heeft informatie vrijgegeven over een actief misbruikte ZeroDay kwetsbaarheid in on-premises Microsoft SharePoint Server. Sharepoint Online (Microsoft 365) is niet geraakt. De ZeroDay kwetsbaarheid, geïdentificeerd als CVE-2025-53770, stelt een aanvaller in staat om ongeautoriseerde code uit te voeren op de kwetsbare SharePoint Server. Dit kan leiden tot ernstige beveiligingsrisico's. Microsoft ontwikkelt momenteel een update om deze kwetsbaarheid te verhelpen, maar biedt in de tussentijd mitigaties aan om gebruikers te helpen hun omgevingen te beschermen. De kwetsbaarheid is een variant van de eerder actief misbruikte kwetsbaarheid met kenmerk CVE-2025-49706. Voor deze kwetsbaarheid heeft het NCSC beveiligingsadvies NCSC-2025-0215 uitgebracht, waarvoor op 19 juli een update is verschenen met kans en inschaling HIGH/HIGH [1] Er is vooralsnog geen publieke exploit bekend, maar er wordt wel actief misbruik waargenomen. Wanneer Proof-of-Concept-code (PoC) of exploitcode publiek beschikbaar komt, verwacht het NCSC een significante toename in scanverkeer en pogingen tot misbruik.\n[1] [Link]\n",
