@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0233 [1.01] [H/H] Zeroday-kwetsbaarheden ontdekt in Microsoft SharePoint Server",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0233",
+    "description": "Microsoft heeft informatie vrijgegeven over actief misbruikte zeroday-kwetsbaarheden in on-premises versies van Microsoft SharePoint Server. Sharepoint Online (onderdeel van Microsoft 365) is niet getroffen. De zeroday-kwetsbaarheden, met kenmerk CVE-2025-53770 en CVE-2025-53771, stellen een kwaadwillende in staat om willekeurige code uit te voeren op SharePoint Server-systemen. Kwaadwillenden kunnen op deze manier toegang krijgen tot gevoelige gegevens of verdere aanvallen op het netwerk van het slachtoffer uitvoeren. Het NCSC heeft signalen ontvangen dat de kwetsbaarheden actief worden misbruikt. Naast Microsoft heeft onder andere beveiligingsbedrijf Eye hier op hun website over bericht. Voor zover bekend is nog geen publike exploitcode beschikbaar. Wanneer een exploit publiek beschikbaar wordt, verwacht het NCSC een significante toename in scanverkeer en pogingen tot misbruik. De kwetsbaarheden zijn varianten van de eerder actief misbruikte kwetsbaarheden CVE-2025-49704 en CVE-2025-49706. Voor deze kwetsbaarheden heeft het NCSC beveiligingsadvies NCSC-2025-0215 uitgebracht, waarvoor op 19 juli een update is verschenen met kans en inschaling HIGH/HIGH.\n",
+    "guid": "NCSC-2025-0233 [1.01]",
+    "pubDate": "Mon, 21 Jul 2025 11:46:59 +0200",
+    "severity": "High",
+    "severityCode": "H/H"
+  },
+  {
     "title": "NCSC-2025-0234 [1.00] [M/H] Kwetsbaarheid verholpen in CrushFTP",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0234",
     "description": "CrushFTP heeft een kwetsbaarheid verholpen in versies 10 tot en met 10.8.5 en 11 tot en met 11.3.4_23. De kwetsbaarheid bevindt zich in de AS2-validatie van CrushFTP. Deze kwetsbaarheid stelt een aanvaller in staat om via HTTPS administratieve toegang te verkrijgen, vooral wanneer de DMZ-proxyfunctie niet wordt gebruikt. De kwetsbaarheid is actief misbruikt, met meldingen die in juli 2025 zijn verschenen. Ongeautoriseerde toegang kan leiden tot verdere exploitatie van de getroffen systemen.\n",
