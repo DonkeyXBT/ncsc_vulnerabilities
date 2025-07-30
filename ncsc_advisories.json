@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0237 [1.00] [M/H] Kwetsbaarheden verholpen in Autodesk AutoCAD",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0237",
+    "description": "Autodesk heeft kwetsbaarheden verholpen in AutoCAD.\nDe kwetsbaarheden bevinden zich in de manier waarop bepaalde Autodesk producten omgaan met speciaal vervaardigde bestanden. Deze kwetsbaarheden kunnen leiden tot geheugenbeschadiging, Out-of-Bounds schrijf- en leescondities, en Use-After-Free fouten. Dit kan resulteren in gevolgen zoals applicatiecrashes, datacorruptie en de mogelijkheid van het uitvoeren van willekeurige code.\n",
+    "guid": "NCSC-2025-0237 [1.00]",
+    "pubDate": "Wed, 30 Jul 2025 10:04:31 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0236 [1.00] [M/H] Kwetsbaarheden verholpen in Salesforce Tableau Server",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0236",
     "description": "Salesforce heeft kwetsbaarheden verholpen in Salesforce Tableau Server (Specifiek voor versies lager dan 25.1.3, 2024.2.12, en 2023.3.19). De kwetsbaarheden omvatten ongeautoriseerde toegang tot gegevens via door gebruikers gecontroleerde sleutels, autorisatie-bypass, onbeperkte bestandsuploads van gevaarlijke bestandstypen, Absolute Path Traversal, en Server-Side Request Forgery (SSRF). Deze kwetsbaarheden kunnen leiden tot significante datalekken, manipulatie van de interface, en ongeautoriseerde toegang tot interne bronnen, wat de integriteit en vertrouwelijkheid van gegevens in gevaar brengt.\n",
