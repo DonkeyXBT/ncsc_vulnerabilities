@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0239 [1.00] [M/M] Kwetsbaarheid verholpen in SonicWall SonicOS",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0239",
+    "description": "SonicWall heeft een kwetsbaarheid verholpen in SonicOS.\nDe kwetsbaarheid bevindt zich in de wijze waarop de SSL VPN-interface van SonicOS omgaat met extern gecontroleerde opmaakstrings. Dit kan door externe, niet-geauthenticeerde aanvallers worden misbruikt, wat leidt tot verstoringen van de dienstverlening. Aanvallers kunnen deze kwetsbaarheid benutten om de beschikbaarheid van diensten te beïnvloeden.\n",
+    "guid": "NCSC-2025-0239 [1.00]",
+    "pubDate": "Thu, 31 Jul 2025 13:12:42 +0200",
+    "severity": "Medium",
+    "severityCode": "M/M"
+  },
+  {
     "title": "NCSC-2025-0238 [1.00] [M/H] Kwetsbaarheden verholpen in Apple macOS, iOS en iPadOS",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0238",
     "description": "Apple heeft kwetsbaarheden verholpen in macOS, iOS en iPadOS. De kwetsbaarheden omvatten verschillende problemen, zoals onvoldoende validatie van invoer, geheugenbeschadiging, en logica-issues die kunnen leiden tot ongeautoriseerde toegang tot gevoelige gebruikersdata. Deze kwetsbaarheden kunnen door kwaadwillenden worden misbruikt om root-rechten te verkrijgen, applicaties te laten crashen, of om toegang te krijgen tot beschermde systeemcomponenten.\n",
