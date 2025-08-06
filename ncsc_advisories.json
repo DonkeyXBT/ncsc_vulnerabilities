@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0240 [1.00] [M/H] Kwetsbaarheden verholpen in Rockwell Automation Arena",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0240",
+    "description": "Rockwell Automation heeft kwetsbaarheden verholpen in Arena Simulation. De kwetsbaarheden bevinden zich in de manier waarop Arena Simulation bestanden verwerkt, hiermee is het mogelijk om geheugen te manipuleren en te lezen. De kwetsbaarheden stellen kwaadwillenden in staat om gevoelige informatie te onthullen en willekeurige code uit te voeren wanneer een legitieme gebruiker een kwaadaardig bestand opent.\n",
+    "guid": "NCSC-2025-0240 [1.00]",
+    "pubDate": "Wed, 06 Aug 2025 09:55:23 +0200",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0239 [1.00] [M/M] Kwetsbaarheid verholpen in SonicWall SonicOS",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0239",
     "description": "SonicWall heeft een kwetsbaarheid verholpen in SonicOS.\nDe kwetsbaarheid bevindt zich in de wijze waarop de SSL VPN-interface van SonicOS omgaat met extern gecontroleerde opmaakstrings. Dit kan door externe, niet-geauthenticeerde aanvallers worden misbruikt, wat leidt tot verstoringen van de dienstverlening. Aanvallers kunnen deze kwetsbaarheid benutten om de beschikbaarheid van diensten te beïnvloeden.\n",
