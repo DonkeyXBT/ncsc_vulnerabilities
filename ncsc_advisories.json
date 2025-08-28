@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0271 [1.00] [M/H] Kwetsbaarheden verholpen in Arcserve Unified Data Protection",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0271",
+    "description": "Arcserve heeft kwetsbaarheden verholpen in Arcserve Unified Data Protection (UDP) voor alle versies vóór 10.2. De kwetsbaarheden omvatten een authenticatie-bypass die ongeauthenticeerde kwaadwillenden toegang geeft tot beschermde functies, een reflected cross-site scripting (XSS) kwetsbaarheid die het mogelijk maakt voor kwaadwillenden om willekeurige JavaScript-code uit te voeren in de browsers van gebruikers, en heap-based buffer overflow kwetsbaarheden die ernstige gevolgen kunnen hebben, zoals applicatiecrashes en remote code-executie. ",
+    "guid": "NCSC-2025-0271 [1.00]",
+    "pubDate": "Thu, 28 Aug 2025 12:56:02 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0270 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco NX-OS Software",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0270",
     "description": "Cisco heeft kwetsbaarheden verholpen in Cisco NX-OS Software (Specifiek voor Nexus 3000 en 9000 Series Switches). De kwetsbaarheden bevinden zich in verschillende functies van de Cisco NX-OS Software. Een kwetsbaarheid in de command-line interface (CLI) stelt geauthenticeerde lokale kwaadwillenden in staat om command injection-aanvallen uit te voeren, wat kan leiden tot ongeautoriseerde toegang en manipulatie van systeembestanden. Een andere kwetsbaarheid in de IS-IS-functie kan door een niet-geauthenticeerde, aangrenzende aanvaller worden misbruikt, wat kan resulteren in een denial-of-service (DoS) situatie. Daarnaast kan een kwetsbaarheid in de loggingfunctie leiden tot ongeautoriseerde toegang tot gevoelige informatie. Tot slot kan de PIM6-functie worden gecompromitteerd door laaggeprivilegieerde geauthenticeerde externe kwaadwillenden, wat ook kan leiden tot een DoS-conditie.",
