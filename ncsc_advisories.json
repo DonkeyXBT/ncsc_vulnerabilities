@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0270 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco NX-OS Software",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0270",
+    "description": "Cisco heeft kwetsbaarheden verholpen in Cisco NX-OS Software (Specifiek voor Nexus 3000 en 9000 Series Switches). De kwetsbaarheden bevinden zich in verschillende functies van de Cisco NX-OS Software. Een kwetsbaarheid in de command-line interface (CLI) stelt geauthenticeerde lokale kwaadwillenden in staat om command injection-aanvallen uit te voeren, wat kan leiden tot ongeautoriseerde toegang en manipulatie van systeembestanden. Een andere kwetsbaarheid in de IS-IS-functie kan door een niet-geauthenticeerde, aangrenzende aanvaller worden misbruikt, wat kan resulteren in een denial-of-service (DoS) situatie. Daarnaast kan een kwetsbaarheid in de loggingfunctie leiden tot ongeautoriseerde toegang tot gevoelige informatie. Tot slot kan de PIM6-functie worden gecompromitteerd door laaggeprivilegieerde geauthenticeerde externe kwaadwillenden, wat ook kan leiden tot een DoS-conditie.",
+    "guid": "NCSC-2025-0270 [1.00]",
+    "pubDate": "Thu, 28 Aug 2025 08:36:20 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0234 [1.01] [M/H] Kwetsbaarheid verholpen in CrushFTP",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0234",
     "description": "CrushFTP heeft een kwetsbaarheid verholpen in versies 10 tot en met 10.8.5 en 11 tot en met 11.3.4_23. De kwetsbaarheid bevindt zich in de AS2-validatie van CrushFTP. Deze kwetsbaarheid stelt een aanvaller in staat om via HTTPS administratieve toegang te verkrijgen, vooral wanneer de DMZ-proxyfunctie niet wordt gebruikt. De kwetsbaarheid is actief misbruikt, met meldingen die in juli 2025 zijn verschenen. Ongeautoriseerde toegang kan leiden tot verdere exploitatie van de getroffen systemen.\n\nDiverse onderzoekers publiceren inmiddels Proof-of-Concept-code (PoC) waarmee de kwetsbaarheid kan worden aangetoond. Daadwerkelijk misbruik is op dit moment nog niet eenvoudig te realiseren, omdat een zgn. 'Race condition' moet worden gerealiseerd.\nHet NCSC acht het waarschijnlijk dat op korte termijn werkende exploitcode wordt gepubliceerd, waarmee grootschalig misbruik eenvoudiger wordt.",
