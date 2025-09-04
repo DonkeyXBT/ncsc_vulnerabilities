@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0273 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0273",
+    "description": "Google heeft kwetsbaarheden verholpen in Android. Samsung heeft de voor Samsung Mobile relevante kwetsbaarheden verholpen in Samsung Mobile. De kwetsbaarheden in de Android kernel omvatten onder andere een raceconditie tussen functies die CPU-timers beheren, wat kan leiden tot systeeminstabiliteit. Daarnaast zijn er kwetsbaarheden gerapporteerd die ongeautoriseerde toegang tot gevoelige informatie mogelijk maken door onjuist gebruik van geheugen en systeemoproepen. Dit kan resulteren in ernstige beveiligingsimplicaties, waaronder het uitvoeren van ongewenste code en het compromitteren van systeemintegriteit.\n\nNaast kwetsbaarheden in Android zijn ook kwetsbaarheden verholpen in Closed-source componenten van Arm, Mediatek, Imagination Technologies en Qualcomm.\n\nGoogle meldt informatie te hebben ontvangen dat de kwetsbaarheden met kenmerk CVE-2025-38352 en CVE-2025-48543 beperkt en gericht zijn misbruikt. Er is geen publieke Proof-of-Concept-code of exploit bekend van deze kwetsbaarheden.",
+    "guid": "NCSC-2025-0273 [1.00]",
+    "pubDate": "Thu, 04 Sep 2025 08:15:14 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0272 [1.00] [H/H] Kwetsbaarheid verholpen in FreePBX",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0272",
     "description": "FreePBX heeft een kwetsbaarheid verholpen in versies 15, 16 en 17. De kwetsbaarheid stelt aanvallers in staat om ongeautoriseerde toegang te krijgen en mogelijk op afstand code uit te voeren, door misbruik te maken van een validatie- en saneringfout in de verwerking van door gebruikers aangeleverde invoer, zoals in de \"endpoint\" module. \n\nFreePBX meldt dat actief misbruik heeft plaatsgevonden op meerdere systemen met FreePBX versie 16 en 17 die voorzien waren van onvoldoende IP-filtering en ACLs en waarbij het managementinterface rechtstreeks verbonden was met het internet.",
