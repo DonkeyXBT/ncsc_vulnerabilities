@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>NCSC Security Advisories</title><link>https://advisories.ncsc.nl/advisories</link><description>Security advisories from the Dutch National Cyber Security Centre</description><item><title>NCSC-2025-0278 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Office</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0278</link><description>Microsoft heeft kwetsbaarheden verholpen in diverse Office producten. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:
+<rss version="2.0"><channel><title>NCSC Security Advisories</title><link>https://advisories.ncsc.nl/advisories</link><description>Security advisories from the Dutch National Cyber Security Centre</description><item><title>NCSC-2025-0280 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft SQL Server</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0280</link><description>Microsoft heeft kwetsbaarheden verholpen in SQL Server. Een kwaadwillende kan de kwetsbaarheden misbruiken om een Denial-of-Service (DoS) te veroorzaken, zich verhoogde rechten toe te kennen en/of toegang te krijgen tot gevoelige gegevens.</description><guid isPermaLink="false">NCSC-2025-0280 [1.00]</guid><pubDate>Tue, 09 Sep 2025 18:27:39 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0279 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Azure</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0279</link><description>Microsoft heeft kwetsbaarheden verholpen in Azure componenten. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich verhoogde rechten toe te kennen, of willekeurige code uit te voeren.
+
+De ernstigste kwetsbaarheid bevindt zich in het High Performance Compute Pack (HPC) en stelt een ongeauthenticeerde kwaadwillende in staat om willekeurige code uit te voeren op het kwetsbare systeem. Het is gebruikelijk dergelijke High-Performance clusters niet publiek toegankelijk te hebben. Controleer daarom of externe toegang wordt geblokkeerd. Met name TCP poort 5999.
+
+```
+Azure Windows Virtual Machine Agent: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-49692 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Microsoft High Performance Compute Pack (HPC): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55232 | 9.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Azure Arc: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55316 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+```</description><guid isPermaLink="false">NCSC-2025-0279 [1.00]</guid><pubDate>Tue, 09 Sep 2025 18:25:53 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0278 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Office</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0278</link><description>Microsoft heeft kwetsbaarheden verholpen in diverse Office producten. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:
 
 - Uitvoeren van willekeurige code (Gebruikersrechten)
 - Toegang tot gevoelige gegevens
