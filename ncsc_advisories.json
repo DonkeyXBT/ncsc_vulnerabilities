@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0276 [1.00] [M/H] Kwetsbaarheden verholpen in Schneider Electric Saitel",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0276",
+    "description": "Schneider Electric heeft kwetsbaarheden verholpen in Saitel componenten. De kwetsbaarheden bevinden zich in de wijze waarop de BLMon Console omgaat met speciale elementen in besturingssysteemcommando's tijdens SSH-sessies. Een kwaadwillende kan deze kwetsbaarheden misbruiken om ongeautoriseerde shell-commando's uit te voeren, wat kan leiden tot een compromittering van de systeemintegriteit.\n\nVoor succesvol misbruik moet de kwaadwillende toegang hebben tot de productie-omgeving. Het is goed gebruik een dergelijke omgeving niet publiek toegankelijk te hebben.",
+    "guid": "NCSC-2025-0276 [1.00]",
+    "pubDate": "Tue, 09 Sep 2025 15:16:00 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0275 [1.00] [M/H] Kwetsbaarheden verholpen in SAP producten",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0275",
     "description": "SAP heeft kwetsbaarheden verholpen in verschillende producten, waaronder in SAP NetWeaver, SAP NetWeaver Application Server Java en SAP Landscape Transformation. De kwetsbaarheden bevinden zich onder andere in de RMI-P4 module en de SAP NetWeaver AS Java platform.\n\nDe kwetsbaarheid met kenmerk CVE-2025-42944 betreft een deserialisatieprobleem dat kan worden misbruikt door niet-geauthenticeerde aanvallers, wat kan leiden tot willekeurige OS-commando-executie. Dit bedreigt de vertrouwelijkheid, integriteit en beschikbaarheid van de applicatie.\n\nDe kwetsbaarheid met kenmerk CVE-2025-42922 stelt geauthenticeerde niet-administratieve gebruikers in staat om willekeurige bestanden te uploaden via de Deploy Web Service-functie. Dit kan ook leiden tot compromittering van systeemvertrouwelijkheid, integriteit en beschikbaarheid.",
