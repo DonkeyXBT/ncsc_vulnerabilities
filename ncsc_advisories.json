@@ -1,5 +1,23 @@
 [
   {
+    "title": "NCSC-2025-0275 [1.00] [M/H] Kwetsbaarheden verholpen in SAP producten",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0275",
+    "description": "SAP heeft kwetsbaarheden verholpen in verschillende producten, waaronder in SAP NetWeaver, SAP NetWeaver Application Server Java en SAP Landscape Transformation. De kwetsbaarheden bevinden zich onder andere in de RMI-P4 module en de SAP NetWeaver AS Java platform.\n\nDe kwetsbaarheid met kenmerk CVE-2025-42944 betreft een deserialisatieprobleem dat kan worden misbruikt door niet-geauthenticeerde aanvallers, wat kan leiden tot willekeurige OS-commando-executie. Dit bedreigt de vertrouwelijkheid, integriteit en beschikbaarheid van de applicatie.\n\nDe kwetsbaarheid met kenmerk CVE-2025-42922 stelt geauthenticeerde niet-administratieve gebruikers in staat om willekeurige bestanden te uploaden via de Deploy Web Service-functie. Dit kan ook leiden tot compromittering van systeemvertrouwelijkheid, integriteit en beschikbaarheid.",
+    "guid": "NCSC-2025-0275 [1.00]",
+    "pubDate": "Tue, 09 Sep 2025 11:12:22 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0274 [1.00] [M/H] Kwetsbaarheden verholpen in Siemens producten",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0274",
+    "description": "Siemens heeft kwetsbaarheden verholpen in diverse producten als Apogee, Industial Edge, RUGGEDCOM, SIMATIC, SIMOTION en SINAMICS. De kwetsbaarheden stellen een kwaadwillende mogelijk in staat aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:\n\n- Denial-of-Service (DoS)\n- Manipulatie van gegevens\n- Omzeilen van een beveiligingsmaatregel\n- (Remote) code execution (root/admin rechten)\n- Toegang tot systeemgegevens\n- Toegang tot gevoelige gegevens\n- Verhogen van rechten\n\nDe kwaadwillende heeft hiervoor toegang nodig tot de productieomgeving. Het is goed gebruik een dergelijke omgeving niet publiek toegankelijk te hebben.",
+    "guid": "NCSC-2025-0274 [1.00]",
+    "pubDate": "Tue, 09 Sep 2025 11:06:34 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0245 [1.01] [M/H] Kwetsbaarheden verholpen in SAP producten",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0245",
     "description": "SAP heeft kwetsbaarheden verholpen in verschillende producten, waaronder in SAP NetWeaver Application Server ABAP, SAP S/4HANA, SAP Landscape Transformation en AP Cloud Connector. De kwetsbaarheden omvatten onder andere het omzeilen van autorisatiecontroles, Cross-Site Scripting (XSS) en een Directory Traversal kwetsbaarheid. De aanwezigheid van Cross-Site Scripting (XSS) en CRLF-injectie kwetsbaarheden stelt aanvallers in staat om sessies te manipuleren en gevoelige informatie te compromitteren.\n\nVan de kwetsbaarheid met kenmerk CVE-2025-42957 wordt gemeld dat deze beperkt actief is misbruikt. Misbruik vereist voorafgaande authenticatie en er is geen publieke Proof-of-Concept-code (PoC) of exploit beschikbaar. Maar deze kwetsbaarheid stelt een kwaadwillende wel in staat om volledige controle over het kwetsbare systeem te krijgen.",
