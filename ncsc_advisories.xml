@@ -1,5 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>NCSC Security Advisories</title><link>https://advisories.ncsc.nl/advisories</link><description>Security advisories from the Dutch National Cyber Security Centre</description><item><title>NCSC-2025-0276 [1.00] [M/H] Kwetsbaarheden verholpen in Schneider Electric Saitel</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0276</link><description>Schneider Electric heeft kwetsbaarheden verholpen in Saitel componenten. De kwetsbaarheden bevinden zich in de wijze waarop de BLMon Console omgaat met speciale elementen in besturingssysteemcommando's tijdens SSH-sessies. Een kwaadwillende kan deze kwetsbaarheden misbruiken om ongeautoriseerde shell-commando's uit te voeren, wat kan leiden tot een compromittering van de systeemintegriteit.
+<rss version="2.0"><channel><title>NCSC Security Advisories</title><link>https://advisories.ncsc.nl/advisories</link><description>Security advisories from the Dutch National Cyber Security Centre</description><item><title>NCSC-2025-0278 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Office</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0278</link><description>Microsoft heeft kwetsbaarheden verholpen in diverse Office producten. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:
+
+- Uitvoeren van willekeurige code (Gebruikersrechten)
+- Toegang tot gevoelige gegevens
+- Verkrijgen van verhoogde rechten
+- Voordoen als andere gebruiker
+
+Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden een malafide bestand te openen of link te volgen.
+
+```
+Microsoft Office: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54906 | 7.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-55243 | 7.50 | Voordoen als andere gebruiker       | 
+| CVE-2025-54910 | 8.40 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Microsoft Office Word: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54905 | 7.10 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Microsoft Office Visio: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54907 | 7.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Windows Imaging Component: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-53799 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Microsoft Office PowerPoint: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54908 | 7.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Microsoft AutoUpdate (MAU): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55317 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Microsoft Office SharePoint: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54897 | 8.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Microsoft Office Excel: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54896 | 7.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-54898 | 7.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-54899 | 7.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-54902 | 7.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-54903 | 7.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-54904 | 7.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-54900 | 7.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-54901 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+```</description><guid isPermaLink="false">NCSC-2025-0278 [1.00]</guid><pubDate>Tue, 09 Sep 2025 18:23:23 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0277 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Windows</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0277</link><description>Microsoft heeft kwetsbaarheden verholpen in Windows. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:
+
+- Denial-of-Service (DoS)
+- Omzeilen van een beveiligingsmaatregel
+- Uitvoer van willekeurige code (root/adminrechten)
+- Uitvoer van willekeurige code (gebruikersrechten)
+- Toegang tot systeemgegevens
+- Toegang tot gevoelige gegevens
+- Verkrijgen van verhoogde rechten
+
+Van de kwetsbaarheid met kenmerk CVE-2025-55234 geeft Microsoft aan dat details publiek bekend zijn. Er is (nog) geen Proof-of-Concept-code (PoC) of exploit beschikbaar. De kwetsbaarheid bevindt zich in SMB en stelt een ongeauthenticeerde kwaadwillende in staat om zich de rechten van het slachtoffer toe te eigenen. Hiervoor moet de kwaadwillende het slachtoffer misleiden om acties uit te voeren, zoals het volgen van een link of openen van een bestand.
+
+```
+Capability Access Management Service (camsvc): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54108 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows BitLocker: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54911 | 7.30 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-54912 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Management Services: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54103 | 7.40 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Win32K - GRFX: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54919 | 7.50 | Uitvoeren van willekeurige code     | 
+| CVE-2025-55228 | 7.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-55224 | 7.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Graphics Kernel: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55223 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-55226 | 6.70 | Uitvoeren van willekeurige code     | 
+| CVE-2025-55236 | 7.30 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Windows NTLM: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54918 | 8.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Ancillary Function Driver for WinSock: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54099 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Kernel: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54110 | 8.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-53803 | 5.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-53804 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Windows Bluetooth Service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-53802 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows DWM: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-53801 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Microsoft Brokering File System: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54105 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Connected Devices Platform Service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54102 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-54114 | 7.00 | Denial-of-Service                   | 
+|----------------|------|-------------------------------------|
+
+Microsoft Graphics Component: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-53800 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-53807 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows MultiPoint Services: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54116 | 7.30 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows UI XAML Maps MapControlSettings: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54913 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Defender Firewall Service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-53808 | 6.70 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-53810 | 6.70 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-54094 | 6.70 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-54104 | 6.70 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-54109 | 6.70 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-54915 | 6.70 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Imaging Component: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-53799 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Windows Routing and Remote Access Service (RRAS): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-53797 | 6.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-53798 | 6.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-54095 | 6.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-54096 | 6.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-54097 | 6.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-54106 | 8.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-55225 | 6.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-53796 | 6.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-53806 | 6.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-54113 | 7.50 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Windows NTFS: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54916 | 7.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Role: Windows Hyper-V: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54091 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-54092 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-54098 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-54115 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows PowerShell: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-49734 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Microsoft Virtual Hard Drive: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54112 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows MapUrlToZone: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54107 | 4.30 | Omzeilen van beveiligingsmaatregel  | 
+| CVE-2025-54917 | 4.30 | Omzeilen van beveiligingsmaatregel  | 
+|----------------|------|-------------------------------------|
+
+Windows SMB: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55234 | 8.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows SPNEGO Extended Negotiation: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54895 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Internet Information Services: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-53805 | 7.50 | Denial-of-Service                   | 
+|----------------|------|-------------------------------------|
+
+Windows TCP/IP: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54093 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Local Security Authority Subsystem Service (LSASS): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54894 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-53809 | 6.50 | Denial-of-Service                   | 
+|----------------|------|-------------------------------------|
+
+Windows SMBv3 Client: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54101 | 4.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Windows UI XAML Phone DatePickerFlyout: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54111 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+```</description><guid isPermaLink="false">NCSC-2025-0277 [1.00]</guid><pubDate>Tue, 09 Sep 2025 18:22:30 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0276 [1.00] [M/H] Kwetsbaarheden verholpen in Schneider Electric Saitel</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0276</link><description>Schneider Electric heeft kwetsbaarheden verholpen in Saitel componenten. De kwetsbaarheden bevinden zich in de wijze waarop de BLMon Console omgaat met speciale elementen in besturingssysteemcommando's tijdens SSH-sessies. Een kwaadwillende kan deze kwetsbaarheden misbruiken om ongeautoriseerde shell-commando's uit te voeren, wat kan leiden tot een compromittering van de systeemintegriteit.
 
 Voor succesvol misbruik moet de kwaadwillende toegang hebben tot de productie-omgeving. Het is goed gebruik een dergelijke omgeving niet publiek toegankelijk te hebben.</description><guid isPermaLink="false">NCSC-2025-0276 [1.00]</guid><pubDate>Tue, 09 Sep 2025 15:16:00 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0275 [1.00] [M/H] Kwetsbaarheden verholpen in SAP producten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0275</link><description>SAP heeft kwetsbaarheden verholpen in verschillende producten, waaronder in SAP NetWeaver, SAP NetWeaver Application Server Java en SAP Landscape Transformation. De kwetsbaarheden bevinden zich onder andere in de RMI-P4 module en de SAP NetWeaver AS Java platform.
 
