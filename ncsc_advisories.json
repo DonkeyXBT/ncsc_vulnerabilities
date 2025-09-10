@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0285 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Acrobat Reader",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0285",
+    "description": "Adobe heeft kwetsbaarheden verholpen in Adobe Acrobat Reader (Specifiek voor versies 24.001.30254, 20.005.30774, 25.001.20672 en eerder). De kwetsbaarheid betreft een Use After Free-kwetsbaarheid die kan leiden tot willekeurige code-executie wanneer een gebruiker een speciaal vervaardigd kwaadaardig bestand opent. Daarnaast is er een XXE-kwetsbaarheid in Adobe Experience Manager die aanvallers in staat stelt om willekeurige bestanden op het lokale bestandssysteem te lezen zonder gebruikersinteractie, wat kan leiden tot ongeautoriseerde toegang tot gevoelige gegevens.",
+    "guid": "NCSC-2025-0285 [1.00]",
+    "pubDate": "Wed, 10 Sep 2025 11:01:43 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0284 [1.00] [M/H] Kwetsbaarheid verholpen in Adobe Commerce en Magento",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0284",
     "description": "Adobe heeft een kwetsbaarheid verholpen in Adobe Commerce en Magento. De kwetsbaarheid bevindt zich in de wijze waarop invoer wordt gevalideerd in Adobe Commerce en Magento. Deze kwetsbaarheid stelt aanvallers in staat om sessieovername-aanvallen uit te voeren zonder enige interactie van de gebruiker, wat de vertrouwelijkheid en integriteit van gebruikerssessies kan compromitteren. ",
