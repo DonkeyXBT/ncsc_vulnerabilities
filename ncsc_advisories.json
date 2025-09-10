@@ -1,5 +1,32 @@
 [
   {
+    "title": "NCSC-2025-0284 [1.00] [M/H] Kwetsbaarheid verholpen in Adobe Commerce en Magento",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0284",
+    "description": "Adobe heeft een kwetsbaarheid verholpen in Adobe Commerce en Magento. De kwetsbaarheid bevindt zich in de wijze waarop invoer wordt gevalideerd in Adobe Commerce en Magento. Deze kwetsbaarheid stelt aanvallers in staat om sessieovername-aanvallen uit te voeren zonder enige interactie van de gebruiker, wat de vertrouwelijkheid en integriteit van gebruikerssessies kan compromitteren. ",
+    "guid": "NCSC-2025-0284 [1.00]",
+    "pubDate": "Wed, 10 Sep 2025 10:49:56 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0283 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Experience Manager",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0283",
+    "description": "Adobe heeft kwetsbaarheden verholpen in Adobe Experience Manager (versies 6.5.23.0 en eerder). De kwetsbaarheden bevinden zich in de manier waarop Adobe Experience Manager omgaat met beveiligingsmaatregelen. Aanvallers met beperkte rechten, kunnen deze kwetsbaarheden misbruiken om ongeautoriseerde lees- en schrijfrechten uit te voeren, wat kan leiden tot compromittering van de integriteit van het systeem. Dit omvat onder andere een stored XSS-kwetsbaarheid, een Server-Side Request Forgery (SSRF) en een XML-injectie.",
+    "guid": "NCSC-2025-0283 [1.00]",
+    "pubDate": "Wed, 10 Sep 2025 10:46:54 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0282 [1.00] [M/H] Kwetsbaarheid verholpen in Adobe Dreamweaver",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0282",
+    "description": "Adobe heeft een kwetsbaarheid verholpen in Dreamweaver Desktop (Specifiek voor versies 21.5 en eerder). De kwetsbaarheid bevindt zich in de manier waarop Dreamweaver omgaat met CSRF-aanvallen. Een kwaadwillende kan deze kwetsbaarheid misbruiken door een gebruiker te laten interageren met een kwaadaardige link, wat kan leiden tot de uitvoering van ongeautoriseerde commando's binnen de context van de applicatie.",
+    "guid": "NCSC-2025-0282 [1.00]",
+    "pubDate": "Wed, 10 Sep 2025 10:38:24 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0281 [1.00] [M/H] Kwetsbaarheid verholpen in Adobe ColdFusion",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0281",
     "description": "Adobe heeft een kwetsbaarheid verholpen in de ColdFusion platform, inclusief versies 2025.3, 2023.15, 2021.21 en eerder. De kwetsbaarheid bevindt zich in de manier waarop het ColdFusion platform padtraversal toestaat. De kwetsbaarheid kan door aanvallers worden misbruikt om willekeurige code uit te voeren op de getroffen systemen. Dit kan leiden tot ongeautoriseerde toegang en code-executie.",
