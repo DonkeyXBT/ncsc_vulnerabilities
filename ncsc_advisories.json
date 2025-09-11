@@ -1,5 +1,23 @@
 [
   {
+    "title": "NCSC-2025-0287 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco NX-OS Software",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0287",
+    "description": "Cisco heeft kwetsbaarheden verholpen in Cisco NX-OS Software voor Nexus 3000 en 9000 Series Switches. De kwetsbaarheden bevinden zich in verschillende functies van de Cisco NX-OS Software, waaronder IS-IS, PIM6, logging, command-line interface (CLI), en de REST API van de Nexus Dashboard. Deze kwetsbaarheden kunnen worden misbruikt door zowel geauthenticeerde als niet-geauthenticeerde aanvallers om Denial-of-Service (DoS) te veroorzaken, ongeautoriseerde toegang tot gevoelige informatie te verkrijgen, en zelfs rootprivileges op de apparaten te verkrijgen. De ernst van deze kwetsbaarheden vereist onmiddellijke aandacht van beveiligingsbeheerders die deze apparaten beheren.",
+    "guid": "NCSC-2025-0287 [1.00]",
+    "pubDate": "Thu, 11 Sep 2025 08:18:37 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0286 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco IOS XR Software",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0286",
+    "description": "Cisco heeft kwetsbaarheden verholpen in Cisco IOS XR Software. De kwetsbaarheden bevinden zich in de wijze waarop Cisco IOS XR Software omgaat met de management interface ACL-verwerking, het installatieproces en de ARP-implementatie. Een kwaadwillende kan deze kwetsbaarheden misbruiken om geconfigureerde toegangscontrolelijsten te omzeilen, niet-ondertekende software te laden of een broadcaststorm te genereren, wat kan leiden tot ongeautoriseerde toegang, code-executie en een Denial-of-Service (DoS) situatie. Dit heeft aanzienlijke gevolgen voor de integriteit en beschikbaarheid van netwerksystemen.",
+    "guid": "NCSC-2025-0286 [1.00]",
+    "pubDate": "Thu, 11 Sep 2025 08:14:36 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0285 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Acrobat Reader",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0285",
     "description": "Adobe heeft kwetsbaarheden verholpen in Adobe Acrobat Reader (Specifiek voor versies 24.001.30254, 20.005.30774, 25.001.20672 en eerder). De kwetsbaarheid betreft een Use After Free-kwetsbaarheid die kan leiden tot willekeurige code-executie wanneer een gebruiker een speciaal vervaardigd kwaadaardig bestand opent. Daarnaast is er een XXE-kwetsbaarheid in Adobe Experience Manager die aanvallers in staat stelt om willekeurige bestanden op het lokale bestandssysteem te lezen zonder gebruikersinteractie, wat kan leiden tot ongeautoriseerde toegang tot gevoelige gegevens.",
