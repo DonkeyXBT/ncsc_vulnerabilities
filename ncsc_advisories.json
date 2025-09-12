@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0288 [1.00] [M/H] Kwetsbaarheden verholpen in GitLab CE/EE",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0288",
+    "description": "GitLab heeft kwetsbaarheden verholpen in GitLab CE/EE (Versies voor 18.1.6, 18.2.6, en 18.3.2). De kwetsbaarheden in de getroffen versies stellen geauthenticeerde gebruikers in staat om tokenbeheer te manipuleren, achtergrondtaken te verstoren, meerdere grote SAML-antwoorden te verzenden, proxy-omgevingen te manipuleren, toegang te krijgen tot onderhoudsnotities die alleen voor beheerders zijn, en om excessief grote bestanden te uploaden. Dit kan leiden tot operationele inefficiënties, verstoring van de beschikbaarheid van het platform, ongeoorloofde blootstelling van gevoelige informatie en zelfs een aanhoudende denial-of-service. Beheerders moeten bijzonder waakzaam zijn voor ongebruikelijke activiteiten en ervoor zorgen dat de toegang tot gevoelige informatie goed wordt beheerd.",
+    "guid": "NCSC-2025-0288 [1.00]",
+    "pubDate": "Fri, 12 Sep 2025 14:49:52 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0287 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco NX-OS Software",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0287",
     "description": "Cisco heeft kwetsbaarheden verholpen in Cisco NX-OS Software voor Nexus 3000 en 9000 Series Switches. De kwetsbaarheden bevinden zich in verschillende functies van de Cisco NX-OS Software, waaronder IS-IS, PIM6, logging, command-line interface (CLI), en de REST API van de Nexus Dashboard. Deze kwetsbaarheden kunnen worden misbruikt door zowel geauthenticeerde als niet-geauthenticeerde aanvallers om Denial-of-Service (DoS) te veroorzaken, ongeautoriseerde toegang tot gevoelige informatie te verkrijgen, en zelfs rootprivileges op de apparaten te verkrijgen. De ernst van deze kwetsbaarheden vereist onmiddellijke aandacht van beveiligingsbeheerders die deze apparaten beheren.",
