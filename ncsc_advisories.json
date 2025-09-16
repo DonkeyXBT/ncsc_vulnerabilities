@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0293 [1.00] [M/H] Kwetsbaarheden verholpen in Spring Framework",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0293",
+    "description": "VMWare heeft kwetsbaarheden verholpen in de Spring Security framework. De kwetsbaarheden bevinden zich in de manier waarop het Spring Security framework annotaties detecteert, met name in typehiërarchieën die gebruikmaken van geparametriseerde supertypes met onbeperkte generics. Dit kan leiden tot een autorisatie-omzeiling wanneer gebruik wordt gemaakt van methodesecurity-annotaties zoals @PreAuthorize, vooral als @EnableMethodSecurity is ingeschakeld. Deze problemen zijn bijzonder kritisch voor applicaties die afhankelijk zijn van deze beveiligingsannotaties voor toegangscontrole.",
+    "guid": "NCSC-2025-0293 [1.00]",
+    "pubDate": "Tue, 16 Sep 2025 13:38:44 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0292 [1.00] [M/H] Kwetsbaarheden verholpen in Ivanti producten",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0292",
     "description": "Ivanti heeft kwetsbaarheden verholpen in meerdere producten zoals Connect Secure en Policy Secure. De kwetsbaarheden bevinden zich in verschillende Ivanti producten en stellen remote geauthenticeerde aanvallers met read-only admin rechten in staat om authenticatie-instellingen te wijzigen, beperkte instellingen te configureren, bestaande HTML5-verbindingen te kapen, en CSRF-aanvallen uit te voeren. Dit kan leiden tot ongeautoriseerde wijzigingen in systeemconfiguraties, ongeautoriseerde toegang en manipulatie van actieve sessies, en het uitvoeren van gevoelige acties namens gebruikers. Daarnaast kunnen aanvallers met admin-rechten een denial-of-service conditie triggeren en interne services enumereren. Een kritieke kwetsbaarheid in Ivanti Connect Secure en andere producten stelt aanvallers in staat om willekeurige tekst in HTTP-responses te injecteren, wat gebruikersinteractie vereist voor exploitatie.",
