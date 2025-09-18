@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0294 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Aruba Networking EdgeConnect SD-WAN Gateways",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0294",
+    "description": "HPE heeft kwetsbaarheden verholpen in HPE Aruba Networking EdgeConnect SD-WAN Gateways. De kwetsbaarheden bevinden zich in de command-line interface en web API van de HPE Aruba Networking EdgeConnect SD-WAN Gateways. Deze kwetsbaarheden stellen geauthenticeerde aanvallers in staat om willekeurige systeemcommando's uit te voeren met root-toegang, shell-toegang te verkrijgen, en processen te beëindigen, wat kan leiden tot ongeautoriseerde controle en destabilisatie van de systemen. Dit kan ook resulteren in het uitlekken van gevoelige gegevens en het omzeilen van bestaande firewallbescherming. ",
+    "guid": "NCSC-2025-0294 [1.00]",
+    "pubDate": "Thu, 18 Sep 2025 12:02:45 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0293 [1.00] [M/H] Kwetsbaarheden verholpen in Spring Framework",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0293",
     "description": "VMWare heeft kwetsbaarheden verholpen in de Spring Security framework. De kwetsbaarheden bevinden zich in de manier waarop het Spring Security framework annotaties detecteert, met name in typehiërarchieën die gebruikmaken van geparametriseerde supertypes met onbeperkte generics. Dit kan leiden tot een autorisatie-omzeiling wanneer gebruik wordt gemaakt van methodesecurity-annotaties zoals @PreAuthorize, vooral als @EnableMethodSecurity is ingeschakeld. Deze problemen zijn bijzonder kritisch voor applicaties die afhankelijk zijn van deze beveiligingsannotaties voor toegangscontrole.",
