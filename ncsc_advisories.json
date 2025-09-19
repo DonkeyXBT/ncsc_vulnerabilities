@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0295 [1.00] [M/H] Kwetsbaarheid verholpen in Fortra's GoAnywhere MFT",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0295",
+    "description": "Fortra heeft een kwetsbaarheid verholpen in GoAnywhere MFT (Specifiek voor de License Servlet). De kwetsbaarheid bevindt zich in de deserialisatie van een gecontroleerd object binnen de License Servlet. Een aanvaller kan een vervalste licentie-respons handtekening gebruiken om command injection uit te voeren, wat kan leiden tot ongeautoriseerde commando-uitvoering binnen de applicatie.\n\nMisbruik kan plaatsvinden via de Admin-interface middels een vervalst licentie-response. Het is goed gebruik een dergelijke interface niet publiek toegankelijk te hebben, maar af te steunen in een separate beheeromgeving.",
+    "guid": "NCSC-2025-0295 [1.00]",
+    "pubDate": "Fri, 19 Sep 2025 12:26:42 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0294 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Aruba Networking EdgeConnect SD-WAN Gateways",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0294",
     "description": "HPE heeft kwetsbaarheden verholpen in HPE Aruba Networking EdgeConnect SD-WAN Gateways. De kwetsbaarheden bevinden zich in de command-line interface en web API van de HPE Aruba Networking EdgeConnect SD-WAN Gateways. Deze kwetsbaarheden stellen geauthenticeerde aanvallers in staat om willekeurige systeemcommando's uit te voeren met root-toegang, shell-toegang te verkrijgen, en processen te beëindigen, wat kan leiden tot ongeautoriseerde controle en destabilisatie van de systemen. Dit kan ook resulteren in het uitlekken van gevoelige gegevens en het omzeilen van bestaande firewallbescherming. ",
