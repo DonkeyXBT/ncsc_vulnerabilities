@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0297 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco IOS en Cisco IOS XE Software",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0297",
+    "description": "Cisco heeft kwetsbaarheden verholpen in Cisco IOS en Cisco IOS XE Software. De kwetsbaarheden omvatten verschillende problemen, waaronder een buffer overflow in de command-line interface (CLI) die kan leiden tot onverwachte herstarts van apparaten en een kwetsbaarheid in de TACACS+ protocolimplementatie die ongeauthenticeerde aanvallers in staat stelt om gevoelige gegevens te benaderen. Daarnaast zijn er kwetsbaarheden in de web UI die kunnen leiden tot cross-site scripting (XSS) aanvallen en een probleem in de NBAR-functie dat kan resulteren in een denial of service (DoS) door het versturen van gemanipuleerde CAPWAP-pakketten. Ook zijn er kwetsbaarheden in de SNMP-subsystemen die kunnen leiden tot ongeautoriseerde toegang en systeemdisruptie.",
+    "guid": "NCSC-2025-0297 [1.00]",
+    "pubDate": "Thu, 25 Sep 2025 09:20:07 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0296 [1.00] [M/H] Kwetsbaarheid verholpen in WatchGuard Fireware OS",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0296",
     "description": "WatchGuard heeft een kwetsbaarheid verholpen in Fireware OS (Specifiek voor bepaalde VPN-configuraties). De kwetsbaarheid bevindt zich in de manier waarop Fireware OS omgaat met Out-of-bounds Write. Dit stelt een kwaadwillende, ongeauthenticeerde aanvaller in staat om willekeurige code uit te voeren. Dit kan leiden tot ernstige gevolgen voor de getroffen systemen met specifieke VPN-configuraties.",
