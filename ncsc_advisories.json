@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0300 [1.00] [M/H] Kwetsbaarheden verholpen in GitLab EE & CE",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0300",
+    "description": "GitLab heeft kwetsbaarheden verholpen in GitLab CE/EE (Specifiek voor versies voor 18.2.7, 18.3.3, en 18.4.1). De kwetsbaarheden omvatten onder andere de mogelijkheid voor geauthenticeerde gebruikers om vertrouwelijke informatie te benaderen door projecten met dezelfde naam als die van het slachtoffer te creëren, en het verkrijgen van ongeautoriseerde toegang tot gevoelige informatie binnen virtuele registerconfiguraties. Daarnaast kunnen geauthenticeerde gebruikers een onbeschermde GraphQL API misbruiken, wat kan leiden tot een Denial-of-Service (DoS) situatie. Ook is er een privilege-escalatie kwetsbaarheid die het mogelijk maakt voor ontwikkelaars met specifieke rechten om ongeautoriseerde toegang te krijgen tot extra systeemcapaciteiten. Bovendien kunnen ongeauthenticeerde gebruikers een DoS-voorwaarde activeren door grote, speciaal gemaakte JSON-bestanden te uploaden. Tot slot is er een prestatieafname vastgesteld bij bepaalde versies van GitLab, wat de gebruikerservaring kan beïnvloeden.",
+    "guid": "NCSC-2025-0300 [1.00]",
+    "pubDate": "Mon, 29 Sep 2025 09:40:53 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0299 [1.00] [M/H] Kwetsbaarheden verholpen in Zenitel ICX500 en ICX510 Gateway",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0299",
     "description": "Zenitel heeft kwetsbaarheden verholpen in de ICX500 en ICX510 Gateway producten. De kwetsbaarheden stellen kwaadwillenden in staat om ongeautoriseerde toegang te krijgen tot de Billing Admin endpoint en om willekeurige commando's uit te voeren op het apparaat. Dit kan leiden tot ernstige compromittering van de beschikbaarheid, vertrouwelijkheid en integriteit van de apparaten. De kwetsbaarheid met kenmerk CVE-2025-59816 in de Billing Admin stelt aanvallers in staat om directe queries uit te voeren tegen de Billing Admin database, waardoor ze toegang krijgen tot alle opgeslagen gegevens, inclusief platte tekst gebruikersreferenties.\n\nVoor succesvol misbruik moet de kwaadwillende toegang hebben tot de lokale infrastructuur. Het is goed gebruik dergelijke infrastructuur niet publiek toegankelijk te hebben.",
