@@ -1,5 +1,23 @@
 [
   {
+    "title": "NCSC-2025-0302 [1.00] [M/H] Kwetsbaarheid verholpen in IBM InfoSphere",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0302",
+    "description": "IBM heeft een kwetsbaarheid verholpen in InfoSphere (Versies 11.7.0.0 tot 11.7.1.6) De kwetsbaarheid bevindt zich in de wijze waarop invoer wordt gevalideerd in de getroffen versies van InfoSphere. Geauthenticeerde gebruikers kunnen deze kwetsbaarheid misbruiken om willekeurige commando's met verhoogde privileges uit te voeren. Dit kan leiden tot ongeautoriseerde toegang tot systeemfunctionaliteiten, wat ernstige gevolgen kan hebben voor de integriteit en vertrouwelijkheid van het systeem.",
+    "guid": "NCSC-2025-0302 [1.00]",
+    "pubDate": "Tue, 30 Sep 2025 08:31:27 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0301 [1.00] [M/H] Kwetsbaarheden verholpen in VMware NSX",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0301",
+    "description": "VMware heeft kwetsbaarheden verholpen in VMware NSX De kwetsbaarheden in VMware NSX omvatten een zwak wachtwoordherstelmechanisme dat ongeauthenticeerde aanvallers in staat stelt om geldige gebruikersnamen te enumereren, wat kan leiden tot potentiële brute-force aanvallen op inloggegevens. Daarnaast is er een kwetsbaarheid voor gebruikersnaam enumeratie die ongeauthenticeerde aanvallers in staat stelt om geldige gebruikersnamen te identificeren, wat kan resulteren in ongeautoriseerde toegang tot het systeem. ",
+    "guid": "NCSC-2025-0301 [1.00]",
+    "pubDate": "Tue, 30 Sep 2025 08:29:24 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0300 [1.00] [M/H] Kwetsbaarheden verholpen in GitLab EE & CE",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0300",
     "description": "GitLab heeft kwetsbaarheden verholpen in GitLab CE/EE (Specifiek voor versies voor 18.2.7, 18.3.3, en 18.4.1). De kwetsbaarheden omvatten onder andere de mogelijkheid voor geauthenticeerde gebruikers om vertrouwelijke informatie te benaderen door projecten met dezelfde naam als die van het slachtoffer te creëren, en het verkrijgen van ongeautoriseerde toegang tot gevoelige informatie binnen virtuele registerconfiguraties. Daarnaast kunnen geauthenticeerde gebruikers een onbeschermde GraphQL API misbruiken, wat kan leiden tot een Denial-of-Service (DoS) situatie. Ook is er een privilege-escalatie kwetsbaarheid die het mogelijk maakt voor ontwikkelaars met specifieke rechten om ongeautoriseerde toegang te krijgen tot extra systeemcapaciteiten. Bovendien kunnen ongeauthenticeerde gebruikers een DoS-voorwaarde activeren door grote, speciaal gemaakte JSON-bestanden te uploaden. Tot slot is er een prestatieafname vastgesteld bij bepaalde versies van GitLab, wat de gebruikerservaring kan beïnvloeden.",
