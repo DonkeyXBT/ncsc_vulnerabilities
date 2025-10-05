@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0303 [1.00] [H/H] Kwetsbaarheid verholpen in Oracle E-Business Suite",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0303",
+    "description": "Oracle heeft een kwetsbaarheid verholpen in Oracle E-Business Suite (Specifiek voor de Concurrent Processing component in versies 12.2.3 tot 12.2.14). De kwetsbaarheid bevindt zich in de Concurrent Processing component van de Oracle E-Business Suite. Ongeauthenticeerde aanvallers kunnen deze kwetsbaarheid misbruiken door middel van HTTP-verzoeken. Dit kan leiden tot ernstige risico's voor de vertrouwelijkheid, integriteit en beschikbaarheid van het systeem, met een CVSS-score van 9.8.\n\nVolgens berichtgeving van Oracle wordt de kwetsbaarheid actief misbruikt door kwaadwillenden. Oracle heeft IoC's beschikbaar gesteld.\n\nOnderzoekers hebben Proof-of-Concept-code beschikbaar gesteld waarmee de kwetsbaarheid kan worden aangetoond. Het NCSC verwacht binnenkort een grotere toename in scanverkeer en pogingen tot misbruik en adviseert de beveiligingsmaatregelen zo spoedig mogelijk in te zetten.",
+    "guid": "NCSC-2025-0303 [1.00]",
+    "pubDate": "Sun, 05 Oct 2025 09:07:57 +0000",
+    "severity": "High",
+    "severityCode": "H/H"
+  },
+  {
     "title": "NCSC-2025-0302 [1.00] [M/H] Kwetsbaarheid verholpen in IBM InfoSphere",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0302",
     "description": "IBM heeft een kwetsbaarheid verholpen in InfoSphere (Versies 11.7.0.0 tot 11.7.1.6) De kwetsbaarheid bevindt zich in de wijze waarop invoer wordt gevalideerd in de getroffen versies van InfoSphere. Geauthenticeerde gebruikers kunnen deze kwetsbaarheid misbruiken om willekeurige commando's met verhoogde privileges uit te voeren. Dit kan leiden tot ongeautoriseerde toegang tot systeemfunctionaliteiten, wat ernstige gevolgen kan hebben voor de integriteit en vertrouwelijkheid van het systeem.",
