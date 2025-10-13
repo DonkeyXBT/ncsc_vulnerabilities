@@ -1,5 +1,23 @@
 [
   {
+    "title": "NCSC-2025-0306 [1.00] [M/M] Kwetsbaarheden verholpen in GitLab",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0306",
+    "description": "GitLab heeft kwetsbaarheden verholpen in GitLab CE/EE versies 13.12 tot 18.2.8, 18.3 tot 18.3.4, en 18.4 tot 18.4.2. De kwetsbaarheden omvatten een probleem waarbij speciaal samengestelde GraphQL-queries grote repository-blobs onresponsief kunnen maken, en een fout die geauthenticeerde gebruikers met alleen-lezen API-tokens in staat stelde om ongeautoriseerde schrijfoperaties uit te voeren op kwetsbaarheidsrecords. Daarnaast konden geauthenticeerde aanvallers kwaadaardige webhook-eindpunten configureren, wat kon leiden tot een Denial-of-Service.",
+    "guid": "NCSC-2025-0306 [1.00]",
+    "pubDate": "Mon, 13 Oct 2025 07:25:32 +0000",
+    "severity": "Medium",
+    "severityCode": "M/M"
+  },
+  {
+    "title": "NCSC-2025-0305 [1.00] [M/H] Kwetsbaarheden verholpen in Juniper Networks Junos OS",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0305",
+    "description": "Juniper heeft kwetsbaarheden verholpen in Junos OS (Specifiek voor EX4600, QFX5000 Series switches en SRX4700 apparaten). De kwetsbaarheden in Junos OS omvatten verschillende ernstige problemen, waaronder de mogelijkheid voor ongeauthenticeerde aanvallers om Denial of Service (DoS) te veroorzaken door het versturen van speciaal vervaardigde pakketten, het manipuleren van URL-parameters, en het omzeilen van authenticatieprocessen. Dit kan leiden tot systeemcrashes, ongeautoriseerde toegang tot gevoelige gegevens, en verstoring van netwerkdiensten. De impact van deze kwetsbaarheden kan aanzienlijk zijn, vooral voor organisaties die afhankelijk zijn van Junos OS voor hun netwerkbeheer.",
+    "guid": "NCSC-2025-0305 [1.00]",
+    "pubDate": "Mon, 13 Oct 2025 07:17:00 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0303 [1.02] [H/H] Kwetsbaarheid verholpen in Oracle E-Business Suite",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0303",
     "description": "Oracle heeft een zeroday-kwetsbaarheid verholpen in Oracle E-Business Suite (specifiek voor de Concurrent Processing component in versies 12.2.3 tot 12.2.14). De kwetsbaarheid bevindt zich in de Concurrent Processing component van Oracle E-Business Suite (EBS). Ongeauthenticeerde kwaadwillenden kunnen deze kwetsbaarheid misbruiken door malafide HTTP-verzoeken naar het kwetsbare systeem te versturen. Dit kan leiden tot ernstige risico's voor de vertrouwelijkheid, integriteit en beschikbaarheid van het systeem. De kwetsbaarheid heeft een CVSS-score van 9.8.\n\nVolgens berichtgeving van Oracle wordt de kwetsbaarheid actief misbruikt. Oracle heeft IOC's beschikbaar gesteld. Beveiligingsbedrijf Crowdstrike heeft aanvullende IOC's gedeeld.\n\nHet NCSC is bekend met exploitcode die in omloop is en waarmee de kwetsbaarheid kan worden misbruikt.\n\nBeveiligingsbedrijf Defuse meldt op X grootschaliger misbruik van de kwetsbaarheid waar te nemen. Het NCSC adviseert om de in dit beveiligingsadvies beschreven maatregelen zo spoedig mogelijk in te zetten en Oracle EBS-systemen op aanwezigheid van de beschikbare IOC's te controleren.",
