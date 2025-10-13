@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0307 [1.00] [M/H] Kwetsbaarheid verholpen in Oracle E-Business Suite",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0307",
+    "description": "Oracle heeft een kwetsbaarheid verholpen in de Oracle Configurator component van Oracle E-Business Suite (Specifiek voor versies 12.2.3 tot en met 12.2.14). De kwetsbaarheid bevindt zich in de Oracle Configurator component van Oracle E-Business Suite, specifiek in de versies 12.2.3 tot en met 12.2.14. Deze kwetsbaarheid stelt niet-geauthenticeerde aanvallers in staat om toegang te krijgen tot kritieke gegevens. Dit probleem heeft een CVSS-score van 7.5 gekregen, wat wijst op een significante impact op de vertrouwelijkheid. De kwetsbaarheid kan leiden tot ongeautoriseerde blootstelling van gegevens.",
+    "guid": "NCSC-2025-0307 [1.00]",
+    "pubDate": "Mon, 13 Oct 2025 07:52:22 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0306 [1.00] [M/M] Kwetsbaarheden verholpen in GitLab",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0306",
     "description": "GitLab heeft kwetsbaarheden verholpen in GitLab CE/EE versies 13.12 tot 18.2.8, 18.3 tot 18.3.4, en 18.4 tot 18.4.2. De kwetsbaarheden omvatten een probleem waarbij speciaal samengestelde GraphQL-queries grote repository-blobs onresponsief kunnen maken, en een fout die geauthenticeerde gebruikers met alleen-lezen API-tokens in staat stelde om ongeautoriseerde schrijfoperaties uit te voeren op kwetsbaarheidsrecords. Daarnaast konden geauthenticeerde aanvallers kwaadaardige webhook-eindpunten configureren, wat kon leiden tot een Denial-of-Service.",
