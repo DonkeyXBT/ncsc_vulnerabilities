@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0309 [1.00] [M/H] Kwetsbaarheden verholpen in Siemens producten",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0309",
+    "description": "Siemens heeft kwetsbaarheden verholpen in diverse producten als SIMATIC, SINEC, SIPLUS en Solid Edge. De kwetsbaarheden stellen een kwaadwillende mogelijk in staat aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:\n\n- Denial-of-Service (DoS)\n- Manipulatie van gegevens\n- Omzeilen van een beveiligingsmaatregel\n- Omzeilen van authenticatie\n- (Remote) code execution (root/admin rechten)\n- Toegang tot systeemgegevens\n- Verhogen van rechten\n- Spoofing\n\nDe kwaadwillende heeft hiervoor toegang nodig tot de productieomgeving. Het is goed gebruik een dergelijke omgeving niet publiek toegankelijk te hebben.",
+    "guid": "NCSC-2025-0309 [1.00]",
+    "pubDate": "Tue, 14 Oct 2025 11:22:10 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0308 [1.00] [M/H] Kwetsbaarheden verholpen in Juniper Networks Junos Space",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0308",
     "description": "Juniper heeft kwetsbaarheden verholpen in Junos Space (Specifiek voor alle versies prior tot 24.1R4). De kwetsbaarheden bevinden zich in de wijze waarop Juniper Networks Junos Space gebruikersinvoer verwerkt. Aanvallers kunnen kwaadaardige scripts injecteren in verschillende pagina's, zoals de Device Template Definition, Global Search, en andere secties van de interface. Dit kan leiden tot ongeautoriseerde uitvoering van commando's met de rechten van de getroffen gebruiker. Omdat gebruikers in deze context vaak beheersrechten hebben, is niet uitgesloten dat uitvoer van commando's met verhoogde rechten kan plaatsvinden.",
