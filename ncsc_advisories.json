@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0319 [1.00] [M/H] Kwetsbaarheden verholpen in F5 Networks BIG-IP, F5OS en NGINX App Protect WAF",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0319",
+    "description": "F5 Networks heeft kwetsbaarheden verholpen in de BIG-IP- en F5OS-productlijnen en NGINX App Protect WAF. De kwetsbaarheden omvatten verschillende configuratieproblemen en exploitatievectoren. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:\n\n- Denial-of-Service\n- Manipulatie van gegevens\n- Uitvoeren van willekeurige code (root/adminrechten)\n- Toegang tot gevoelige gegevens\n- Verkrijgen van verhoogde rechten\n",
+    "guid": "NCSC-2025-0319 [1.00]",
+    "pubDate": "Wed, 15 Oct 2025 15:21:14 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0318 [1.00] [M/H] Kwetsbaarheden verholpen in Ivanti Endpoint Manager",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0318",
     "description": "Ivanti heeft kwetsbaarheden verholpen in Ivanti Endpoint Manager. De kwetsbaarheden omvatten een onveilige deserialisatie, een pad-traversal en meerdere SQL-injectie kwetsbaarheden. De onveilige deserialisatie kan door lokale, geauthenticeerde aanvallers worden misbruikt om verhoogde privileges te verkrijgen, wat leidt tot ongeautoriseerde toegang tot gevoelige functionaliteiten en gegevens binnen het systeem. De pad-traversal kwetsbaarheid stelt externe, ongeauthenticeerde aanvallers in staat om willekeurige code uit te voeren op getroffen systemen, wat kan resulteren in ongeautoriseerde toegang en controle over het systeem. De SQL-injectie kwetsbaarheden stellen geauthenticeerde aanvallers in staat om willekeurige SQL-query's tegen de database uit te voeren, wat kan leiden tot ongeautoriseerde toegang tot gevoelige gegevens en compromittering van de integriteit en vertrouwelijkheid van opgeslagen informatie.",
