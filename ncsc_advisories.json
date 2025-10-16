@@ -1,5 +1,32 @@
 [
   {
+    "title": "NCSC-2025-0322 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Commerce",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0322",
+    "description": "Adobe heeft kwetsbaarheden verholpen in Adobe Commerce (Specifiek voor versies 2.4.9-alpha2 en eerder). De kwetsbaarheden omvatten een onjuiste autorisatie die het mogelijk maakt voor aanvallers met lage privileges om beveiligingsmaatregelen te omzeilen, wat kan leiden tot ongeautoriseerde toegang tot gevoelige gegevens zonder gebruikersinteractie. Daarnaast zijn er opgeslagen Cross-Site Scripting (XSS) kwetsbaarheden die het mogelijk maken voor aanvallers met hoge privileges om kwaadaardige scripts in te voegen in formulier velden, wat kan resulteren in sessieovername en ongeautoriseerde acties. ",
+    "guid": "NCSC-2025-0322 [1.00]",
+    "pubDate": "Thu, 16 Oct 2025 06:32:33 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0321 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Illustrator",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0321",
+    "description": "Adobe heeft kwetsbaarheden verholpen in Adobe Illustrator (Versies 29.7, 28.7.9 en eerder). De kwetsbaarheden bevinden zich in de wijze waarop Adobe Illustrator omgaat met malafide bestanden. Een kwaadwillende kan deze kwetsbaarheden misbruiken door een gebruiker te misleiden een kwaadaardig bestand te openen, wat kan leiden tot de uitvoering van ongeautoriseerde code op de getroffen systemen. ",
+    "guid": "NCSC-2025-0321 [1.00]",
+    "pubDate": "Thu, 16 Oct 2025 06:27:14 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0320 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Framemaker",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0320",
+    "description": "Adobe heeft kwetsbaarheden verholpen in Adobe Framemaker (Versies 2020.9, 2022.7 en eerder). De kwetsbaarheden bevinden zich in de versies 2020.9, 2022.7 en eerder van Adobe Framemaker. De eerste kwetsbaarheid betreft een Use After Free, die kan leiden tot willekeurige code-executie wanneer een gebruiker een speciaal vervaardigd kwaadaardig bestand opent. De tweede kwetsbaarheid is een Heap-based Buffer Overflow, die ook kan resulteren in willekeurige code-executie bij het openen van een kwaadaardig bestand. Beide kwetsbaarheden vereisen gebruikersinteractie om te worden uitgebuit.",
+    "guid": "NCSC-2025-0320 [1.00]",
+    "pubDate": "Thu, 16 Oct 2025 06:25:05 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0319 [1.00] [M/H] Kwetsbaarheden verholpen in F5 Networks BIG-IP, F5OS en NGINX App Protect WAF",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0319",
     "description": "F5 Networks heeft kwetsbaarheden verholpen in de BIG-IP- en F5OS-productlijnen en NGINX App Protect WAF. De kwetsbaarheden omvatten verschillende configuratieproblemen en exploitatievectoren. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:\n\n- Denial-of-Service\n- Manipulatie van gegevens\n- Uitvoeren van willekeurige code (root/adminrechten)\n- Toegang tot gevoelige gegevens\n- Verkrijgen van verhoogde rechten\n",
