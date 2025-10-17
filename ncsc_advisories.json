@@ -1,5 +1,23 @@
 [
   {
+    "title": "NCSC-2025-0324 [1.00] [M/H] Kwetsbaarheid verholpen in FortiOS",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0324",
+    "description": "Fortinet heeft een kwetsbaarheid verholpen in FortiOS (meerdere versies). De kwetsbaarheid bevindt zich in de wijze waarop FortiOS omgaat met geheugentoewijzing. Geauthenticeerde gebruikers kunnen deze kwetsbaarheid misbruiken door speciaal vervaardigde verzoeken te verzenden, wat kan leiden tot de uitvoering van ongeautoriseerde code. Dit kan ernstige beveiligingsimplicaties met zich meebrengen, aangezien het ongeautoriseerde acties binnen de getroffen systemen mogelijk maakt.",
+    "guid": "NCSC-2025-0324 [1.00]",
+    "pubDate": "Fri, 17 Oct 2025 08:42:51 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0296 [1.01] [M/H] Kwetsbaarheid verholpen in WatchGuard Fireware OS",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0296",
+    "description": "Onderzoekers hebben data gepubliceerd over waar de kwetsbaarheid zich zeer waarschijnlijk bevind, het is de verwachting dat naar aanleiding van deze publicatie er op korte termijn Proof of Concept code beschikbaar komt, waarmee uitbuiting van de kwetsbaarheid zeer waarschijnlijk wordt. De kwetsbaarheid bevindt zich in de manier waarop Fireware OS omgaat met Out-of-bounds Write. Dit stelt een kwaadwillende, ongeauthenticeerde aanvaller in staat om willekeurige code uit te voeren. Dit kan leiden tot ernstige gevolgen voor de getroffen systemen met specifieke VPN-configuraties.",
+    "guid": "NCSC-2025-0296 [1.01]",
+    "pubDate": "Fri, 17 Oct 2025 08:19:28 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0323 [1.00] [M/M] Kwetsbaarheden verholpen in SAP Producten",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0323",
     "description": "SAP heeft kwetsbaarheden verholpen in diverse SAP producten. De kwetsbaarheden omvatten een deserialisatie kwetsbaarheid die ongeauthenticeerde aanvallers in staat stelt om willekeurige OS-commando's uit te voeren, en een CSRF-kwetsbaarheid die geauthenticeerde aanvallers in staat stelt om kritieke autorisatiecontroles te omzeilen. Daarnaast zijn er kwetsbaarheden die leiden tot ongeautoriseerde toegang tot gevoelige ABAP-code en de mogelijkheid om verwerkingsregels te verwijderen zonder de juiste autorisatie. Deze kwetsbaarheden kunnen leiden tot ernstige gevolgen voor de integriteit en vertrouwelijkheid van de applicatie.",
