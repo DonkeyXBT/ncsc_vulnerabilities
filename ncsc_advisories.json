@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0323 [1.00] [M/M] Kwetsbaarheden verholpen in SAP Producten",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0323",
+    "description": "SAP heeft kwetsbaarheden verholpen in diverse SAP producten. De kwetsbaarheden omvatten een deserialisatie kwetsbaarheid die ongeauthenticeerde aanvallers in staat stelt om willekeurige OS-commando's uit te voeren, en een CSRF-kwetsbaarheid die geauthenticeerde aanvallers in staat stelt om kritieke autorisatiecontroles te omzeilen. Daarnaast zijn er kwetsbaarheden die leiden tot ongeautoriseerde toegang tot gevoelige ABAP-code en de mogelijkheid om verwerkingsregels te verwijderen zonder de juiste autorisatie. Deze kwetsbaarheden kunnen leiden tot ernstige gevolgen voor de integriteit en vertrouwelijkheid van de applicatie.",
+    "guid": "NCSC-2025-0323 [1.00]",
+    "pubDate": "Fri, 17 Oct 2025 08:04:54 +0000",
+    "severity": "Medium",
+    "severityCode": "M/M"
+  },
+  {
     "title": "NCSC-2025-0322 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Commerce",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0322",
     "description": "Adobe heeft kwetsbaarheden verholpen in Adobe Commerce (Specifiek voor versies 2.4.9-alpha2 en eerder). De kwetsbaarheden omvatten een onjuiste autorisatie die het mogelijk maakt voor aanvallers met lage privileges om beveiligingsmaatregelen te omzeilen, wat kan leiden tot ongeautoriseerde toegang tot gevoelige gegevens zonder gebruikersinteractie. Daarnaast zijn er opgeslagen Cross-Site Scripting (XSS) kwetsbaarheden die het mogelijk maken voor aanvallers met hoge privileges om kwaadaardige scripts in te voegen in formulier velden, wat kan resulteren in sessieovername en ongeautoriseerde acties. ",
