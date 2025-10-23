@@ -1,5 +1,23 @@
 [
   {
+    "title": "NCSC-2025-0331 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle E-Business Suite",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0331",
+    "description": "Oracle heeft kwetsbaarheden verholpen in Oracle E-Business Suite (Specifiek voor versies 12.2.3 tot 12.2.14). De kwetsbaarheden bevinden zich in verschillende componenten van Oracle E-Business Suite, waaronder iStore, Product Hub, Workflow, Applications Manager, en Marketing. Deze kwetsbaarheden stellen ongeauthenticeerde aanvallers in staat om toegang te krijgen tot het systeem, wat kan leiden tot ongeautoriseerde toegang en wijzigingen van gevoelige gegevens. De CVSS-scores variëren van 4.3 tot 9.8, wat wijst op een breed scala aan risico's voor de vertrouwelijkheid, integriteit en beschikbaarheid van de systemen. Aanvallers kunnen deze kwetsbaarheden misbruiken via HTTP-aanvragen, wat de noodzaak benadrukt voor beveiligingsprofessionals om deze systemen goed te monitoren en te beveiligen.",
+    "guid": "NCSC-2025-0331 [1.00]",
+    "pubDate": "Thu, 23 Oct 2025 13:23:20 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0330 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Communications producten",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0330",
+    "description": "Oracle heeft meerdere kwetsbaarheden verholpen in zijn Communications producten, waaronder de Unified Assurance en Cloud Native Core. De kwetsbaarheden in de Oracle Communications producten stellen kwaadwillenden in staat om ongeautoriseerde toegang te verkrijgen, wat kan leiden tot gedeeltelijke of volledige Denial-of-Service (DoS) aanvallen. Specifiek kunnen aanvallers met netwerktoegang de systemen compromitteren, wat resulteert in ongeautoriseerde toegang tot gevoelige gegevens. De CVSS-scores van deze kwetsbaarheden variëren van 3.1 tot 9.8, wat wijst op een breed scala aan risico's, van beperkte tot ernstige impact op de vertrouwelijkheid, integriteit en beschikbaarheid van de systemen.",
+    "guid": "NCSC-2025-0330 [1.00]",
+    "pubDate": "Thu, 23 Oct 2025 13:20:15 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0329 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Commerce",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0329",
     "description": "Oracle heeft kwetsbaarheden verholpen in verschillende subcomponenten van Oracle Commerce producten, waaronder Oracle Middleware Common Libraries, Oracle Documaker, Oracle WebCenter Forms Recognition, Oracle WebLogic Server, en Oracle Application Testing Suite. De kwetsbaarheden stellen ongeauthenticeerde aanvallers in staat om gedeeltelijke of volledige Denial of Service (DoS) te veroorzaken, met CVSS-scores variërend van 2.7 tot 7.5. Dit kan leiden tot systeemuitval en ongeoorloofde toegang tot gegevens. Aanvallers kunnen deze kwetsbaarheden misbruiken door specifieke verzoeken te sturen die de systemen overbelasten of door gebruik te maken van onbetrouwbare invoer. De kwetsbaarheden zijn aangetroffen in verschillende versies van de betrokken producten, wat de impact vergroot.",
