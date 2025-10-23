@@ -1,5 +1,32 @@
 [
   {
+    "title": "NCSC-2025-0329 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Commerce",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0329",
+    "description": "Oracle heeft kwetsbaarheden verholpen in verschillende subcomponenten van Oracle Commerce producten, waaronder Oracle Middleware Common Libraries, Oracle Documaker, Oracle WebCenter Forms Recognition, Oracle WebLogic Server, en Oracle Application Testing Suite. De kwetsbaarheden stellen ongeauthenticeerde aanvallers in staat om gedeeltelijke of volledige Denial of Service (DoS) te veroorzaken, met CVSS-scores variërend van 2.7 tot 7.5. Dit kan leiden tot systeemuitval en ongeoorloofde toegang tot gegevens. Aanvallers kunnen deze kwetsbaarheden misbruiken door specifieke verzoeken te sturen die de systemen overbelasten of door gebruik te maken van onbetrouwbare invoer. De kwetsbaarheden zijn aangetroffen in verschillende versies van de betrokken producten, wat de impact vergroot.",
+    "guid": "NCSC-2025-0329 [1.00]",
+    "pubDate": "Thu, 23 Oct 2025 07:20:51 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0328 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Database producten",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0328",
+    "description": "Oracle heeft kwetsbaarheden verholpen in Oracle Database Server producten De kwetsbaarheden in Oracle Database Server stellen ongeauthenticeerde aanvallers in staat om ongeoorloofde toegang te verkrijgen tot kritieke gegevens, wat kan leiden tot schending van de vertrouwelijkheid, integriteit en beschikbaarheid van de data. Specifieke kwetsbaarheden, zoals die in de Portable Clusterware en de Unified Audit componenten, kunnen worden misbruikt door aanvallers met beperkte privileges, wat aanzienlijke risico's met zich meebrengt. De CVSS-scores variëren van 2.7 tot 9.8, afhankelijk van de ernst van de kwetsbaarheid.",
+    "guid": "NCSC-2025-0328 [1.00]",
+    "pubDate": "Thu, 23 Oct 2025 07:19:57 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0327 [1.00] [M/H] Kwetsbaarheden verholpen in Zohocorp's ManageEngine",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0327",
+    "description": "Zohocorp heeft kwetsbaarheden verholpen in ManageEngine (Specifiek voor ADManager Plus, EndPoint Central en Analytics Plus). De kwetsbaarheden omvatten een geauthenticeerde command injection in ADManager Plus, XML-injecties in EndPoint Central, en een geauthenticeerde SQL-injectie in Analytics Plus. Deze kwetsbaarheden stellen aanvallers in staat om ongeautoriseerde commando's uit te voeren, toegang te krijgen tot gevoelige gegevens of de database te manipuleren. Dit kan leiden tot ernstige compromittering van systeemintegriteit en vertrouwelijkheid.",
+    "guid": "NCSC-2025-0327 [1.00]",
+    "pubDate": "Thu, 23 Oct 2025 07:18:47 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0326 [1.00] [M/H] Kwetsbaarheden verholpen in Moxa’s netwerkbeveiligingsapparaten",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0326",
     "description": "Moxa heeft kwetsbaarheden verholpen in hun netwerkbeveiligingsapparaten. De kwetsbaarheden in Moxa’s netwerkbeveiligingsapparaten omvatten een onjuiste autorisatie die ongeautoriseerde toegang tot beschermde API-eindpunten mogelijk maakt, evenals een probleem met toegangscontrolemechanismen dat kan leiden tot privilege-escalatie. Daarnaast kunnen laaggeprivilegieerde gebruikers administratieve functies uitvoeren, wat interne netwerkverkenning kan vergemakkelijken. Een kritieke kwetsbaarheid stelt laaggeprivilegieerde gebruikers in staat om nieuwe administratoraccounts te creëren, wat volledige administratieve controle en accountimpersonatie mogelijk maakt. Bovendien kunnen ongeauthenticeerde aanvallers hard-coded inloggegevens misbruiken om JSON Web Tokens te vervalsen, wat leidt tot ongeautoriseerde toegang tot de systemen.",
