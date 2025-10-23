@@ -1,5 +1,23 @@
 [
   {
+    "title": "NCSC-2025-0340 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle PeopleSoft",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0340",
+    "description": "Oracle heeft kwetsbaarheden verholpen in Oracle PeopleSoft (Specifiek voor versies 8.60, 8.61, 8.62 en 9.2). De kwetsbaarheden in Oracle PeopleSoft stellen aanvallers in staat om ongeautoriseerde toegang te verkrijgen tot gevoelige gegevens en kunnen leiden tot gegevensmanipulatie. Dit omvat kwetsbaarheden die het mogelijk maken voor zowel laag- als hooggeprivilegieerde aanvallers om via HTTP toegang te krijgen tot kritieke data, met een CVSS-score variërend van 4.3 tot 7.5, wat wijst op aanzienlijke risico's voor de vertrouwelijkheid en integriteit van de gegevens. De kwetsbaarheden zijn te vinden in verschillende componenten zoals OpenSearch Dashboards, PeopleTools, en IT Asset Management.",
+    "guid": "NCSC-2025-0340 [1.00]",
+    "pubDate": "Thu, 23 Oct 2025 14:13:39 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0339 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle MySQL",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0339",
+    "description": "Oracle heeft kwetsbaarheden verholpen in Oracle MySQL (Specifiek voor versies 8.0.0-8.0.43, 8.4.0-8.4.6, en 9.0.0-9.4.0). De kwetsbaarheden in Oracle MySQL stellen hooggeprivilegieerde aanvallers in staat om Denial-of-Service aanvallen uit te voeren en data te manipuleren zonder autorisatie. Dit kan leiden tot ernstige verstoringen in de service en compromittering van de integriteit van de data die door de getroffen systemen worden beheerd.",
+    "guid": "NCSC-2025-0339 [1.00]",
+    "pubDate": "Thu, 23 Oct 2025 14:11:30 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0338 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle JD Edwards EnterpriseOne Tools",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0338",
     "description": "Oracle heeft kwetsbaarheden verholpen in JD Edwards EnterpriseOne Tools (Specifiek voor versies 9.2.0.0 tot 9.2.9.4). De kwetsbaarheden in JD Edwards EnterpriseOne Tools stellen ongeauthenticeerde aanvallers in staat om het systeem via HTTP te compromitteren, wat kan leiden tot ongeautoriseerde toegang en wijzigingen van gevoelige gegevens. Dit heeft invloed op zowel de vertrouwelijkheid als de integriteit van de gegevens. De kwetsbaarheid heeft een CVSS-score van 6.1, wat duidt op een gematigde ernst.",
