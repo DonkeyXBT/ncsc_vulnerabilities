@@ -1,5 +1,597 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>NCSC Security Advisories</title><link>https://advisories.ncsc.nl/advisories</link><description>Security advisories from the Dutch National Cyber Security Centre</description><item><title>NCSC-2025-0340 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle PeopleSoft</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0340</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle PeopleSoft (Specifiek voor versies 8.60, 8.61, 8.62 en 9.2). De kwetsbaarheden in Oracle PeopleSoft stellen aanvallers in staat om ongeautoriseerde toegang te verkrijgen tot gevoelige gegevens en kunnen leiden tot gegevensmanipulatie. Dit omvat kwetsbaarheden die het mogelijk maken voor zowel laag- als hooggeprivilegieerde aanvallers om via HTTP toegang te krijgen tot kritieke data, met een CVSS-score variërend van 4.3 tot 7.5, wat wijst op aanzienlijke risico's voor de vertrouwelijkheid en integriteit van de gegevens. De kwetsbaarheden zijn te vinden in verschillende componenten zoals OpenSearch Dashboards, PeopleTools, en IT Asset Management.</description><guid isPermaLink="false">NCSC-2025-0340 [1.00]</guid><pubDate>Thu, 23 Oct 2025 14:13:39 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0339 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle MySQL</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0339</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle MySQL (Specifiek voor versies 8.0.0-8.0.43, 8.4.0-8.4.6, en 9.0.0-9.4.0). De kwetsbaarheden in Oracle MySQL stellen hooggeprivilegieerde aanvallers in staat om Denial-of-Service aanvallen uit te voeren en data te manipuleren zonder autorisatie. Dit kan leiden tot ernstige verstoringen in de service en compromittering van de integriteit van de data die door de getroffen systemen worden beheerd.</description><guid isPermaLink="false">NCSC-2025-0339 [1.00]</guid><pubDate>Thu, 23 Oct 2025 14:11:30 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0338 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle JD Edwards EnterpriseOne Tools</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0338</link><description>Oracle heeft kwetsbaarheden verholpen in JD Edwards EnterpriseOne Tools (Specifiek voor versies 9.2.0.0 tot 9.2.9.4). De kwetsbaarheden in JD Edwards EnterpriseOne Tools stellen ongeauthenticeerde aanvallers in staat om het systeem via HTTP te compromitteren, wat kan leiden tot ongeautoriseerde toegang en wijzigingen van gevoelige gegevens. Dit heeft invloed op zowel de vertrouwelijkheid als de integriteit van de gegevens. De kwetsbaarheid heeft een CVSS-score van 6.1, wat duidt op een gematigde ernst.</description><guid isPermaLink="false">NCSC-2025-0338 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:53:27 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0337 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Java</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0337</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle Java SE en Oracle GraalVM (Specifiek voor versies 21.0.8 en 25 van Oracle Java SE, en versie 21.3.15 van Oracle GraalVM Enterprise Edition). De kwetsbaarheden stellen ongeauthenticeerde aanvallers met netwerktoegang in staat om systemen te compromitteren, wat kan leiden tot ongeautoriseerde gegevensmanipulatie en het risico op datalekken. De ernst van deze kwetsbaarheden wordt onderstreept door CVSS-scores variërend van 3.1 tot 7.5, wat wijst op aanzienlijke risico's voor de integriteit en vertrouwelijkheid van gegevens. De kwetsbaarheden zijn aanwezig in verschillende versies van de software, wat de noodzaak van updates benadrukt.</description><guid isPermaLink="false">NCSC-2025-0337 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:51:40 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0336 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Hyperion</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0336</link><description>Oracle heeft meerdere kwetsbaarheden verholpen in Oracle Hyperion, waaronder Hyperion Financial Management en Hyperion Data Relationship Management. De kwetsbaarheden in Oracle Hyperion stellen ongeauthenticeerde aanvallers in staat om toegang te krijgen tot het systeem, wat kan leiden tot ongeautoriseerde gegevensaccess en manipulatie. Specifieke kwetsbaarheden zijn geclassificeerd met een CVSS-score van 6.1 tot 8.8, wat wijst op hun kritieke aard. Daarnaast zijn er kwetsbaarheden die Denial-of-Service (DoS) aanvallen mogelijk maken, met een CVSS-score van 7.5.</description><guid isPermaLink="false">NCSC-2025-0336 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:49:44 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0335 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Analytics</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0335</link><description>Oracle heeft meerdere kwetsbaarheden verholpen in Oracle Analytics producten. De kwetsbaarheden kunnen de vertrouwelijkheid, integriteit en beschikbaarheid in gevaar brengen, met een maximale impactscore van 'HOOG'. Aanvallers kunnen deze kwetsbaarheden misbruiken om ongeautoriseerde toegang te verkrijgen of Denial-of-Service (DoS) aanvallen uit te voeren. Specifieke versies van subcomponenten als Oracle Communications Cloud Native Core Binding Support Function en DBTier zijn getroffen, evenals Oracle Business Intelligence Enterprise Edition, die kwetsbaarheden bevatten die ongeautoriseerde toegang en gedeeltelijke Denial-of-Service mogelijk maken.</description><guid isPermaLink="false">NCSC-2025-0335 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:45:06 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0334 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0334</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle Fusion Middleware componenten. De kwetsbaarheden stellen ongeauthenticeerde aanvallers in staat om toegang te krijgen tot kritieke gegevens via HTTP, wat kan leiden tot een gedeeltelijke Denial-of-Service. De ernst van deze kwetsbaarheden wordt onderstreept door CVSS-scores van 7.5, wat wijst op aanzienlijke impact op de beschikbaarheid. Daarnaast zijn er kwetsbaarheden die kunnen leiden tot ongeautoriseerde toegang tot specifieke gegevens, met een CVSS-score van 5.3, wat duidt op een gematigd niveau van vertrouwelijkheidsimpact.</description><guid isPermaLink="false">NCSC-2025-0334 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:42:11 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0333 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Financial Services</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0333</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle Financial Services componenten. De kwetsbaarheden stellen ongeauthenticeerde aanvallers in staat om ongeautoriseerde toegang te krijgen tot gevoelige gegevens via HTTP. Dit kan leiden tot ongeoorloofde toegang en wijzigingen van kritieke data, met een CVSS-score van 9.8 die de significante impact op de vertrouwelijkheid benadrukt. Daarnaast zijn er kwetsbaarheden die kunnen leiden tot denial-of-service (DoS) aanvallen, wat de beschikbaarheid van het systeem in gevaar kan brengen.</description><guid isPermaLink="false">NCSC-2025-0333 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:35:32 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0332 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Enterprise Manager</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0332</link><description>Oracle heeft kwetsbaarheden verholpen in Enterprise Manager De kwetsbaarheden stellen ongeautoriseerde aanvallers in staat om toegang te krijgen tot gevoelige gegevens en kunnen leiden tot Denial-of-Service (DoS) aanvallen. Specifiek kan de kwetsbaarheid in Oracle Enterprise Manager's Security Framework door ongeauthenticeerde aanvallers worden misbruikt om ongeautoriseerde lees toegang te verkrijgen tot bepaalde gegevens. De kwetsbaarheid in het subcomponent Jackson-core kan informatie openbaar maken door onbedoelde geheugeninhoud op te nemen in uitzondering berichten.</description><guid isPermaLink="false">NCSC-2025-0332 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:26:49 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0331 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle E-Business Suite</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0331</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle E-Business Suite (Specifiek voor versies 12.2.3 tot 12.2.14). De kwetsbaarheden bevinden zich in verschillende componenten van Oracle E-Business Suite, waaronder iStore, Product Hub, Workflow, Applications Manager, en Marketing. Deze kwetsbaarheden stellen ongeauthenticeerde aanvallers in staat om toegang te krijgen tot het systeem, wat kan leiden tot ongeautoriseerde toegang en wijzigingen van gevoelige gegevens. De CVSS-scores variëren van 4.3 tot 9.8, wat wijst op een breed scala aan risico's voor de vertrouwelijkheid, integriteit en beschikbaarheid van de systemen. Aanvallers kunnen deze kwetsbaarheden misbruiken via HTTP-aanvragen, wat de noodzaak benadrukt voor beveiligingsprofessionals om deze systemen goed te monitoren en te beveiligen.</description><guid isPermaLink="false">NCSC-2025-0331 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:23:20 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0330 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Communications producten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0330</link><description>Oracle heeft meerdere kwetsbaarheden verholpen in zijn Communications producten, waaronder de Unified Assurance en Cloud Native Core. De kwetsbaarheden in de Oracle Communications producten stellen kwaadwillenden in staat om ongeautoriseerde toegang te verkrijgen, wat kan leiden tot gedeeltelijke of volledige Denial-of-Service (DoS) aanvallen. Specifiek kunnen aanvallers met netwerktoegang de systemen compromitteren, wat resulteert in ongeautoriseerde toegang tot gevoelige gegevens. De CVSS-scores van deze kwetsbaarheden variëren van 3.1 tot 9.8, wat wijst op een breed scala aan risico's, van beperkte tot ernstige impact op de vertrouwelijkheid, integriteit en beschikbaarheid van de systemen.</description><guid isPermaLink="false">NCSC-2025-0330 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:20:15 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0329 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Commerce</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0329</link><description>Oracle heeft kwetsbaarheden verholpen in verschillende subcomponenten van Oracle Commerce producten, waaronder Oracle Middleware Common Libraries, Oracle Documaker, Oracle WebCenter Forms Recognition, Oracle WebLogic Server, en Oracle Application Testing Suite. De kwetsbaarheden stellen ongeauthenticeerde aanvallers in staat om gedeeltelijke of volledige Denial of Service (DoS) te veroorzaken, met CVSS-scores variërend van 2.7 tot 7.5. Dit kan leiden tot systeemuitval en ongeoorloofde toegang tot gegevens. Aanvallers kunnen deze kwetsbaarheden misbruiken door specifieke verzoeken te sturen die de systemen overbelasten of door gebruik te maken van onbetrouwbare invoer. De kwetsbaarheden zijn aangetroffen in verschillende versies van de betrokken producten, wat de impact vergroot.</description><guid isPermaLink="false">NCSC-2025-0329 [1.00]</guid><pubDate>Thu, 23 Oct 2025 07:20:51 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0328 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Database producten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0328</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle Database Server producten De kwetsbaarheden in Oracle Database Server stellen ongeauthenticeerde aanvallers in staat om ongeoorloofde toegang te verkrijgen tot kritieke gegevens, wat kan leiden tot schending van de vertrouwelijkheid, integriteit en beschikbaarheid van de data. Specifieke kwetsbaarheden, zoals die in de Portable Clusterware en de Unified Audit componenten, kunnen worden misbruikt door aanvallers met beperkte privileges, wat aanzienlijke risico's met zich meebrengt. De CVSS-scores variëren van 2.7 tot 9.8, afhankelijk van de ernst van de kwetsbaarheid.</description><guid isPermaLink="false">NCSC-2025-0328 [1.00]</guid><pubDate>Thu, 23 Oct 2025 07:19:57 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0327 [1.00] [M/H] Kwetsbaarheden verholpen in Zohocorp's ManageEngine</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0327</link><description>Zohocorp heeft kwetsbaarheden verholpen in ManageEngine (Specifiek voor ADManager Plus, EndPoint Central en Analytics Plus). De kwetsbaarheden omvatten een geauthenticeerde command injection in ADManager Plus, XML-injecties in EndPoint Central, en een geauthenticeerde SQL-injectie in Analytics Plus. Deze kwetsbaarheden stellen aanvallers in staat om ongeautoriseerde commando's uit te voeren, toegang te krijgen tot gevoelige gegevens of de database te manipuleren. Dit kan leiden tot ernstige compromittering van systeemintegriteit en vertrouwelijkheid.</description><guid isPermaLink="false">NCSC-2025-0327 [1.00]</guid><pubDate>Thu, 23 Oct 2025 07:18:47 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0326 [1.00] [M/H] Kwetsbaarheden verholpen in Moxa’s netwerkbeveiligingsapparaten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0326</link><description>Moxa heeft kwetsbaarheden verholpen in hun netwerkbeveiligingsapparaten. De kwetsbaarheden in Moxa’s netwerkbeveiligingsapparaten omvatten een onjuiste autorisatie die ongeautoriseerde toegang tot beschermde API-eindpunten mogelijk maakt, evenals een probleem met toegangscontrolemechanismen dat kan leiden tot privilege-escalatie. Daarnaast kunnen laaggeprivilegieerde gebruikers administratieve functies uitvoeren, wat interne netwerkverkenning kan vergemakkelijken. Een kritieke kwetsbaarheid stelt laaggeprivilegieerde gebruikers in staat om nieuwe administratoraccounts te creëren, wat volledige administratieve controle en accountimpersonatie mogelijk maakt. Bovendien kunnen ongeauthenticeerde aanvallers hard-coded inloggegevens misbruiken om JSON Web Tokens te vervalsen, wat leidt tot ongeautoriseerde toegang tot de systemen.</description><guid isPermaLink="false">NCSC-2025-0326 [1.00]</guid><pubDate>Mon, 20 Oct 2025 13:03:34 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0325 [1.00] [M/H] Kwetsbaarheden verholpen in Mozilla Firefox en Thunderbird</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0325</link><description>Mozilla heeft kwetsbaarheden verholpen in Firefox en Thunderbird (Specifiek voor versies onder 144). De kwetsbaarheden omvatten verschillende problemen, waaronder een use-after-free probleem, geheugenveiligheidsfouten en de mogelijkheid voor een kwaadwillende om gevoelige gegevens te benaderen of willekeurige code uit te voeren. Deze kwetsbaarheden kunnen worden geëxploiteerd via gemanipuleerde webprocessen, onveilige IPC-berichten en andere methoden die de integriteit van de applicaties in gevaar brengen. De risico's zijn significant, vooral voor gebruikers van Windows en Android, waar specifieke kwetsbaarheden zijn vastgesteld die kunnen leiden tot ongeautoriseerde toegang en systeemcompromittering.</description><guid isPermaLink="false">NCSC-2025-0325 [1.00]</guid><pubDate>Mon, 20 Oct 2025 12:59:06 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0241 [1.01] [M/H] Kwetsbaarheden verholpen in Adobe Experience Manager</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0241</link><description>Adobe heeft kwetsbaarheden verholpen in Adobe Experience Manager (versies 6.5.23 en eerder). De kwetsbaarheden bevinden zich in de configuratie van Adobe Experience Manager, waardoor aanvallers in staat zijn om willekeurige code uit te voeren zonder enige interactie van de gebruiker. Dit kan leiden tot ongeautoriseerde toegang en controle over de getroffen systemen. Daarnaast is er een kwetsbaarheid gerapporteerd die te maken heeft met een onjuiste beperking van XML External Entity Reference (XXE), waardoor aanvallers bestanden van het lokale bestandssysteem kunnen lezen zonder gebruikersinteractie. Beide kwetsbaarheden vormen een ernstig risico voor de integriteit van gegevens en systemen.
+<rss version="2.0"><channel><title>NCSC Security Advisories</title><link>https://advisories.ncsc.nl/advisories</link><description>Security advisories from the Dutch National Cyber Security Centre</description><item><title>NCSC-2025-0310 [1.01] [M/H] Kwetsbaarheden verholpen in Microsoft Windows</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0310</link><description>Microsoft heeft kwetsbaarheden verholpen in Windows. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:
+
+- Denial-of-Service
+- Omzeilen van een beveiligingsmaatregel
+- Manipulatie van gegevens
+- Uitvoeren van willekeurige code (gebruikersrechten)
+- Uitvoeren van willekeurige code (root/adminrechten)
+- Toegang tot gevoelige gegevens
+- Verkrijgen van verhoogde rechten
+- Spoofing
+
+De ernstigste kwetsbaarheden hebben de kenmerken CVE-2025-49708 en CVE-2025-59287 toegewezen gekregen.
+De kwetsbaarheid met kenmerk CVE-2025-49708 bevindt zich in de Graphics Component en stelt een kwaadwillende in staat om uit een Virtual Machine (VM) te breken en acties uit te voeren op de onderliggende Host.
+De kwetsbaarheid met kenmerk CVE-2025-59287 bevindt zich in de Windows Server Update Servce (WSUS) en stelt een kwaadwillende in staat om op afstand willekeurige code uit te voeren op het kwetsbare systeem.
+
+Van de kwetsbaarheid met kenmerk CVE-2025-59230 meldt Microsoft informatie te hebben dat deze actief is misbruikt op verouderde systemen. De kwetsbaarheid bevindt zich in de Remote Access Connection Manager stelt een lokale, geauthenticeerde kwaadwillende in staat om zich SYSTEM-rechten toe te kennen en zo mogelijk willekeurige code uit te voeren als SYSTEM
+
+**Update:** 
+
+Het NCSC heeft van een vertrouwde partner vernomen dat op 24 oktober 2025 misbruik van de kwetsbaarheid met kenmerk CVE-2025-59287 is waargenomen. Deze kwetsbaarheid bevindt zich in de WSUS-service en stelt een kwaadwillende in staat om willekeurige code uit te voeren op het kwetsbare systeem. Het is niet gebruikelijk een WSUS service publiek via internet toegankelijk te hebben.
+Inmiddels is er publieke proof-of-conceptcode beschikbaar voor de betreffende kwetsbaarheid, wat het risico op misbruik verhoogt.
+
+```
+Windows Confidential Virtual Machines (CVM): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-48813 | 6.30 | Voordoen als andere gebruiker       | 
+|----------------|------|-------------------------------------|
+
+Windows Resilient File System (ReFS): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55687 | 7.40 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows DirectX: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55678 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-55698 | 7.70 | Denial-of-Service                   | 
+|----------------|------|-------------------------------------|
+
+
+Windows DWM: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55681 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-58722 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Xbox: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-53768 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Kernel: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59186 | 5.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-59207 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-50152 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-55334 | 6.20 | Omzeilen van beveiligingsmaatregel  | 
+| CVE-2025-55679 | 5.10 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-55683 | 5.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-55693 | 7.40 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-55699 | 5.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-59187 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-59194 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Routing and Remote Access Service (RRAS): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55700 | 6.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-58717 | 6.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Inbox COM Objects: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-58732 | 7.00 | Uitvoeren van willekeurige code     | 
+| CVE-2025-58735 | 7.00 | Uitvoeren van willekeurige code     | 
+| CVE-2025-59282 | 7.00 | Uitvoeren van willekeurige code     | 
+| CVE-2025-58730 | 7.00 | Uitvoeren van willekeurige code     | 
+| CVE-2025-58731 | 7.00 | Uitvoeren van willekeurige code     | 
+| CVE-2025-58733 | 7.00 | Uitvoeren van willekeurige code     | 
+| CVE-2025-58734 | 7.00 | Uitvoeren van willekeurige code     | 
+| CVE-2025-58736 | 7.00 | Uitvoeren van willekeurige code     | 
+| CVE-2025-58738 | 7.00 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Agere Windows Modem Driver: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-24990 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-24052 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Active Directory Federation Services: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59258 | 6.20 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Windows Push Notification Core: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59211 | 5.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-59209 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Windows Authentication Methods: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59277 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-59275 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-59278 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows File Explorer: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-58739 | 6.50 | Voordoen als andere gebruiker       | 
+| CVE-2025-59214 | 6.50 | Voordoen als andere gebruiker       | 
+|----------------|------|-------------------------------------|
+
+Data Sharing Service Client: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59200 | 7.70 | Voordoen als andere gebruiker       | 
+|----------------|------|-------------------------------------|
+
+Windows Hyper-V: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55328 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows NTFS: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55335 | 7.40 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows ETL Channel: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59197 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Microsoft Failover Cluster Virtual Driver: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59260 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Windows Server Update Service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59287 | 9.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Microsoft Windows Speech: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-58715 | 8.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-58716 | 8.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows NTLM: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59284 | 3.30 | Voordoen als andere gebruiker       | 
+|----------------|------|-------------------------------------|
+
+Windows COM: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-58725 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Network Connection Status Indicator (NCSI): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59201 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+TCG TPM2.0: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-2884  | 5.30 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Windows MapUrlToZone: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59208 | 7.10 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Internet Explorer: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59295 | 8.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Windows Core Shell: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59185 | 6.50 | Voordoen als andere gebruiker       | 
+| CVE-2025-59244 | 6.50 | Voordoen als andere gebruiker       | 
+|----------------|------|-------------------------------------|
+
+Windows SMB Server: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-58726 | 7.50 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Remote Access Connection Manager: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59230 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows PrintWorkflowUserSvc: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55685 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-55686 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-55689 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-55331 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-55684 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-55688 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-55690 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-55691 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Taskbar Live: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59294 | 2.10 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Windows BitLocker: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55333 | 6.10 | Omzeilen van beveiligingsmaatregel  | 
+| CVE-2025-55338 | 6.10 | Omzeilen van beveiligingsmaatregel  | 
+| CVE-2025-55330 | 6.10 | Omzeilen van beveiligingsmaatregel  | 
+| CVE-2025-55332 | 6.10 | Omzeilen van beveiligingsmaatregel  | 
+| CVE-2025-55337 | 6.10 | Omzeilen van beveiligingsmaatregel  | 
+| CVE-2025-55682 | 6.10 | Omzeilen van beveiligingsmaatregel  | 
+|----------------|------|-------------------------------------|
+
+NtQueryInformation Token function (ntifs.h): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55696 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows USB Video Driver: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55676 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Windows Ancillary Function Driver for WinSock: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59242 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-58714 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Azure Local: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55697 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Local Session Manager (LSM): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59257 | 6.50 | Denial-of-Service                   | 
+| CVE-2025-59259 | 6.50 | Denial-of-Service                   | 
+| CVE-2025-58729 | 6.50 | Denial-of-Service                   | 
+|----------------|------|-------------------------------------|
+
+Windows Resilient File System (ReFS) Deduplication Service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59206 | 7.40 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-59210 | 7.40 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Virtualization-Based Security (VBS) Enclave: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-53717 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Cloud Files Mini Filter Driver: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55336 | 5.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-55680 | 8.40 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows WLAN Auto Config Service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55695 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Software Protection Platform (SPP): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59199 | 8.40 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Cryptographic Services: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-58720 | 7.80 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Remote Desktop Client: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-58718 | 8.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Windows StateRepository API: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59203 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Microsoft Windows Search Component: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59190 | 5.50 | Denial-of-Service                   | 
+| CVE-2025-59198 | 5.00 | Denial-of-Service                   | 
+| CVE-2025-59253 | 5.50 | Denial-of-Service                   | 
+|----------------|------|-------------------------------------|
+
+Windows Failover Cluster: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-47979 | 5.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-59188 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Windows SMB Client: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59280 | 3.10 | Manipulatie van gegevens            | 
+|----------------|------|-------------------------------------|
+
+Windows Secure Boot: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-47827 | 4.60 | Omzeilen van beveiligingsmaatregel  | 
+|----------------|------|-------------------------------------|
+
+Microsoft PowerShell: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-25004 | 7.30 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Microsoft Windows: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55701 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Microsoft Windows Codecs Library: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-54957 | 7.00 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Windows Error Reporting: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55692 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-55694 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows SSDP Service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59196 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Storport.sys Driver: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59192 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Remote Desktop Protocol: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55340 | 7.00 | Omzeilen van beveiligingsmaatregel  | 
+|----------------|------|-------------------------------------|
+
+Windows Connected Devices Platform Service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-58727 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows NDIS: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55339 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Health and Optimized Experiences Service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59241 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Remote Desktop Services: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59202 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows High Availability Services: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59184 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Microsoft Brokering File System: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-48004 | 7.40 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-59189 | 7.40 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows DWM Core Library: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59254 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-59255 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Digital Media: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-53150 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-50175 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Hello: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-53139 | 7.70 | Omzeilen van beveiligingsmaatregel  | 
+|----------------|------|-------------------------------------|
+
+Connected Devices Platform Service (Cdpsvc): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-58719 | 4.70 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-55326 | 7.50 | Uitvoeren van willekeurige code     | 
+| CVE-2025-59191 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Device Association Broker service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-50174 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-55677 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Bluetooth Service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-58728 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-59290 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-59289 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Storage Management Provider: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-55325 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Windows Management Services: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59204 | 5.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-59193 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Remote Desktop: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-58737 | 7.00 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Microsoft Graphics Component: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59195 | 7.00 | Denial-of-Service                   | 
+| CVE-2025-49708 | 9.90 | Uitvoeren van willekeurige code     | 
+| CVE-2016-9535  | 4.00 | Uitvoeren van willekeurige code     | 
+| CVE-2025-59205 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-59261 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+```
+
+
+**Update**: 
+Het NCSC heeft van een vertrouwde partner vernomen dat op 24 oktober 2025 misbruik van CVE-2025-59287 is waargenomen. Tevens is er publieke proof-of-conceptcode beschikbaar voor de betreffende CVE, wat het risico op misbruik verhoogt. Het is goed gebruik om WSUS niet direct aan het internet te ontsluiten.</description><guid isPermaLink="false">NCSC-2025-0310 [1.01]</guid><pubDate>Fri, 24 Oct 2025 08:24:42 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0341 [1.00] [M/H] Kwetsbaarheden verholpen in BIND 9</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0341</link><description>ISC heeft kwetsbaarheden verholpen in BIND 9 (Specifiek voor versies 9.16.0 tot 9.16.50, 9.18.0 tot 9.18.39, 9.20.0 tot 9.20.13, en 9.21.0 tot 9.21.12). De kwetsbaarheden bevinden zich in de DNS-resolvers van BIND 9. De eerste kwetsbaarheid stelt aanvallers in staat om vervalste DNS-records in de cache te injecteren, wat kan leiden tot het omleiden van clients naar kwaadaardige domeinen. Een tweede kwetsbaarheid is gerelateerd aan een zwakte in de Pseudo Random Number Generator (PRNG), waardoor aanvallers bronpoorten en query-ID's kunnen voorspellen, wat kan leiden tot cache poisoning aanvallen. De derde kwetsbaarheid laat ongeauthenticeerde aanvallers toe om misvormde DNSKEY-records te verzenden, wat resulteert in aanzienlijke CPU-uitputting en kan leiden tot een denial-of-service voor legitieme clients. Deze kwetsbaarheden zijn vooral zorgwekkend voor omgevingen die afhankelijk zijn van de specifieke versies van BIND 9.</description><guid isPermaLink="false">NCSC-2025-0341 [1.00]</guid><pubDate>Fri, 24 Oct 2025 08:19:45 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0340 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle PeopleSoft</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0340</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle PeopleSoft (Specifiek voor versies 8.60, 8.61, 8.62 en 9.2). De kwetsbaarheden in Oracle PeopleSoft stellen aanvallers in staat om ongeautoriseerde toegang te verkrijgen tot gevoelige gegevens en kunnen leiden tot gegevensmanipulatie. Dit omvat kwetsbaarheden die het mogelijk maken voor zowel laag- als hooggeprivilegieerde aanvallers om via HTTP toegang te krijgen tot kritieke data, met een CVSS-score variërend van 4.3 tot 7.5, wat wijst op aanzienlijke risico's voor de vertrouwelijkheid en integriteit van de gegevens. De kwetsbaarheden zijn te vinden in verschillende componenten zoals OpenSearch Dashboards, PeopleTools, en IT Asset Management.</description><guid isPermaLink="false">NCSC-2025-0340 [1.00]</guid><pubDate>Thu, 23 Oct 2025 14:13:39 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0339 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle MySQL</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0339</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle MySQL (Specifiek voor versies 8.0.0-8.0.43, 8.4.0-8.4.6, en 9.0.0-9.4.0). De kwetsbaarheden in Oracle MySQL stellen hooggeprivilegieerde aanvallers in staat om Denial-of-Service aanvallen uit te voeren en data te manipuleren zonder autorisatie. Dit kan leiden tot ernstige verstoringen in de service en compromittering van de integriteit van de data die door de getroffen systemen worden beheerd.</description><guid isPermaLink="false">NCSC-2025-0339 [1.00]</guid><pubDate>Thu, 23 Oct 2025 14:11:30 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0338 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle JD Edwards EnterpriseOne Tools</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0338</link><description>Oracle heeft kwetsbaarheden verholpen in JD Edwards EnterpriseOne Tools (Specifiek voor versies 9.2.0.0 tot 9.2.9.4). De kwetsbaarheden in JD Edwards EnterpriseOne Tools stellen ongeauthenticeerde aanvallers in staat om het systeem via HTTP te compromitteren, wat kan leiden tot ongeautoriseerde toegang en wijzigingen van gevoelige gegevens. Dit heeft invloed op zowel de vertrouwelijkheid als de integriteit van de gegevens. De kwetsbaarheid heeft een CVSS-score van 6.1, wat duidt op een gematigde ernst.</description><guid isPermaLink="false">NCSC-2025-0338 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:53:27 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0337 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Java</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0337</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle Java SE en Oracle GraalVM (Specifiek voor versies 21.0.8 en 25 van Oracle Java SE, en versie 21.3.15 van Oracle GraalVM Enterprise Edition). De kwetsbaarheden stellen ongeauthenticeerde aanvallers met netwerktoegang in staat om systemen te compromitteren, wat kan leiden tot ongeautoriseerde gegevensmanipulatie en het risico op datalekken. De ernst van deze kwetsbaarheden wordt onderstreept door CVSS-scores variërend van 3.1 tot 7.5, wat wijst op aanzienlijke risico's voor de integriteit en vertrouwelijkheid van gegevens. De kwetsbaarheden zijn aanwezig in verschillende versies van de software, wat de noodzaak van updates benadrukt.</description><guid isPermaLink="false">NCSC-2025-0337 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:51:40 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0336 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Hyperion</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0336</link><description>Oracle heeft meerdere kwetsbaarheden verholpen in Oracle Hyperion, waaronder Hyperion Financial Management en Hyperion Data Relationship Management. De kwetsbaarheden in Oracle Hyperion stellen ongeauthenticeerde aanvallers in staat om toegang te krijgen tot het systeem, wat kan leiden tot ongeautoriseerde gegevensaccess en manipulatie. Specifieke kwetsbaarheden zijn geclassificeerd met een CVSS-score van 6.1 tot 8.8, wat wijst op hun kritieke aard. Daarnaast zijn er kwetsbaarheden die Denial-of-Service (DoS) aanvallen mogelijk maken, met een CVSS-score van 7.5.</description><guid isPermaLink="false">NCSC-2025-0336 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:49:44 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0335 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Analytics</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0335</link><description>Oracle heeft meerdere kwetsbaarheden verholpen in Oracle Analytics producten. De kwetsbaarheden kunnen de vertrouwelijkheid, integriteit en beschikbaarheid in gevaar brengen, met een maximale impactscore van 'HOOG'. Aanvallers kunnen deze kwetsbaarheden misbruiken om ongeautoriseerde toegang te verkrijgen of Denial-of-Service (DoS) aanvallen uit te voeren. Specifieke versies van subcomponenten als Oracle Communications Cloud Native Core Binding Support Function en DBTier zijn getroffen, evenals Oracle Business Intelligence Enterprise Edition, die kwetsbaarheden bevatten die ongeautoriseerde toegang en gedeeltelijke Denial-of-Service mogelijk maken.</description><guid isPermaLink="false">NCSC-2025-0335 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:45:06 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0334 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0334</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle Fusion Middleware componenten. De kwetsbaarheden stellen ongeauthenticeerde aanvallers in staat om toegang te krijgen tot kritieke gegevens via HTTP, wat kan leiden tot een gedeeltelijke Denial-of-Service. De ernst van deze kwetsbaarheden wordt onderstreept door CVSS-scores van 7.5, wat wijst op aanzienlijke impact op de beschikbaarheid. Daarnaast zijn er kwetsbaarheden die kunnen leiden tot ongeautoriseerde toegang tot specifieke gegevens, met een CVSS-score van 5.3, wat duidt op een gematigd niveau van vertrouwelijkheidsimpact.</description><guid isPermaLink="false">NCSC-2025-0334 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:42:11 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0333 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Financial Services</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0333</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle Financial Services componenten. De kwetsbaarheden stellen ongeauthenticeerde aanvallers in staat om ongeautoriseerde toegang te krijgen tot gevoelige gegevens via HTTP. Dit kan leiden tot ongeoorloofde toegang en wijzigingen van kritieke data, met een CVSS-score van 9.8 die de significante impact op de vertrouwelijkheid benadrukt. Daarnaast zijn er kwetsbaarheden die kunnen leiden tot denial-of-service (DoS) aanvallen, wat de beschikbaarheid van het systeem in gevaar kan brengen.</description><guid isPermaLink="false">NCSC-2025-0333 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:35:32 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0332 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Enterprise Manager</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0332</link><description>Oracle heeft kwetsbaarheden verholpen in Enterprise Manager De kwetsbaarheden stellen ongeautoriseerde aanvallers in staat om toegang te krijgen tot gevoelige gegevens en kunnen leiden tot Denial-of-Service (DoS) aanvallen. Specifiek kan de kwetsbaarheid in Oracle Enterprise Manager's Security Framework door ongeauthenticeerde aanvallers worden misbruikt om ongeautoriseerde lees toegang te verkrijgen tot bepaalde gegevens. De kwetsbaarheid in het subcomponent Jackson-core kan informatie openbaar maken door onbedoelde geheugeninhoud op te nemen in uitzondering berichten.</description><guid isPermaLink="false">NCSC-2025-0332 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:26:49 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0331 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle E-Business Suite</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0331</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle E-Business Suite (Specifiek voor versies 12.2.3 tot 12.2.14). De kwetsbaarheden bevinden zich in verschillende componenten van Oracle E-Business Suite, waaronder iStore, Product Hub, Workflow, Applications Manager, en Marketing. Deze kwetsbaarheden stellen ongeauthenticeerde aanvallers in staat om toegang te krijgen tot het systeem, wat kan leiden tot ongeautoriseerde toegang en wijzigingen van gevoelige gegevens. De CVSS-scores variëren van 4.3 tot 9.8, wat wijst op een breed scala aan risico's voor de vertrouwelijkheid, integriteit en beschikbaarheid van de systemen. Aanvallers kunnen deze kwetsbaarheden misbruiken via HTTP-aanvragen, wat de noodzaak benadrukt voor beveiligingsprofessionals om deze systemen goed te monitoren en te beveiligen.</description><guid isPermaLink="false">NCSC-2025-0331 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:23:20 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0330 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Communications producten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0330</link><description>Oracle heeft meerdere kwetsbaarheden verholpen in zijn Communications producten, waaronder de Unified Assurance en Cloud Native Core. De kwetsbaarheden in de Oracle Communications producten stellen kwaadwillenden in staat om ongeautoriseerde toegang te verkrijgen, wat kan leiden tot gedeeltelijke of volledige Denial-of-Service (DoS) aanvallen. Specifiek kunnen aanvallers met netwerktoegang de systemen compromitteren, wat resulteert in ongeautoriseerde toegang tot gevoelige gegevens. De CVSS-scores van deze kwetsbaarheden variëren van 3.1 tot 9.8, wat wijst op een breed scala aan risico's, van beperkte tot ernstige impact op de vertrouwelijkheid, integriteit en beschikbaarheid van de systemen.</description><guid isPermaLink="false">NCSC-2025-0330 [1.00]</guid><pubDate>Thu, 23 Oct 2025 13:20:15 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0329 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Commerce</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0329</link><description>Oracle heeft kwetsbaarheden verholpen in verschillende subcomponenten van Oracle Commerce producten, waaronder Oracle Middleware Common Libraries, Oracle Documaker, Oracle WebCenter Forms Recognition, Oracle WebLogic Server, en Oracle Application Testing Suite. De kwetsbaarheden stellen ongeauthenticeerde aanvallers in staat om gedeeltelijke of volledige Denial of Service (DoS) te veroorzaken, met CVSS-scores variërend van 2.7 tot 7.5. Dit kan leiden tot systeemuitval en ongeoorloofde toegang tot gegevens. Aanvallers kunnen deze kwetsbaarheden misbruiken door specifieke verzoeken te sturen die de systemen overbelasten of door gebruik te maken van onbetrouwbare invoer. De kwetsbaarheden zijn aangetroffen in verschillende versies van de betrokken producten, wat de impact vergroot.</description><guid isPermaLink="false">NCSC-2025-0329 [1.00]</guid><pubDate>Thu, 23 Oct 2025 07:20:51 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0328 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Database producten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0328</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle Database Server producten De kwetsbaarheden in Oracle Database Server stellen ongeauthenticeerde aanvallers in staat om ongeoorloofde toegang te verkrijgen tot kritieke gegevens, wat kan leiden tot schending van de vertrouwelijkheid, integriteit en beschikbaarheid van de data. Specifieke kwetsbaarheden, zoals die in de Portable Clusterware en de Unified Audit componenten, kunnen worden misbruikt door aanvallers met beperkte privileges, wat aanzienlijke risico's met zich meebrengt. De CVSS-scores variëren van 2.7 tot 9.8, afhankelijk van de ernst van de kwetsbaarheid.</description><guid isPermaLink="false">NCSC-2025-0328 [1.00]</guid><pubDate>Thu, 23 Oct 2025 07:19:57 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0327 [1.00] [M/H] Kwetsbaarheden verholpen in Zohocorp's ManageEngine</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0327</link><description>Zohocorp heeft kwetsbaarheden verholpen in ManageEngine (Specifiek voor ADManager Plus, EndPoint Central en Analytics Plus). De kwetsbaarheden omvatten een geauthenticeerde command injection in ADManager Plus, XML-injecties in EndPoint Central, en een geauthenticeerde SQL-injectie in Analytics Plus. Deze kwetsbaarheden stellen aanvallers in staat om ongeautoriseerde commando's uit te voeren, toegang te krijgen tot gevoelige gegevens of de database te manipuleren. Dit kan leiden tot ernstige compromittering van systeemintegriteit en vertrouwelijkheid.</description><guid isPermaLink="false">NCSC-2025-0327 [1.00]</guid><pubDate>Thu, 23 Oct 2025 07:18:47 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0326 [1.00] [M/H] Kwetsbaarheden verholpen in Moxa’s netwerkbeveiligingsapparaten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0326</link><description>Moxa heeft kwetsbaarheden verholpen in hun netwerkbeveiligingsapparaten. De kwetsbaarheden in Moxa’s netwerkbeveiligingsapparaten omvatten een onjuiste autorisatie die ongeautoriseerde toegang tot beschermde API-eindpunten mogelijk maakt, evenals een probleem met toegangscontrolemechanismen dat kan leiden tot privilege-escalatie. Daarnaast kunnen laaggeprivilegieerde gebruikers administratieve functies uitvoeren, wat interne netwerkverkenning kan vergemakkelijken. Een kritieke kwetsbaarheid stelt laaggeprivilegieerde gebruikers in staat om nieuwe administratoraccounts te creëren, wat volledige administratieve controle en accountimpersonatie mogelijk maakt. Bovendien kunnen ongeauthenticeerde aanvallers hard-coded inloggegevens misbruiken om JSON Web Tokens te vervalsen, wat leidt tot ongeautoriseerde toegang tot de systemen.</description><guid isPermaLink="false">NCSC-2025-0326 [1.00]</guid><pubDate>Mon, 20 Oct 2025 13:03:34 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0325 [1.00] [M/H] Kwetsbaarheden verholpen in Mozilla Firefox en Thunderbird</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0325</link><description>Mozilla heeft kwetsbaarheden verholpen in Firefox en Thunderbird (Specifiek voor versies onder 144). De kwetsbaarheden omvatten verschillende problemen, waaronder een use-after-free probleem, geheugenveiligheidsfouten en de mogelijkheid voor een kwaadwillende om gevoelige gegevens te benaderen of willekeurige code uit te voeren. Deze kwetsbaarheden kunnen worden geëxploiteerd via gemanipuleerde webprocessen, onveilige IPC-berichten en andere methoden die de integriteit van de applicaties in gevaar brengen. De risico's zijn significant, vooral voor gebruikers van Windows en Android, waar specifieke kwetsbaarheden zijn vastgesteld die kunnen leiden tot ongeautoriseerde toegang en systeemcompromittering.</description><guid isPermaLink="false">NCSC-2025-0325 [1.00]</guid><pubDate>Mon, 20 Oct 2025 12:59:06 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0241 [1.01] [M/H] Kwetsbaarheden verholpen in Adobe Experience Manager</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0241</link><description>Adobe heeft kwetsbaarheden verholpen in Adobe Experience Manager (versies 6.5.23 en eerder). De kwetsbaarheden bevinden zich in de configuratie van Adobe Experience Manager, waardoor aanvallers in staat zijn om willekeurige code uit te voeren zonder enige interactie van de gebruiker. Dit kan leiden tot ongeautoriseerde toegang en controle over de getroffen systemen. Daarnaast is er een kwetsbaarheid gerapporteerd die te maken heeft met een onjuiste beperking van XML External Entity Reference (XXE), waardoor aanvallers bestanden van het lokale bestandssysteem kunnen lezen zonder gebruikersinteractie. Beide kwetsbaarheden vormen een ernstig risico voor de integriteit van gegevens en systemen.
 
 Adobe geeft aan dat voor beide kwetsbaarheden PoC code publiek beschikbaar is.
 
