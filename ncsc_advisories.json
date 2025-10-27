@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0342 [1.01] [M/H] Kwetsbaarheden verholpen in GitLab Enterprise en Community Edition",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0342",
+    "description": "GitLab heeft kwetsbaarheden verholpen in GitLab Community Edition (CE) en Enterprise Edition (EE) versies. De kwetsbaarheden omvatten de mogelijkheid voor ongeauthenticeerde aanvallers om Denial-of-Service condities te veroorzaken door speciaal samengestelde payloads en GraphQL verzoeken te versturen. Daarnaast konden geauthenticeerde aanvallers ongeautoriseerde pipeline-acties uitvoeren door commits te wijzigen en ongeautoriseerde toegang tot projecten verkrijgen via het goedkeuringsproces van toegang aanvragen. Deze kwetsbaarheden kunnen de integriteit en beschikbaarheid van de systemen in gevaar brengen.",
+    "guid": "NCSC-2025-0342 [1.01]",
+    "pubDate": "Mon, 27 Oct 2025 09:38:47 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0341 [1.01] [M/H] Kwetsbaarheden verholpen in BIND 9",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0341",
     "description": "ISC heeft kwetsbaarheden verholpen in BIND 9 (Specifiek voor versies 9.16.0 tot 9.16.50, 9.18.0 tot 9.18.39, 9.20.0 tot 9.20.13, en 9.21.0 tot 9.21.12). De kwetsbaarheden bevinden zich in de DNS-resolvers van BIND 9. De eerste kwetsbaarheid stelt aanvallers in staat om vervalste DNS-records in de cache te injecteren, wat kan leiden tot het omleiden van clients naar kwaadaardige domeinen. Een tweede kwetsbaarheid is gerelateerd aan een zwakte in de Pseudo Random Number Generator (PRNG), waardoor aanvallers bronpoorten en query-ID's kunnen voorspellen, wat kan leiden tot cache poisoning aanvallen. De derde kwetsbaarheid laat ongeauthenticeerde aanvallers toe om misvormde DNSKEY-records te verzenden, wat resulteert in aanzienlijke CPU-uitputting en kan leiden tot een denial-of-service voor legitieme clients. Deze kwetsbaarheden zijn vooral zorgwekkend voor omgevingen die afhankelijk zijn van de specifieke versies van BIND 9.\n\n**update**\n\nOnderzoekers hebben Proof-of-Concept-code (PoC) gepubliceerd waarmee de kwetsbaarheid kan worden aangetoond in een laboratoriumopstelling waarbij de onderzoeker het BIND9-systeem zelf onder controle heeft. Op dit moment wordt (nog) geen actief misbruik waargenomen. Het NCSC verwacht echter dat op korte termijn de PoC omgezet zal worden door kwaadwillenden in werkende code, waarmee cache-poisoning realistisch wordt.\nVooralsnog is het onwaarschijnlijk dat de BIND-server zelf gecompromitteerd kan worden. De mogelijke schade is cache-poisoning. Hierbij gaat de DNS verkeerde antwoorden geven, waardoor kwaadwillenden slachtoffers naar malafide servers kunnen leiden.",
