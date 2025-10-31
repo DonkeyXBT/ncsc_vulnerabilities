@@ -1,5 +1,23 @@
 [
   {
+    "title": "NCSC-2025-0345 [1.00] [M/H] Kwetsbaarheden verholpen in Rockwell Automation FactoryTalk",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0345",
+    "description": "Rockwell Automation heeft kwetsbaarheden verholpen in FactoryTalk View Machine Edition. De kwetsbaarheden omvatten een authenticatie-bypass die ongeautoriseerde toegang tot het bestandssysteem en diagnostische informatie van de PanelView Plus 7 Series B toestaat. Daarnaast is er een pad-traversal kwetsbaarheid die ongeauthenticeerde aanvallers in staat stelt om bestanden binnen het besturingssysteem van het apparaat te verwijderen. Verder is er een XML External Entity (XXE) kwetsbaarheid die kan leiden tot tijdelijke denial-of-service. Ook zijn er kwetsbaarheden in de Microsoft Installer File (MSI) die door geauthenticeerde aanvallers kunnen worden misbruikt om SYSTEM-niveau toegang te verkrijgen. Deze kwetsbaarheden kunnen leiden tot ernstige gevolgen, waaronder dataverlies, systeeminstabiliteit en ongeautoriseerde controle over systeembronnen.\n\nVoor succesvol misbruik moet de kwaadwillende toegang hebben tot de productieomgeving. Het is goed gebruik een dergelijke omgeving niet publiek toegankelijk te hebben.",
+    "guid": "NCSC-2025-0345 [1.00]",
+    "pubDate": "Fri, 31 Oct 2025 09:35:00 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0344 [1.00] [M/H] Kwetsbaarheden verholpen in Rockwell Automation COMMS",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0344",
+    "description": "Rockwell Automation heeft kwetsbaarheden verholpen in COMMS NATR systemen. De kwetsbaarheden omvatten meerdere gebroken authenticatieproblemen die ernstige risico's met zich meebrengen, waaronder denial-of-service aanvallen, mogelijke overnames van admin-accounts en onjuiste wijzigingen in NAT-regels. Daarnaast is er een Stored Cross-Site Scripting kwetsbaarheid die voortkomt uit inadequate filtering en codering van speciale tekens, wat kan leiden tot ongeautoriseerde gegevensmanipulatie en serviceonderbrekingen. Ook is er een Cross-Site Request Forgery (CSRF) probleem dat aanvallers in staat stelt om systeemconfiguraties te wijzigen door een ingelogde administrator te misleiden. Deze kwetsbaarheden kunnen de communicatie van apparaten ernstig verstoren en vereisen mogelijk fysieke toegang om normale operaties te herstellen.\n\nVoor succesvol misbruik moet de kwaadwillende toegang hebben tot de productieomgeving. Het is goed gebruik een dergelijke omgeving niet publiek toegankelijk te hebben.",
+    "guid": "NCSC-2025-0344 [1.00]",
+    "pubDate": "Fri, 31 Oct 2025 09:34:05 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0343 [1.00] [M/H] Kwetsbaarheid verholpen in Mozilla Firefox",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0343",
     "description": "Mozilla heeft een kwetsbaarheid verholpen in Firefox (Specifiek voor versies vóór 144.0.2) De kwetsbaarheid bevindt zich in de wijze waarop een gecompromitteerd kindproces een use-after-free probleem kan uitbuiten in het GPU- of browserproces via WebGPU-gerelateerde IPC-aanroepen. Dit kan leiden tot een sandbox escape, wat de beveiligingsstructuur van de browser compromitteert en een kwaadwillende mogelijk in staat stelt om willekeurige code uit te voeren op het kwetsbare systeem.",
