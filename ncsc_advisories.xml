@@ -1,5 +1,316 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>NCSC Security Advisories</title><link>https://advisories.ncsc.nl/advisories</link><description>Security advisories from the Dutch National Cyber Security Centre</description><item><title>NCSC-2025-0349 [1.00] [M/H] Kwetsbaarheden verholpen in Nagios XI</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0349</link><description>Nagios heeft kwetsbaarheden verholpen in Nagios XI (Versies voor 2024R1.4.2 en 2024R2). De kwetsbaarheden omvatten een remote code execution kwetsbaarheid binnen de Business Process Intelligence component, onvoldoende permissies op systemd unit bestanden, ongeautoriseerde toegang tot API-sleutels, een command injection kwetsbaarheid in de WinRM plugin, en een kritieke remote code execution kwetsbaarheid in de Core Config Manager. Deze kwetsbaarheden kunnen worden misbruikt door geauthenticeerde gebruikers om willekeurige code uit te voeren, wat kan leiden tot een compromittering van de systeemintegriteit en de vertrouwelijkheid van gevoelige API-gegevens. De kwetsbaarheden benadrukken de noodzaak van robuuste validatiemechanismen en correcte toegangscontrole binnen de getroffen versies.</description><guid isPermaLink="false">NCSC-2025-0349 [1.00]</guid><pubDate>Mon, 03 Nov 2025 08:27:42 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0348 [1.00] [M/H] Kwetsbaarheden verholpen in Arista Networks producten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0348</link><description>Arista Networks heeft kwetsbaarheden verholpen in DANZ. De kwetsbaarheden omvatten verschillende manieren waarop geauthenticeerde gebruikers met beperkte rechten toegang kunnen krijgen tot gevoelige systemen en gegevens. Dit omvat het ontsnappen aan de CLI-sandbox, het misbruiken van SSH-portforwarding, en het persistent maken van besturingssysteemoperaties na een sessietimeout. Daarnaast kunnen gebruikers via een debug-API ongeautoriseerde toegang krijgen tot gevoelige configuratiegegevens, zoals gebruikerswachtwoord-hashes. Tot slot kan de cryptografische validatie van upgrade-afbeeldingen worden ondermijnd door het invoegen van speciaal vervaardigde bestanden in de upgrade-ISO, wat kan leiden tot ongeautoriseerde wijzigingen.</description><guid isPermaLink="false">NCSC-2025-0348 [1.00]</guid><pubDate>Mon, 03 Nov 2025 08:26:39 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0347 [1.00] [M/H] Kwetsbaarheden verholpen in IBM QRadar SIEM</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0347</link><description>IBM heeft kwetsbaarheden verholpen in IBM QRadar SIEM (Specifiek voor versie 7.5.0 Update Pack 13 Independent Fix 02). De kwetsbaarheden omvatten een opgeslagen cross-site scripting (XSS) kwetsbaarheid die het mogelijk maakt voor geauthenticeerde gebruikers om JavaScript in de webinterface te injecteren. Dit kan leiden tot compromittering van gebruikersreferenties in een vertrouwde sessie. Daarnaast is er een kwetsbaarheid gerelateerd aan privilege-escalatie, voortkomend uit onjuiste privilege-toewijzing in een update-script, wat een aanvaller in staat kan stellen om verhoogde privileges binnen het systeem te verkrijgen.</description><guid isPermaLink="false">NCSC-2025-0347 [1.00]</guid><pubDate>Mon, 03 Nov 2025 08:17:18 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0346 [1.00] [M/H] Kwetsbaarheid verholpen in Progress MOVEit Transfer</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0346</link><description>Progress heeft een kwetsbaarheid verholpen in MOVEit Transfer (Specifiek voor versies 2025.0.0 tot 2025.0.3, 2024.1.0 tot 2024.1.7, en 2023.1.0 tot 2023.1.16). De kwetsbaarheid betreft ongecontroleerde resourceconsumptie die kan leiden tot resource-uitputting, wat de prestaties en beschikbaarheid van de getroffen systemen kan beïnvloeden. Een kwaadwillende kan deze kwetsbaarheid misbruiken om de systemen te overbelasten en daarmee een Denial-of-Service te veroorzaken.</description><guid isPermaLink="false">NCSC-2025-0346 [1.00]</guid><pubDate>Mon, 03 Nov 2025 08:14:02 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0345 [1.00] [M/H] Kwetsbaarheden verholpen in Rockwell Automation FactoryTalk</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0345</link><description>Rockwell Automation heeft kwetsbaarheden verholpen in FactoryTalk View Machine Edition. De kwetsbaarheden omvatten een authenticatie-bypass die ongeautoriseerde toegang tot het bestandssysteem en diagnostische informatie van de PanelView Plus 7 Series B toestaat. Daarnaast is er een pad-traversal kwetsbaarheid die ongeauthenticeerde aanvallers in staat stelt om bestanden binnen het besturingssysteem van het apparaat te verwijderen. Verder is er een XML External Entity (XXE) kwetsbaarheid die kan leiden tot tijdelijke denial-of-service. Ook zijn er kwetsbaarheden in de Microsoft Installer File (MSI) die door geauthenticeerde aanvallers kunnen worden misbruikt om SYSTEM-niveau toegang te verkrijgen. Deze kwetsbaarheden kunnen leiden tot ernstige gevolgen, waaronder dataverlies, systeeminstabiliteit en ongeautoriseerde controle over systeembronnen.
+<rss version="2.0"><channel><title>NCSC Security Advisories</title><link>https://advisories.ncsc.nl/advisories</link><description>Security advisories from the Dutch National Cyber Security Centre</description><item><title>NCSC-2025-0376 [1.00] [M/H] Kwetsbaarheden verholpen in SonicWall Email Security appliances</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0376</link><description>SonicWall heeft kwetsbaarheden verholpen in SonicWall Email Security appliances. De kwetsbaarheden bevinden zich in de manier waarop SonicWall Email Security appliances omgaan met onbetrouwbare root filesystem images en directory-traversal. Een aanvaller kan deze kwetsbaarheden misbruiken om ongecontroleerde code uit te voeren of ongeautoriseerde toegang te krijgen tot bestanden buiten de aangewezen paden. Dit kan leiden tot ernstige beveiligingsrisico's.</description><guid isPermaLink="false">NCSC-2025-0376 [1.00]</guid><pubDate>Fri, 21 Nov 2025 16:06:33 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0375 [1.00] [M/H] Kwetsbaarheid verholpen in Progress MOVEit Transfer</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0375</link><description>Progress heeft een kwetsbaarheid verholpen in MOVEit Transfer (Specifiek voor versies vóór 2024.1.8 en van 2025.0.0 tot vóór 2025.0.4). De kwetsbaarheid betreft een server-side request forgery (SSRF). Deze kwetsbaarheid stelt aanvallers in staat om ongeautoriseerde verzoeken vanaf de server te verzenden, wat kan leiden tot ongeautoriseerde toegang tot interne bronnen. Dit kan ernstige gevolgen hebben voor de beveiliging van de interne infrastructuur, of mogelijk toegang tot gevoelige gegevens binnen de context van het slachtoffer.</description><guid isPermaLink="false">NCSC-2025-0375 [1.00]</guid><pubDate>Fri, 21 Nov 2025 16:06:14 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0334 [1.01] [M/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0334</link><description>Oracle heeft kwetsbaarheden verholpen in Oracle Fusion Middleware componenten. De kwetsbaarheden stellen ongeauthenticeerde aanvallers in staat om toegang te krijgen tot kritieke gegevens via HTTP, wat kan leiden tot een gedeeltelijke Denial-of-Service. De ernst van deze kwetsbaarheden wordt onderstreept door CVSS-scores van 7.5, wat wijst op aanzienlijke impact op de beschikbaarheid. Daarnaast zijn er kwetsbaarheden die kunnen leiden tot ongeautoriseerde toegang tot specifieke gegevens, met een CVSS-score van 5.3, wat duidt op een gematigd niveau van vertrouwelijkheidsimpact.
+
+Het NCSC ontvangt berichten dat er media-aandacht is voor de kwetsbaarheid met kenmerk CVE-2025-61757. Betrouwbare partners nemen scanverkeer waar, waarin actief gezocht wordt naar mogelijke uitvoer van willekeurige code.
+De kwetsbaarheid bevindt zich in **Oracle Identity Manager** en betreft een issue waarbij authenticatie kan worden omzeild omdat bestanden eindigend op de extensie `.wadl` vrijgesteld zijn van authenticatie. Zomaar `.wadl` toevoegen als extensie bij een willekeurige URL zal geen effect hebben, omdat dan een niet-bestaand bestand wordt benaderd. Echter, onderzoekers hebben ontdekt dat het toevoegen van een `;` aan de extensie in theorie code-executie mogelijk kan maken.
+
+In logging kan worden gezocht naar `;.wadl` als extensie. Dit duidt in elk geval op scanverkeer. Nadere analyse van de logging moet uitwijzen of uitvoer van code heeft plaatsgevonden. Op dit moment is (nog) geen indicatie ontvangen dat uitvoer van willekeurige code daadwerkelijk ergens heeft plaatsgevonden. Het NCSC kan daarom (nog) geen IoC's delen om de eigen logging te analyseren.
+
+Het NCSC verwacht vanwege de media-aandacht en de publicatie van de onderzoekers echter wel op korte termijn een toename van scanverkeer en mogelijk werkende Proof-of-Concept-code (PoC) en adviseert de updates zo spoedig mogelijk in te zetten, indien dit (nog) niet is gebeurd.</description><guid isPermaLink="false">NCSC-2025-0334 [1.01]</guid><pubDate>Fri, 21 Nov 2025 16:03:18 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0374 [1.00] [M/H] Kwetsbaarheden verholpen in Arista EOS</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0374</link><description>Arista heeft kwetsbaarheden verholpen in de Arista EOS-platform. De kwetsbaarheden zijn gerelateerd aan de verwerking van verkeerd gevormde berichten, wat kan leiden tot systeemcrashes en Denial-of-Service-omstandigheden. Aanvallers met hoge privileges kunnen deze kwetsbaarheden misbruiken, wat leidt tot ernstige operationele verstoringen. Daarnaast kan het verzenden van willekeurige bytes naar het CVX-systeem de ControllerOob-agent laten herstarten, wat ook kan resulteren in een Denial-of-Service. Bovendien heeft de Arista EOS-platform een kwetsbaarheid die systemen met IPsec beïnvloedt, waardoor de dataplane stopt met het verwerken van al het IPsec-verkeer. Dit kan een systeemreset vereisen, zonder garantie op herstel van de verkeersverwerking. Voor misbruik heeft de kwaadwillende geen authenticatie nodig. Tot slot kan een geauthenticeerde Redis-sessie volledige roottoegang krijgen tot alle servers binnen de CVX-cluster, wat een ernstige bedreiging vormt voor de beveiliging.</description><guid isPermaLink="false">NCSC-2025-0374 [1.00]</guid><pubDate>Thu, 20 Nov 2025 11:48:20 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0373 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiOS</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0373</link><description>Fortinet heeft kwetsbaarheden verholpen in FortiOS (meerdere versies). De kwetsbaarheden omvatten een stack-gebaseerde buffer overflow die aanvallers in staat stelt om ongeautoriseerde code of commando's uit te voeren door speciaal vervaardigde pakketten te verzenden. Een specifieke kwetsbaarheid in de FortiOS CAPWAP-daemon stelt een externe, niet-geauthenticeerde aanvaller op een aangrenzend netwerk in staat om deze pakketten te verzenden, mits de aanvaller controle heeft over een geautoriseerde FortiAP en zich op hetzelfde lokale IP-subnet bevindt. Daarnaast kunnen geauthenticeerde beheerders de trusted host policy omzeilen door op maat gemaakte CLI-commando's uit te voeren, wat kan leiden tot ongeautoriseerde toegang of acties binnen de getroffen omgevingen.</description><guid isPermaLink="false">NCSC-2025-0373 [1.00]</guid><pubDate>Wed, 19 Nov 2025 08:35:31 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0372 [1.00] [M/H] Kwetsbaarheid verholpen in Fortinet FortiWeb</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0372</link><description>Fortinet heeft een kwetsbaarheid verholpen in FortiWeb. De kwetsbaarheid bevindt zich in de wijze waarop Fortinet FortiWeb omgaat met HTTP-verzoeken en CLI-commando's. Geauthenticeerde aanvallers kunnen deze kwetsbaarheid misbruiken om ongeautoriseerde code uit te voeren via zorgvuldig samengestelde HTTP-verzoeken of CLI-commando's. Fortinet heeft bevestigd dat deze kwetsbaarheid actief wordt misbruikt. Er is (nog) geen publieke Proof-of-Concept-code (PoC) of exploit beschikbaar. Het NCSC verwacht dat PoC of Exploits op korte termijn beschikbaar komen, waarmee het risico op misbruik toeneemt.</description><guid isPermaLink="false">NCSC-2025-0372 [1.00]</guid><pubDate>Wed, 19 Nov 2025 08:34:59 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0371 [1.00] [M/H] Kwetsbaarheden verholpen in Google Chrome</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0371</link><description>Google heeft kwetsbaarheden verholpen in Chrome (Specifiek voor versies vóór 142.0.7444.175). De kwetsbaarheden bevinden zich in de V8-engine van Google Chrome en stelt externe aanvallers in staat om heap-corruptie te exploiteren via speciaal vervaardigde HTML-pagina's, wat kan leiden tot ongeautoriseerde acties, zoals toegang tot gevoelige gegevens of uitvoer van willekeurige code.
+
+Google meldt informatie te hebben dat de kwetsbaarheid met kenmerk CVE-2025-13223 actief is misbruikt.
+
+Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden een malafide pagina te bezoeken.</description><guid isPermaLink="false">NCSC-2025-0371 [1.00]</guid><pubDate>Tue, 18 Nov 2025 09:01:31 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0370 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco Unified Contact Center Express</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0370</link><description>Cisco heeft kwetsbaarheden verholpen in Cisco Unified Contact Center Express (CCX). De kwetsbaarheden bevinden zich in de Java RMI-proces en de Contact Center Express Editor van Cisco Unified CCX. Ongeauthenticeerde aanvallers kunnen deze kwetsbaarheden misbruiken om bestanden te uploaden, commando's uit te voeren met rootrechten en administratieve machtigingen te verkrijgen voor het maken en uitvoeren van scripts. Dit stelt aanvallers in staat om de authenticatiemechanismen te omzeilen en hun privileges te verhogen, wat een ernstige bedreiging vormt voor de integriteit en beveiliging van de getroffen systemen.</description><guid isPermaLink="false">NCSC-2025-0370 [1.00]</guid><pubDate>Tue, 18 Nov 2025 07:04:55 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0369 [1.00] [M/H] Kwetsbaarheden verholpen in IBM AIX</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0369</link><description>IBM heeft kwetsbaarheden verholpen in IBM AIX versies 7.2 en 7.3, evenals in IBM VIOS versies 3.1 en 4.1. De kwetsbaarheden zijn gerelateerd aan de onveilige opslag van NIM-private sleutels, wat systemen kwetsbaar maakt voor man-in-the-middle-aanvallen. Aanvallers kunnen ook speciaal samengestelde URL-verzoeken verzenden, wat kan leiden tot directory traversal en willekeurig bestandsschrijven. Bovendien kunnen aanvallers door onjuiste procescontroles willekeurige commando's uitvoeren, wat de integriteit van de getroffen systemen in gevaar kan brengen. De nimsh-service bevat ook kwetsbaarheden met betrekking tot SSL/TLS-implementaties, wat nieuwe aanvalsvectoren introduceert.</description><guid isPermaLink="false">NCSC-2025-0369 [1.00]</guid><pubDate>Tue, 18 Nov 2025 07:03:55 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0368 [1.00] [M/H] Kwetsbaarheden verholpen in Zoom Workplace en Zoom Clients</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0368</link><description>Zoom heeft kwetsbaarheden verholpen in Zoom Workplace en Zoom Clients (Specifiek voor versies vóór 6.5.10). De kwetsbaarheden omvatten onder andere ongepaste validatie van certificaten, cross-site scripting, en onjuiste behandeling van gevoelige informatie, wat kan leiden tot ongeautoriseerde toegang en informatie openbaarmaking door zowel geauthenticeerde als ongeauthenticeerde gebruikers.</description><guid isPermaLink="false">NCSC-2025-0368 [1.00]</guid><pubDate>Tue, 18 Nov 2025 07:02:36 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0367 [1.00] [M/H] Kwetsbaarheden verholpen in GitLab</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0367</link><description>GitLab heeft kwetsbaarheden verholpen in GitLab CE/EE versies voor 18.3.6, 18.4.4, en 18.5.2. De kwetsbaarheden omvatten onder andere de mogelijkheid voor aanvallers om Duo-authenticatieflows te verwijderen, toegang te krijgen tot gevoelige informatie via GraphQL-abonnementen, en het omzeilen van toegangscontroles op GitLab Pages. Deze kwetsbaarheden kunnen leiden tot ongeautoriseerde toegang en gegevenslekken, wat de integriteit en vertrouwelijkheid van gebruikersdata in gevaar brengt.</description><guid isPermaLink="false">NCSC-2025-0367 [1.00]</guid><pubDate>Tue, 18 Nov 2025 07:01:35 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0366 [1.00] [M/H] Kwetsbaarheid verholpen in Fortinet FortiWeb</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0366</link><description>Fortinet heeft een kwetsbaarheid verholpen in FortiWeb. Fortinet heeft een kwetsbaarheid verholpen in FortiWeb. De kwetsbaarheid met het kenmerk CVE-2025-64446 betreft een relative path traversal-kwetsbaarheid en stelt een niet-geauthenticeerde aanvaller op afstand in staat om administratieve commando’s uit te voeren via speciaal vervaardigde HTTP-verzoeken.
+
+Het NCSC heeft informatie ontvangen dat de kwetsbaarheid al enige tijd actief wordt misbruikt. Tevens hebben onderzoekers Proof-of-Concept-code (PoC) gepubliceerd waarmee de kwetsbaarheid kan worden aangetoond. Het is daarom de verwachting dat het aantal pogingen tot misbruik verder zal toenemen.</description><guid isPermaLink="false">NCSC-2025-0366 [1.00]</guid><pubDate>Sat, 15 Nov 2025 14:57:33 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0365 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco Catalyst Center</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0365</link><description>Cisco heeft kwetsbaarheden verholpen in Cisco Catalyst Center. Deze kwetsbaarheid met kenmerk CVE-2025-20341, ontstaat door onvoldoende validatie van gebruikersinvoer. Een kwaadwillende kan dit misbruiken, door een speciaal vervaardigd HTTP‑verzoek te versturen, waardoor ongeautoriseerde systeemwijzigingen mogelijk worden, zoals het aanmaken van accounts of het verhogen van eigen rechten.
+
+De kwetsbaarheid met kenmerk CVE-2025-20353, kan een niet-geauthenticeerde, externe aanvaller in staat stellen om een cross-site scripting (XSS)-aanval uit te voeren. Deze kwetsbaarheid wordt veroorzaakt door onvoldoende validatie van gebruikersinvoer. Door een gebruiker te laten klikken op een speciaal gemaakte link, kan de aanvaller willekeurige code uitvoeren of toegang krijgen tot gevoelige browserinformatie. 
+
+De kwetsbaarheid met kenmerk CVE-2025-20346 kan een geauthenticeerde, externe aanvaller in staat stellen om handelingen uit te voeren die normaal Administrator‑rechten vereisen. De aanvaller heeft hiervoor geldige read-only gebruikersgegevens nodig. Deze kwetsbaarheid ontstaat door onjuiste rolgebaseerde toegangscontrole (RBAC). Een aanvaller kan hiervan misbruik maken door in te loggen op een getroffen systeem en bepaalde beleidsconfiguraties aan te passen.
+
+De kwetsbaarheid met kenmerk CVE-2025-20349, in de REST API van Cisco Catalyst Center maakt het een geauthenticeerde aanvaller mogelijk om willekeurige opdrachten als root uit te voeren in een beperkte container door een speciaal vervaardigd API-verzoek te versturen. </description><guid isPermaLink="false">NCSC-2025-0365 [1.00]</guid><pubDate>Fri, 14 Nov 2025 12:55:27 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0364 [1.00] [M/H] Kwetsbaarheid verholpen in Adobe Photoshop</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0364</link><description>Adobe heeft een kwetsbaarheid verholpen in Adobe Photoshop (Desktop versies 26.8.1 en eerder). De kwetsbaarheid bevindt zich in de wijze waarop Adobe Photoshop omgaat met bestanden. Deze kwetsbaarheid kan leiden tot willekeurige code-executie wanneer een gebruiker een kwaadwillig bestand opent.</description><guid isPermaLink="false">NCSC-2025-0364 [1.00]</guid><pubDate>Wed, 12 Nov 2025 12:17:16 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0363 [1.01] [M/H] Kwetsbaarheden verholpen in Adobe Illustrator</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0363</link><description>Adobe heeft kwetsbaarheden verholpen in Adobe Illustrator (Specifiek voor versies 28.7.10, 28.8.2 en eerder, evenals Illustrator op iPad versies 3.0.9 en eerder). De kwetsbaarheden bevinden zich in de wijze waarop Adobe Illustrator en Illustrator op iPad omgaan met speciaal vervaardigde bestanden. Deze kwetsbaarheden kunnen leiden tot willekeurige code-executie wanneer een gebruiker een kwaadwillig bestand opent. Dit kan worden misbruikt door aanvallers om ongeautoriseerde commando's uit te voeren binnen de getroffen systemen.</description><guid isPermaLink="false">NCSC-2025-0363 [1.01]</guid><pubDate>Wed, 12 Nov 2025 11:56:09 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0362 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Visual Studio</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0362</link><description>Microsoft heeft kwetsbaarheden verholpen in Visual Studio en Code Copilot voor Visual Studio. Een kwaadwillende kan de kwetsbaarheden misbruiken om beveiligingsmaatregelen te omzeilen en willekeurige code uit te voeren in de context van het slachtoffer.
+
+Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden malafide code te importeren.
+
+```
+Visual Studio Code CoPilot Chat Extension: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-62222 | 8.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-62449 | 6.80 | Omzeilen van beveiligingsmaatregel  | 
+|----------------|------|-------------------------------------|
+
+GitHub Copilot and Visual Studio Code: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-62453 | 5.00 | Omzeilen van beveiligingsmaatregel  | 
+|----------------|------|-------------------------------------|
+
+Visual Studio: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-62214 | 6.70 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+```</description><guid isPermaLink="false">NCSC-2025-0362 [1.00]</guid><pubDate>Tue, 11 Nov 2025 18:35:40 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0361 [1.00] [M/H] Kwetsbaarheid verholpen in Microsoft SQL Server</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0361</link><description>Microsoft heeft een kwetsbaarheid verholpen in SQL Server. Een geauthenticeerde kwaadwillende kan de kwetsbaarheid misbruiken om middels speciaal geprepareerde SQL statements (SQL Injection) zich verhoogde rechten toe te kennen en daarmee toegang krijgen tot gevoelige informatie waar de kwaadwillende aanvankelijk niet voor is geautoriseerd.</description><guid isPermaLink="false">NCSC-2025-0361 [1.00]</guid><pubDate>Tue, 11 Nov 2025 18:34:39 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0360 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Dynamics</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0360</link><description>Microsoft heeft kwetsbaarheden verholpen in Dynamics De kwetsbaarheden bevinden zich in Dynamics 365 (On Premise) en Dynamics Field Service en stellen een kwaadwillende in staat om toegang te krijgen tot gevoelige gegevens, of zich voor te doen als een andere gebruiker.</description><guid isPermaLink="false">NCSC-2025-0360 [1.00]</guid><pubDate>Tue, 11 Nov 2025 18:33:13 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0359 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Office</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0359</link><description>Microsoft heeft kwetsbaarheden verholpen in diverse Office producten. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich verhoogde rechten toe te kennen, willekeurige code uit te voeren in de context van het slachtoffer en toegang te krijgen tot gevoelige gegevens.
+
+Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden een malafide bestand te openen of link te volgen.
+
+```
+Microsoft Office SharePoint: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-62204 | 8.00 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Microsoft Graphics Component: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60724 | 9.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Microsoft Office Word: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-62205 | 7.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Microsoft OneDrive: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60722 | 6.50 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Microsoft Office: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-62199 | 7.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-62216 | 7.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Microsoft Office Excel: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60726 | 7.10 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-60727 | 7.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-60728 | 4.30 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-59240 | 5.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-62200 | 7.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-62201 | 7.80 | Uitvoeren van willekeurige code     | 
+| CVE-2025-62202 | 7.10 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-62203 | 7.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+```
+</description><guid isPermaLink="false">NCSC-2025-0359 [1.00]</guid><pubDate>Tue, 11 Nov 2025 18:31:27 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0358 [1.00] [M/H] Kwetsbaartheden verholpen in Microsoft Windows</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0358</link><description>Microsoft heeft kwetsbaarheden verholpen in Windows. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:
+
+- Denial-of-Service
+- Uitvoeren van willekeurige code (root/adminrechten)
+- Toegang tot gevoelige gegevens
+- Verkrijgen van verhoogde rechten
+
+De ernstigste kwetsbaarheid heeft kenmerk CVE-2025-60724 toegewezen gekregen en bevindt zich in de GDI+ Graphics Component. Deze kwetsbaarheid stelt een kwaadwillende in staat om willekeurige code uit te voeren op het kwetsbare systeem. Voor succesvol misbruik moet de kwaadwillende het slachtoffer misleiden een malafide bestand te downloaden en te openen.
+In beperkte omstandigheden is het voor een kwaadwillende ook mogelijk om de kwetsbaarheid te misbruiken op bijvoorbeeld een publiek toegankelijke webservice, door het uploaden van een malfide bestand. Hiervoor is verder geen gebruikerinteractie benodigd.
+
+```
+Windows DirectX: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59506 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-60716 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-60723 | 6.30 | Denial-of-Service                   | 
+|----------------|------|-------------------------------------|
+
+Windows Administrator Protection: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60718 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-60721 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Customer Experience Improvement Program (CEIP): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59512 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Bluetooth RFCOM Protocol Driver: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59513 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Windows License Manager: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-62208 | 5.50 | Toegang tot gevoelige gegevens      | 
+| CVE-2025-62209 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Windows Remote Desktop: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60703 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Routing and Remote Access Service (RRAS): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59510 | 5.50 | Denial-of-Service                   | 
+| CVE-2025-62452 | 8.00 | Uitvoeren van willekeurige code     | 
+| CVE-2025-60713 | 7.80 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-60715 | 8.00 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Role: Windows Hyper-V: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60706 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Windows Speech: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59507 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-59508 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-59509 | 5.50 | Toegang tot gevoelige gegevens      | 
+|----------------|------|-------------------------------------|
+
+Multimedia Class Scheduler Service (MMCSS): 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60707 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Smart Card: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59505 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows TDX.sys: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60720 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows OLE: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60714 | 7.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Windows Kernel: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-62215 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows WLAN Service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59511 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Microsoft Streaming Service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59514 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Host Process for Windows Tasks: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60710 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Client-Side Caching (CSC) Service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60705 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Broadcast DVR User Service: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-59515 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-60717 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Ancillary Function Driver for WinSock: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60719 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-62217 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-62213 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Windows Common Log File System Driver: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60709 | 7.80 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Microsoft Wireless Provisioning System: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-62218 | 7.00 | Verkrijgen van verhoogde rechten    | 
+| CVE-2025-62219 | 7.00 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Microsoft Graphics Component: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60724 | 9.80 | Uitvoeren van willekeurige code     | 
+|----------------|------|-------------------------------------|
+
+Windows Kerberos: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60704 | 7.50 | Verkrijgen van verhoogde rechten    | 
+|----------------|------|-------------------------------------|
+
+Storvsp.sys Driver: 
+|----------------|------|-------------------------------------|
+| CVE-ID         | CVSS | Impact                              |
+|----------------|------|-------------------------------------|
+| CVE-2025-60708 | 6.50 | Denial-of-Service                   | 
+|----------------|------|-------------------------------------|
+```
+</description><guid isPermaLink="false">NCSC-2025-0358 [1.00]</guid><pubDate>Tue, 11 Nov 2025 18:29:38 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0357 [1.00] [M/H] Kwetsbaarheden verholpen in Siemens producten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0357</link><description>Siemens heeft kwetsbaarheden verholpen in diverse producten als Altair Grid Engine, COMOS, LOGO, SICAM, SIDOOR, SIMATIC, SIPLUS, Spectrum Power en Solid Edge. De kwetsbaarheden stellen een kwaadwillende mogelijk in staat aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:
+
+- Denial-of-Service (DoS)
+- Manipulatie van gegevens
+- Omzeilen van een beveiligingsmaatregel
+- (Remote) code execution (root/admin rechten)
+- Toegang tot systeemgegevens
+- Toegang tot gevoelige gegevens
+- Verhogen van rechten
+
+De kwaadwillende heeft hiervoor toegang nodig tot de productieomgeving. Het is goed gebruik een dergelijke omgeving niet publiek toegankelijk te hebben.</description><guid isPermaLink="false">NCSC-2025-0357 [1.00]</guid><pubDate>Tue, 11 Nov 2025 18:14:44 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0356 [1.00] [M/H] Kwetsbaarheden verholpen in SAP-producten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0356</link><description>SAP heeft kwetsbaarheden verholpen in verschillende producten, waaronder SAP NetWeaver, SAP Business Connector, SAP HANA, en SAP S/4HANA. De kwetsbaarheden omvatten onder andere deserialisatie, code-injectie, onvoldoende validatie, en informatie openbaarmaking. Deze kwetsbaarheden kunnen worden misbruikt door aanvallers om ongeautoriseerde toegang te verkrijgen, schadelijke code uit te voeren, of gevoelige informatie te lekken. De impact varieert van compromittering van vertrouwelijkheid en integriteit tot volledige systeemcompromittering, afhankelijk van de specifieke kwetsbaarheid en de context van gebruik.
+
+De ernstigste kwetsbaarheid heeft kenmerk CVE-2025-42944 toegewezen gekregen en bevindt zich in Netweaver. Een kwaadwillende op afstand kan de kwetsbaarheid zonder voorafgaande authenticatie misbruiken om willekeurige code uit te voeren in de context van de Netweaver service.</description><guid isPermaLink="false">NCSC-2025-0356 [1.00]</guid><pubDate>Tue, 11 Nov 2025 12:15:53 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0355 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiOS en FortiProxy</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0355</link><description>Fortinet heeft kwetsbaarheden verholpen in FortiOS en FortiProxy. De kwetsbaarheden omvatten een stack-gebaseerde buffer overflow die geauthenticeerde aanvallers in staat stelt om ongeautoriseerde code uit te voeren via speciaal vervaardigde CLI-commando's. Daarnaast zijn er problemen met onjuiste certificaatvalidatie die ongeauthenticeerde aanvallers in staat stellen om verbindingen te onderscheppen en te manipuleren, wat het risico op man-in-the-middle-aanvallen vergroot. Ook kunnen geauthenticeerde proxygebruikers domeinfronting-bescherming omzeilen door middel van speciaal vervaardigde HTTP-verzoeken. Verder zijn er kwetsbaarheden voor reflected cross-site scripting (XSS) en open redirect aanvallen, die kunnen leiden tot ongeautoriseerde acties in de context van de gebruiker. Bovendien kunnen aanvallers met alleen-lezen rechten gevoelige informatie over twee-factor-authenticatie (2FA) verkrijgen. Deze kwetsbaarheden kunnen worden geëxploiteerd via zorgvuldig vervaardigde HTTP-verzoeken.</description><guid isPermaLink="false">NCSC-2025-0355 [1.00]</guid><pubDate>Fri, 07 Nov 2025 10:07:28 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0354 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Identity Services Engine</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0354</link><description>Cisco heeft een kwetsbaarheid verholpen in Cisco Identity Services Engine. De kwetsbaarheid bevindt zich in de RADIUS-instelling van Cisco Identity Services Engine, die kan worden misbruikt door niet-geauthenticeerde externe aanvallers. Deze kwetsbaarheid stelt aanvallers in staat om een logische fout te veroorzaken, wat mogelijk leidt tot een onverwachte herstart van het systeem. Het resultaat van deze exploitatie kan een Denial-of-Service (DoS) situatie zijn, wat de beschikbaarheid van het getroffen systeem beïnvloedt.</description><guid isPermaLink="false">NCSC-2025-0354 [1.00]</guid><pubDate>Thu, 06 Nov 2025 12:36:51 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0353 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0353</link><description>Google heeft kwetsbaarheden verholpen in Android. Samsung heeft kwetsbaarheden verholpen in Samsung Mobile De kwetsbaarheden omvatten een out-of-bounds write en read, evenals een kwetsbaarheid in de USB-verbindingmodus die lokale aanvallers in staat stelt ongeautoriseerde toegang te krijgen tot gebruikersdata. Deze kwetsbaarheden kunnen worden misbruikt door lokale of remote aanvallers, afhankelijk van de specifieke situatie.</description><guid isPermaLink="false">NCSC-2025-0353 [1.00]</guid><pubDate>Tue, 04 Nov 2025 15:03:48 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0349 [1.00] [M/H] Kwetsbaarheden verholpen in Nagios XI</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0349</link><description>Nagios heeft kwetsbaarheden verholpen in Nagios XI (Versies voor 2024R1.4.2 en 2024R2). De kwetsbaarheden omvatten een remote code execution kwetsbaarheid binnen de Business Process Intelligence component, onvoldoende permissies op systemd unit bestanden, ongeautoriseerde toegang tot API-sleutels, een command injection kwetsbaarheid in de WinRM plugin, en een kritieke remote code execution kwetsbaarheid in de Core Config Manager. Deze kwetsbaarheden kunnen worden misbruikt door geauthenticeerde gebruikers om willekeurige code uit te voeren, wat kan leiden tot een compromittering van de systeemintegriteit en de vertrouwelijkheid van gevoelige API-gegevens. De kwetsbaarheden benadrukken de noodzaak van robuuste validatiemechanismen en correcte toegangscontrole binnen de getroffen versies.</description><guid isPermaLink="false">NCSC-2025-0349 [1.00]</guid><pubDate>Mon, 03 Nov 2025 08:27:42 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0348 [1.00] [M/H] Kwetsbaarheden verholpen in Arista Networks producten</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0348</link><description>Arista Networks heeft kwetsbaarheden verholpen in DANZ. De kwetsbaarheden omvatten verschillende manieren waarop geauthenticeerde gebruikers met beperkte rechten toegang kunnen krijgen tot gevoelige systemen en gegevens. Dit omvat het ontsnappen aan de CLI-sandbox, het misbruiken van SSH-portforwarding, en het persistent maken van besturingssysteemoperaties na een sessietimeout. Daarnaast kunnen gebruikers via een debug-API ongeautoriseerde toegang krijgen tot gevoelige configuratiegegevens, zoals gebruikerswachtwoord-hashes. Tot slot kan de cryptografische validatie van upgrade-afbeeldingen worden ondermijnd door het invoegen van speciaal vervaardigde bestanden in de upgrade-ISO, wat kan leiden tot ongeautoriseerde wijzigingen.</description><guid isPermaLink="false">NCSC-2025-0348 [1.00]</guid><pubDate>Mon, 03 Nov 2025 08:26:39 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0347 [1.00] [M/H] Kwetsbaarheden verholpen in IBM QRadar SIEM</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0347</link><description>IBM heeft kwetsbaarheden verholpen in IBM QRadar SIEM (Specifiek voor versie 7.5.0 Update Pack 13 Independent Fix 02). De kwetsbaarheden omvatten een opgeslagen cross-site scripting (XSS) kwetsbaarheid die het mogelijk maakt voor geauthenticeerde gebruikers om JavaScript in de webinterface te injecteren. Dit kan leiden tot compromittering van gebruikersreferenties in een vertrouwde sessie. Daarnaast is er een kwetsbaarheid gerelateerd aan privilege-escalatie, voortkomend uit onjuiste privilege-toewijzing in een update-script, wat een aanvaller in staat kan stellen om verhoogde privileges binnen het systeem te verkrijgen.</description><guid isPermaLink="false">NCSC-2025-0347 [1.00]</guid><pubDate>Mon, 03 Nov 2025 08:17:18 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0346 [1.00] [M/H] Kwetsbaarheid verholpen in Progress MOVEit Transfer</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0346</link><description>Progress heeft een kwetsbaarheid verholpen in MOVEit Transfer (Specifiek voor versies 2025.0.0 tot 2025.0.3, 2024.1.0 tot 2024.1.7, en 2023.1.0 tot 2023.1.16). De kwetsbaarheid betreft ongecontroleerde resourceconsumptie die kan leiden tot resource-uitputting, wat de prestaties en beschikbaarheid van de getroffen systemen kan beïnvloeden. Een kwaadwillende kan deze kwetsbaarheid misbruiken om de systemen te overbelasten en daarmee een Denial-of-Service te veroorzaken.</description><guid isPermaLink="false">NCSC-2025-0346 [1.00]</guid><pubDate>Mon, 03 Nov 2025 08:14:02 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0345 [1.00] [M/H] Kwetsbaarheden verholpen in Rockwell Automation FactoryTalk</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0345</link><description>Rockwell Automation heeft kwetsbaarheden verholpen in FactoryTalk View Machine Edition. De kwetsbaarheden omvatten een authenticatie-bypass die ongeautoriseerde toegang tot het bestandssysteem en diagnostische informatie van de PanelView Plus 7 Series B toestaat. Daarnaast is er een pad-traversal kwetsbaarheid die ongeauthenticeerde aanvallers in staat stelt om bestanden binnen het besturingssysteem van het apparaat te verwijderen. Verder is er een XML External Entity (XXE) kwetsbaarheid die kan leiden tot tijdelijke denial-of-service. Ook zijn er kwetsbaarheden in de Microsoft Installer File (MSI) die door geauthenticeerde aanvallers kunnen worden misbruikt om SYSTEM-niveau toegang te verkrijgen. Deze kwetsbaarheden kunnen leiden tot ernstige gevolgen, waaronder dataverlies, systeeminstabiliteit en ongeautoriseerde controle over systeembronnen.
 
 Voor succesvol misbruik moet de kwaadwillende toegang hebben tot de productieomgeving. Het is goed gebruik een dergelijke omgeving niet publiek toegankelijk te hebben.</description><guid isPermaLink="false">NCSC-2025-0345 [1.00]</guid><pubDate>Fri, 31 Oct 2025 09:35:00 +0000</pubDate><severity>High</severity><severityCode>M/H</severityCode></item><item><title>NCSC-2025-0344 [1.00] [M/H] Kwetsbaarheden verholpen in Rockwell Automation COMMS</title><link>https://advisories.ncsc.nl/advisory?id=NCSC-2025-0344</link><description>Rockwell Automation heeft kwetsbaarheden verholpen in COMMS NATR systemen. De kwetsbaarheden omvatten meerdere gebroken authenticatieproblemen die ernstige risico's met zich meebrengen, waaronder denial-of-service aanvallen, mogelijke overnames van admin-accounts en onjuiste wijzigingen in NAT-regels. Daarnaast is er een Stored Cross-Site Scripting kwetsbaarheid die voortkomt uit inadequate filtering en codering van speciale tekens, wat kan leiden tot ongeautoriseerde gegevensmanipulatie en serviceonderbrekingen. Ook is er een Cross-Site Request Forgery (CSRF) probleem dat aanvallers in staat stelt om systeemconfiguraties te wijzigen door een ingelogde administrator te misleiden. Deze kwetsbaarheden kunnen de communicatie van apparaten ernstig verstoren en vereisen mogelijk fysieke toegang om normale operaties te herstellen.
 
