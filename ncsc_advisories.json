@@ -1,5 +1,14 @@
 [
   {
+    "title": "NCSC-2025-0377 [1.00] [M/H] Kwetsbaarheden verholpen in GitLab",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0377",
+    "description": "GitLab heeft kwetsbaarheden verholpen in zijn Community Edition (CE) en Enterprise Edition (EE) versies. De kwetsbaarheden omvatten onder andere de mogelijkheid voor niet-geauthenticeerde gebruikers om Denial of Service (DoS) condities te veroorzaken door het indienen van kwaadaardige JSON-verzoeken. Daarnaast konden niet-geauthenticeerde gebruikers zich aansluiten bij willekeurige organisaties door verzoekheaders te wijzigen, wat leidde tot ongeautoriseerde toegang tot organisatorische middelen. Geauthenticeerde gebruikers konden ook ongeautoriseerde toegang krijgen tot gevoelige tokens uit bepaalde logs, wat verdere exploitatie mogelijk maakte. Bovendien konden geauthenticeerde gebruikers met specifieke rechten een Denial of Service-conditie veroorzaken via HTTP-responsverwerking. Tot slot was er een risico op ongeautoriseerde toegang tot beveiligingsrapportinformatie in bepaalde configuraties. Deze kwetsbaarheden vereisten onmiddellijke aandacht van de leverancier om de integriteit en beschikbaarheid van de getroffen systemen te waarborgen.",
+    "guid": "NCSC-2025-0377 [1.00]",
+    "pubDate": "Thu, 27 Nov 2025 13:35:09 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0376 [1.00] [M/H] Kwetsbaarheden verholpen in SonicWall Email Security appliances",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0376",
     "description": "SonicWall heeft kwetsbaarheden verholpen in SonicWall Email Security appliances. De kwetsbaarheden bevinden zich in de manier waarop SonicWall Email Security appliances omgaan met onbetrouwbare root filesystem images en directory-traversal. Een aanvaller kan deze kwetsbaarheden misbruiken om ongecontroleerde code uit te voeren of ongeautoriseerde toegang te krijgen tot bestanden buiten de aangewezen paden. Dit kan leiden tot ernstige beveiligingsrisico's.",
