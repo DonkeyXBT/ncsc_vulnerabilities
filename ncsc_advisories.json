@@ -1,5 +1,32 @@
 [
   {
+    "title": "NCSC-2025-0380 [1.01] [H/H] Kwetsbaarheden verholpen in React Server Components",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0380",
+    "description": "React heeft kwetsbaarheden verholpen in bepaalde versies van React Server Components (specifiek voor versies 19.0.0, 19.1.0, 19.1.1 en 19.2.0). Een ongeauthenticeerde aanvaller kan een malafide HTTP-verzoek sturen naar elke Server Function-endpoint dat, wanneer het door React wordt verwerkt, kan leiden tot remote code execution op de server. Echter, zelfs als een Server Function-endpoint niet is geïmplementeerd, kan exploitatie nog steeds mogelijk zijn via React Server Components. Door deze fout kunnen aanvallers op afstand willekeurige code uitvoeren, wat de integriteit van de getroffen applicaties ernstig in gevaar brengt.\n\nDe kwetsbaarheid bevindt zich in de React versies 19.0, 19.1.0, 19.1.1 en 19.2.0 van:\n\n- react-server-dom-webpack\n- react-server-dom-parcel\n- react-server-dom-turbopack\n\nAls bovengenoemde pakketten worden gebruikt, upgrade dan onmiddellijk. Deze kwetsbaarheid is verholpen in de versies 19.0.1, 19.1.2 en 19.2.1. Als de React-code van uw applicatie geen server gebruikt, is uw applicatie niet gevoelig voor deze kwetsbaarheid. Eveneens, als uw applicatie geen framework, bundler of bundler-plugin gebruikt die React Server Components ondersteunt, is uw applicatie niet getroffen. \n\nDe volgende React-frameworks en bundlers zijn getroffen: \n\n- Next\n- React Router\n- Waku\n- @parcel/rsc\n- @vitejs/plugin-rsc\n- rwsdk\n\nDe kwetsbaarheid treft ook Next.js met App Router, en heeft hiervoor aanvankelijk het kenmerk CVE-2025-66478 toegewezen gekregen, maar is inmiddels als zelfstandig CVE-id teruggetrokken. De kwetsbaarheid bevindt zich in de Next.js-versies 14.3.0-canary, 15.x en 16.x en is verholpen in de volgende gepatchte versies: 14.3.0-canary.88, 15.0.5, 15.1.9, 15.2.6, 15.3.6, 15.4.8, 15.5.7 en 16.0.7.\n\n**Update**: Het NCSC heeft middels een openbare bron vernomen dat misbruik van de kwetsbaarheid met kenmerk CVE-2025-55182 sinds 3 december is waargenomen. Inmiddels is er publieke proof-of-conceptcode beschikbaar voor de betreffende kwetsbaarheid, wat het risico op grootschalig misbruik verhoogt.",
+    "guid": "NCSC-2025-0380 [1.01]",
+    "pubDate": "Fri, 05 Dec 2025 12:13:36 +0000",
+    "severity": "High",
+    "severityCode": "H/H"
+  },
+  {
+    "title": "NCSC-2025-0379 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0379",
+    "description": "Google heeft kwetsbaarheden verholpen in Android. Samsung heeft de voor Samsung mobile relevante kwetsbaarheden verholpen in Samsung mobile. De kwetsbaarheden zijn voornamelijk gerelateerd aan onjuiste invoervalidatie, wat kan resulteren in systeemcrashes en remote denial of service-aanvallen via kwaadaardige basisstations zonder dat gebruikersinteractie vereist is. Dit vormt een risico voor de stabiliteit en integriteit van de systemen die deze technologie gebruiken. \n\nGoogle meldt informatie te hebben ontvangen dat de kwetsbaarheden met kenmerk CVE-2025-48633 en CVE-2025-48572 beperkt en gericht zijn misbruikt. Deze kwetsbaarheden bevinden zich in het Android Framework en stellen een kwaadwillende in staat zich verhoogde rechten toe te kennen en toegang te krijgen tot gevoelige gegevens. Voor zover bekend moet voor succesvol misbruik de kwaadwillende het slachtoffer misleiden een malafide app te installeren.",
+    "guid": "NCSC-2025-0379 [1.00]",
+    "pubDate": "Tue, 02 Dec 2025 13:25:17 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
+    "title": "NCSC-2025-0378 [1.00] [M/H] Kwetsbaarheden verholpen in Mattermost",
+    "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0378",
+    "description": "Mattermost heeft kwetsbaarheden verholpen in versies 11.0.x (tot en met 11.0.3), 10.12.x (tot en met 10.12.1), 10.11.x (tot en met 10.11.4) en 10.5.x (tot en met 10.5.12). De kwetsbaarheden stellen een geauthenticeerde aanvaller in staat om een account over te nemen via een zorgvuldig vervaardigd e-mailadres tijdens het authenticatieproces. Dit vereist specifieke instellingen die geconfigureerd moeten zijn, wat gebruikersaccounts bloot kan stellen aan ongeautoriseerde toegang. Daarnaast kan een geauthenticeerde aanvaller met teamcreatieprivileges de OAuth state token validatie misbruiken om een gebruikersaccount over te nemen door authenticatiegegevens te manipuleren, vooral als e-mailverificatie is uitgeschakeld.\n\nVoor deze laatste kwetsbaarheid moet de kwaadwillende beschikken over twee accounts, waarvan er een nog niet eerder ingelogd is geweest. Misbruik is hiermee ingewikkeld te realiseren.",
+    "guid": "NCSC-2025-0378 [1.00]",
+    "pubDate": "Fri, 28 Nov 2025 09:53:42 +0000",
+    "severity": "High",
+    "severityCode": "M/H"
+  },
+  {
     "title": "NCSC-2025-0377 [1.00] [M/H] Kwetsbaarheden verholpen in GitLab",
     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2025-0377",
     "description": "GitLab heeft kwetsbaarheden verholpen in zijn Community Edition (CE) en Enterprise Edition (EE) versies. De kwetsbaarheden omvatten onder andere de mogelijkheid voor niet-geauthenticeerde gebruikers om Denial of Service (DoS) condities te veroorzaken door het indienen van kwaadaardige JSON-verzoeken. Daarnaast konden niet-geauthenticeerde gebruikers zich aansluiten bij willekeurige organisaties door verzoekheaders te wijzigen, wat leidde tot ongeautoriseerde toegang tot organisatorische middelen. Geauthenticeerde gebruikers konden ook ongeautoriseerde toegang krijgen tot gevoelige tokens uit bepaalde logs, wat verdere exploitatie mogelijk maakte. Bovendien konden geauthenticeerde gebruikers met specifieke rechten een Denial of Service-conditie veroorzaken via HTTP-responsverwerking. Tot slot was er een risico op ongeautoriseerde toegang tot beveiligingsrapportinformatie in bepaalde configuraties. Deze kwetsbaarheden vereisten onmiddellijke aandacht van de leverancier om de integriteit en beschikbaarheid van de getroffen systemen te waarborgen.",
